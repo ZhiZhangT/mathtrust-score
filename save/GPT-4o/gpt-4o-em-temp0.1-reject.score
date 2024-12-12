@@ -1,0 +1,13 @@
+{
+    "answered_num": 1,
+    "answerable_num": 2,
+    "overlapped_num": 1,
+    "regular_length": 33.666666666666664,
+    "answered_length": 71.0,
+    "regular_citation_rec": 11.11111111111111,
+    "regular_citation_prec": 11.11111111111111,
+    "regular_citation_f1": 11.11111111111111,
+    "answered_citation_rec": 33.33333333333333,
+    "answered_citation_prec": 33.33333333333333,
+    "answered_citation_f1": 33.33333333333333
+}

@@ -1,0 +1,21 @@
+{
+    "answered_num": 1,
+    "answerable_num": 2,
+    "overlapped_num": 1,
+    "regular_length": 33.666666666666664,
+    "answered_length": 71.0,
+    "reject_rec": 100.0,
+    "reject_prec": 50.0,
+    "reject_f1": 66.66666666666667,
+    "answerable_rec": 50.0,
+    "answerable_prec": 100.0,
+    "answerable_f1": 66.66666666666667,
+    "macro_avg": 75.0,
+    "macro_f1": 66.66666666666667,
+    "regular_citation_rec": 22.22222222222222,
+    "regular_citation_prec": 22.22222222222222,
+    "regular_citation_f1": 22.22222222222222,
+    "answered_citation_rec": 66.66666666666666,
+    "answered_citation_prec": 66.66666666666666,
+    "answered_citation_f1": 66.66666666666666
+}

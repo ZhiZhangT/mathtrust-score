@@ -100,4 +100,3 @@ dependencies:
   - xz=5.4.6=h5eee18b_1
   - zlib=1.2.13=hd590300_5
   - zstd=1.5.6=ha6fb4c9_0
-prefix: /home/shanghong/miniconda3/envs/cite

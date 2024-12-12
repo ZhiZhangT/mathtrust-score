@@ -1,0 +1,22 @@
+{
+    "(False, 1, False)": {
+        "citation_rec": 77.77777777777779,
+        "citation_prec": 75.0,
+        "citation_f1": 76.36363636363637
+    },
+    "(False, 1, True)": {
+        "citation_rec": 66.66666666666666,
+        "citation_prec": 61.111111111111114,
+        "citation_f1": 63.76811594202899
+    },
+    "(True, 1, False)": {
+        "citation_rec": 44.44444444444444,
+        "citation_prec": 43.05555555555556,
+        "citation_f1": 43.738977072310405
+    },
+    "(True, 3, True)": {
+        "citation_rec": 61.111111111111114,
+        "citation_prec": 48.148148148148145,
+        "citation_f1": 53.86064030131826
+    }
+}
