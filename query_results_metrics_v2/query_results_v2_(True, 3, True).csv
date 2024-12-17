@@ -1,0 +1,168 @@
+use_image,retrieved_docs_count,use_few_shot,query_id,user_query,generated_question,generated_answer,citations,citation_1_text,citation_2_text,citation_3_text,citation_4_text
+True,3,True,01JF76EQ2CANW1D47HP368QEZ6,Where can I find practice questions on multiplication of matrices?,"A bookstore is selling three types of notebooks: plain, ruled, and graph. The sales for two days are recorded in a matrix:
+\[ N = \begin{bmatrix} 125 & 140 & 95 \\ 150 & 120 & 100 \end{bmatrix} \]
+Where the first row represents sales on Monday and the second row on Tuesday. The prices are different for each type of notebook: $5 for plain, $6 for ruled, and $4 for graph.
+
+Represent the prices as a matrix \( P \), and calculate the total sales revenue matrix \( R = NP \).",\begin{bmatrix}1880\\1980\end{bmatrix},674dcdb4b00b977d048c931b,"The admission tickets to the Singapore Zoo are $50 for an adult, $36 for a child, and $20 for a senior citizen. On a particular Tuesday, there were 212 adults, 251 children, and 15 senior citizens who visited the Singapore Zoo and on a particular Wednesday, there were 231 adults, 266 children, and 12 senior citizens who visited the Singapore Zoo. The number of visitors on the particular Tuesday and Wednesday can be represented by the matrix V = \begin{pmatrix} 212 & 251 & 15 \\ 231 & 266 & 12 \end{pmatrix}. \text{ (i) Write a } 3 \times 1 \text{ matrix, P, to represent the price of the admission tickets. (ii) Find the matrix } T = VP. \text{ (iii) Explain what each of the elements represents. (iv) Find the total amount collected from the sales of the tickets for the 2 days.}",,,
+True,3,True,01JF76EMJM9YYRBBYA6BNCABKN,Can you provide practice problems on multiplying two matrices?,"On a busy day at the amusement park, there are three types of visitors: adults, teenagers, and children. The number of these visitors for Saturday and Sunday is represented by the matrix:
+\[ W = \begin{bmatrix} 120 & 130 & 110 \\ 150 & 140 & 100 \end{bmatrix} \]
+The entrance fee for each type is $40 for an adult, $30 for a teenager, and $25 for a child. Representing this information as a matrix \( U \): 
+\[ U = \begin{bmatrix} 40 \\ 30 \\ 25 \end{bmatrix} \]
+Calculate the revenue matrix \( R = WU \).",\begin{bmatrix}9550\\11600\end{bmatrix},"674dcdb4b00b977d048c931b,674dcde1b00b977d048c9352","The admission tickets to the Singapore Zoo are $50 for an adult, $36 for a child, and $20 for a senior citizen. On a particular Tuesday, there were 212 adults, 251 children, and 15 senior citizens who visited the Singapore Zoo and on a particular Wednesday, there were 231 adults, 266 children, and 12 senior citizens who visited the Singapore Zoo. The number of visitors on the particular Tuesday and Wednesday can be represented by the matrix V = \begin{pmatrix} 212 & 251 & 15 \\ 231 & 266 & 12 \end{pmatrix}. \text{ (i) Write a } 3 \times 1 \text{ matrix, P, to represent the price of the admission tickets. (ii) Find the matrix } T = VP. \text{ (iii) Explain what each of the elements represents. (iv) Find the total amount collected from the sales of the tickets for the 2 days.}","Two outlets of a coffee chain sell three different types of coffee: espresso, flat white and mocha. The table shows the number of cups of each type of coffee sold on a particular day. Outlet A: Espresso 30, Flat White 30, Mocha 35; Outlet B: Espresso x, Flat White x + 2, Mocha 40. This information can be represented by the matrix \( P = \begin{pmatrix} 30 & 30 & 35 \\ x & x+2 & 40 \end{pmatrix} \). The coffee chain sells a cup of espresso at $2.50, a cup of flat white at $4 and a cup of mocha at $5.50. This information can be represented by the matrix \( Q = \begin{pmatrix} 2.5 \\ 4 \\ 5.5 \end{pmatrix} \). (a) Find, in terms of x, the matrix \( R = PQ \).",,
+True,3,True,01JF76ENXDWE00BTHSB16H027G,I need some exercises involving matrix multiplication; can you help?,"A bookstore sells three types of items: books, notebooks, and pens. The table below shows the sales for two different stores over one week.
+
+\[
+\text{Store} \quad \text{Books} \quad \text{Notebooks} \quad \text{Pens} \\
+A \quad 120 \quad 85 \quad 50 \\
+B \quad y \quad y + 10 \quad 70 \\
+\]
+
+The sales data can be represented by the matrix \( S = \begin{bmatrix} 120 & 85 & 50 \\ y & y + 10 & 70 \end{bmatrix} \).
+
+The prices for each item are represented by the matrix \( P = \begin{bmatrix} 15 \\ 7 \\ 2 \end{bmatrix} \).
+
+(a) Calculate, in terms of \( y \), the total revenue matrix \( R = SP \).
+
+(b) Explain what each element of matrix \( R \) represents.
+
+(c) If Store B collected $85 more than Store A in revenue, find \( y \).
+
+(d) State the total revenue for both stores combined.","y=110,TotalRevenue=$5,500","674dcdb4b00b977d048c931b,674dcde1b00b977d048c9352","The admission tickets to the Singapore Zoo are $50 for an adult, $36 for a child, and $20 for a senior citizen. On a particular Tuesday, there were 212 adults, 251 children, and 15 senior citizens who visited the Singapore Zoo and on a particular Wednesday, there were 231 adults, 266 children, and 12 senior citizens who visited the Singapore Zoo. The number of visitors on the particular Tuesday and Wednesday can be represented by the matrix V = \begin{pmatrix} 212 & 251 & 15 \\ 231 & 266 & 12 \end{pmatrix}. \text{ (i) Write a } 3 \times 1 \text{ matrix, P, to represent the price of the admission tickets. (ii) Find the matrix } T = VP. \text{ (iii) Explain what each of the elements represents. (iv) Find the total amount collected from the sales of the tickets for the 2 days.}","Two outlets of a coffee chain sell three different types of coffee: espresso, flat white and mocha. The table shows the number of cups of each type of coffee sold on a particular day. Outlet A: Espresso 30, Flat White 30, Mocha 35; Outlet B: Espresso x, Flat White x + 2, Mocha 40. This information can be represented by the matrix \( P = \begin{pmatrix} 30 & 30 & 35 \\ x & x+2 & 40 \end{pmatrix} \). The coffee chain sells a cup of espresso at $2.50, a cup of flat white at $4 and a cup of mocha at $5.50. This information can be represented by the matrix \( Q = \begin{pmatrix} 2.5 \\ 4 \\ 5.5 \end{pmatrix} \). (a) Find, in terms of x, the matrix \( R = PQ \).",,
+True,3,True,01JF76F0267K1G7R21Y799CXVK,Do you have any sample questions on multiplying two matrices?,"A theme park has special admission tickets: $60 for an adult, $40 for a teenager, and $25 for a child. On a weekend, a group consisted of 180 adults, 227 teenagers, and 43 children on Saturday; and 190 adults, 210 teenagers, and 37 children on Sunday.
+
+Represent the number of ticket purchases with the matrix:
+\[ V = \begin{bmatrix} 180 & 227 & 43 \\ 190 & 210 & 37 \end{bmatrix} \]
+
+(i) Write a \( 3 \times 1 \) matrix, \( P \), that represents the price of admission tickets.
+
+(ii) Find the matrix \( T = VP \).
+
+(iii) Explain what each of the elements of matrix \( T \) represents.
+
+(iv) Find the total amount collected from the sales of the tickets for the weekend.","$39,970collectedovertheweekend.","674dcdb4b00b977d048c931b,674dcde1b00b977d048c9352","The admission tickets to the Singapore Zoo are $50 for an adult, $36 for a child, and $20 for a senior citizen. On a particular Tuesday, there were 212 adults, 251 children, and 15 senior citizens who visited the Singapore Zoo and on a particular Wednesday, there were 231 adults, 266 children, and 12 senior citizens who visited the Singapore Zoo. The number of visitors on the particular Tuesday and Wednesday can be represented by the matrix V = \begin{pmatrix} 212 & 251 & 15 \\ 231 & 266 & 12 \end{pmatrix}. \text{ (i) Write a } 3 \times 1 \text{ matrix, P, to represent the price of the admission tickets. (ii) Find the matrix } T = VP. \text{ (iii) Explain what each of the elements represents. (iv) Find the total amount collected from the sales of the tickets for the 2 days.}","Two outlets of a coffee chain sell three different types of coffee: espresso, flat white and mocha. The table shows the number of cups of each type of coffee sold on a particular day. Outlet A: Espresso 30, Flat White 30, Mocha 35; Outlet B: Espresso x, Flat White x + 2, Mocha 40. This information can be represented by the matrix \( P = \begin{pmatrix} 30 & 30 & 35 \\ x & x+2 & 40 \end{pmatrix} \). The coffee chain sells a cup of espresso at $2.50, a cup of flat white at $4 and a cup of mocha at $5.50. This information can be represented by the matrix \( Q = \begin{pmatrix} 2.5 \\ 4 \\ 5.5 \end{pmatrix} \). (a) Find, in terms of x, the matrix \( R = PQ \).",,
+True,3,True,01JF76FP20DRPRB6QWY8WPR6ST,"Can you provide practice problems on finding the mean, median, and mode?","A group of volunteers record the number of hours they spent helping over 15 days. The data is as follows:
+
+\[ \begin{array}{|c|c|}
+\hline
+\text{Hours} & \text{Frequency} \\
+\hline
+0 & 2 \\
+1 & 3 \\
+2 & 5 \\
+3 & 4 \\
+4 & 1 \\
+5 & 0 \\
+\hline
+\end{array} \]
+
+Determine the mean, median, and mode number of hours spent volunteering each day.","Mean:1.93,Median:2,Mode:2","674dcd9cb00b977d048c92ff,674dcd9db00b977d048c9300,674dcdc9b00b977d048c9325","Ethan measures the amount of rain, in millimetres (mm), each day for 31 days. The bar chart shows his results. 
+
+(a) Write down the median amount of rain.",(b) Find the mean amount of rain per day.,"Tristen has written five positive integers. The median of these numbers is 8, the mode is 7 and the mean is 13. The range of these numbers is 21. Find the five numbers.",
+True,3,True,01JF76FECTWPFR55K8CFJGR32Y,Could you give me some problems to practice matrix multiplication?,"A movie theater sells three types of tickets: adult, student, and senior. On a specific weekend, the number of tickets sold is represented by the matrix 
+\[ A = \begin{bmatrix} 150 & 200 & 50 \\ 180 & 230 & 70 \end{bmatrix} \]
+The prices for the adult, student, and senior tickets are $12, $8, and $6, respectively.
+
+(i) Write a \(3 \times 1\) matrix, \( B \), to represent the prices of the tickets.
+
+(ii) Calculate the matrix \( C = AB \).
+
+(iii) Explain what each element of the matrix \( C \) represents.",\(C=\begin{bmatrix}3700\\4540\end{bmatrix}\),"674dcdb4b00b977d048c931b,674dcde1b00b977d048c9352","The admission tickets to the Singapore Zoo are $50 for an adult, $36 for a child, and $20 for a senior citizen. On a particular Tuesday, there were 212 adults, 251 children, and 15 senior citizens who visited the Singapore Zoo and on a particular Wednesday, there were 231 adults, 266 children, and 12 senior citizens who visited the Singapore Zoo. The number of visitors on the particular Tuesday and Wednesday can be represented by the matrix V = \begin{pmatrix} 212 & 251 & 15 \\ 231 & 266 & 12 \end{pmatrix}. \text{ (i) Write a } 3 \times 1 \text{ matrix, P, to represent the price of the admission tickets. (ii) Find the matrix } T = VP. \text{ (iii) Explain what each of the elements represents. (iv) Find the total amount collected from the sales of the tickets for the 2 days.}","Two outlets of a coffee chain sell three different types of coffee: espresso, flat white and mocha. The table shows the number of cups of each type of coffee sold on a particular day. Outlet A: Espresso 30, Flat White 30, Mocha 35; Outlet B: Espresso x, Flat White x + 2, Mocha 40. This information can be represented by the matrix \( P = \begin{pmatrix} 30 & 30 & 35 \\ x & x+2 & 40 \end{pmatrix} \). The coffee chain sells a cup of espresso at $2.50, a cup of flat white at $4 and a cup of mocha at $5.50. This information can be represented by the matrix \( Q = \begin{pmatrix} 2.5 \\ 4 \\ 5.5 \end{pmatrix} \). (a) Find, in terms of x, the matrix \( R = PQ \).",,
+True,3,True,01JF76FX2950MKHMJ8M5ZM5XDQ,"Where can I find practice questions on mean, median, and mode?","Sophia records the number of steps she walks each day for a week. The table below shows her results:
+\[
+\begin{array}{|c|c|c|c|c|c|c|c|}
+\hline
+\text{Day} & \text{Mon} & \text{Tue} & \text{Wed} & \text{Thu} & \text{Fri} & \text{Sat} & \text{Sun} \\
+\hline
+\text{Steps} & 8000 & 7500 & 8200 & 7900 & 7600 & 7400 & 7800 \\
+\hline
+\end{array}
+\]
+Calculate the mean, median, and mode of the number of steps she walks each day.","Mean:7771.43,Median:7800,Mode:None","674dcd9cb00b977d048c92ff,674dcd9db00b977d048c9300","Ethan measures the amount of rain, in millimetres (mm), each day for 31 days. The bar chart shows his results. 
+
+(a) Write down the median amount of rain.",(b) Find the mean amount of rain per day.,,
+True,3,True,01JF76G5BPBKFQEXF3NYTH4AVB,"Do you have any sample questions on finding mean, median, and mode?","Alex records the daily temperature, in degrees Celsius, for 30 days. 
+The dataset is as follows: 12, 12, 13, 14, 15, 15, 15, 16, 17, 17, 17, 18, 19, 19, 20, 21, 21, 21, 22, 22, 23, 24, 24, 24, 24, 25, 26, 27, 28, 28.
+Find the mean, median, and mode of the daily temperatures.","Mean:19.5,Median:21,Mode:24","674dcd9cb00b977d048c92ff,674dcd9db00b977d048c9300","Ethan measures the amount of rain, in millimetres (mm), each day for 31 days. The bar chart shows his results. 
+
+(a) Write down the median amount of rain.",(b) Find the mean amount of rain per day.,,
+True,3,True,01JF76FSAQX04Z5M20YR4NGE14,"I need exercises involving calculating mean, median, and mode; can you help?","A table below shows the income earned (in thousands of dollars) by 50 employees at a company:
+\[
+\begin{array}{|c|c|c|c|c|c|}
+\hline
+\text{Income (thousands $)} & 30 & 35 & 40 & 45 & 50 \\
+\hline
+\text{Frequency} & p & 12 & q & 10 & 3 \\
+\hline
+\end{array}
+\]
+Given that the mean income is 39 thousand dollars, determine the median and mode of the incomes.","Median:40,Mode:35","674dcd9cb00b977d048c92ff,674dcd9db00b977d048c9300","Ethan measures the amount of rain, in millimetres (mm), each day for 31 days. The bar chart shows his results. 
+
+(a) Write down the median amount of rain.",(b) Find the mean amount of rain per day.,,
+True,3,True,01JF76GH15V4AJP5Y7BZSK5WNE,Can you provide practice problems on applying angle properties of circles?,"In the diagram, points \( X, Y, \) and \( Z \) lie on a circle with center \( O \). \( XY \) is a tangent to the circle at \( X \) and \( ZO \) is a radius. The angle \( \angle ZXY \) is \( 35^\circ \) and \( \angle XOZ \) is \( 115^\circ \). Calculate the angle \( \angle ZYO \).",30^\circ,674dcdb4b00b977d048c931a,"A, D, B, and C lie on a circle, center O. AP is a tangent to the circle at A and BP is a tangent to the circle at B. \angle AOB = 142^\circ \text{ and } \angle DAP = 42^\circ. \text{ (a) Find the value of (i) } \angle ACB, \text{ (ii) } \angle ADB. \text{ (b) Is OB parallel to AD? Explain.}",,,
+True,3,True,01JF76GY199NF5Z019ZZSRVGCM,I need exercises involving angle properties in circle geometry; can you help?,"In the diagram, points \( P, Q, R, \) and \( S \) lie on the circumference of a circle with center \( O \). Line \( PR \) is a diameter of the circle. If \( \angle PQR = 35^\circ \) and \( \angle QRS = 77^\circ \), find \( \angle PSR \).",55^\circ,674dcdb4b00b977d048c931a,"A, D, B, and C lie on a circle, center O. AP is a tangent to the circle at A and BP is a tangent to the circle at B. \angle AOB = 142^\circ \text{ and } \angle DAP = 42^\circ. \text{ (a) Find the value of (i) } \angle ACB, \text{ (ii) } \angle ADB. \text{ (b) Is OB parallel to AD? Explain.}",,,
+True,3,True,01JF76H3NFQVGYM6BSVNJ40QFV,Where can I find practice questions on angles in circles?,"In a circle with center \( O \), points \( E \), \( F \), and \( G \) lie on the circle. Let \( OE \) and \( OF \) be radii of the circle and \( EH \) and \( FK \) be tangents to the circle such that they meet at point \( P \). If \( \angle EOF = 128^\circ \) and \( \angle EHP = 50^\circ \), find the measure of \( \angle GEF \).",40^\circ,"674dcdb4b00b977d048c931a,674dcdd3b00b977d048c9337,674dcdd3b00b977d048c9338","A, D, B, and C lie on a circle, center O. AP is a tangent to the circle at A and BP is a tangent to the circle at B. \angle AOB = 142^\circ \text{ and } \angle DAP = 42^\circ. \text{ (a) Find the value of (i) } \angle ACB, \text{ (ii) } \angle ADB. \text{ (b) Is OB parallel to AD? Explain.}","A, B, C \text{ and } D \text{ lie on a circle with centre } O \text{ and radius } 5 \text{ cm. } \angle AOB = 1.8 \text{ radians. }","\text{Write down an expression, in terms of } \pi, \text{ for the reflex angle } AOB.",
+True,3,True,01JF76G9QZF7DH6S6KS03VTVGX,"Could you give me some problems to practice calculating mean, median, and mode?","A botanist measures the height of a certain type of plant, in centimeters (cm), every week for 8 weeks. The frequency distribution of the heights is as follows:
+
+\[
+\begin{array}{|c|c|c|c|c|c|c|c|c|}
+\hline
+\text{Height (cm)} & 12 & 14 & 16 & 18 & 20 \\
+\hline
+\text{Frequency} & 2 & 5 & x & 3 & 1 \\
+\hline
+\end{array}
+\]
+
+Given that the mean height is 16 cm, determine the value of \( x \) and write down the mode height.","x=6,Mode=14cm","674dcd9cb00b977d048c92ff,674dcd9db00b977d048c9300","Ethan measures the amount of rain, in millimetres (mm), each day for 31 days. The bar chart shows his results. 
+
+(a) Write down the median amount of rain.",(b) Find the mean amount of rain per day.,,
+True,3,True,01JF76HARG40F8C9S378PNK6WW,Do you have any sample questions on angle properties of circles?,"In the circle with center \( O \), the points \( E \), \( F \), \( G \), and \( H \) lie on the circle. Line \( EQ \) is a tangent at \( E \), and line \( HQ \) is a tangent at \( H \). Given that \( \angle EOF = 120^\circ \) and \( \angle EHQ = 30^\circ \), find the value of \( \angle EHG \).",90^\circ,"674dcdb4b00b977d048c931a,674dcdd3b00b977d048c9337,674dcdd3b00b977d048c9338","A, D, B, and C lie on a circle, center O. AP is a tangent to the circle at A and BP is a tangent to the circle at B. \angle AOB = 142^\circ \text{ and } \angle DAP = 42^\circ. \text{ (a) Find the value of (i) } \angle ACB, \text{ (ii) } \angle ADB. \text{ (b) Is OB parallel to AD? Explain.}","A, B, C \text{ and } D \text{ lie on a circle with centre } O \text{ and radius } 5 \text{ cm. } \angle AOB = 1.8 \text{ radians. }","\text{Write down an expression, in terms of } \pi, \text{ for the reflex angle } AOB.",
+True,3,True,01JF76HJ9NYKCSBH64X4DMDH3M,Could you give me some problems to practice applying angle properties in circles?,"In the diagram, points \( M, N, P \), and \( Q \) lie on a circle with center \( O \). Segment \( MN \) is a tangent to the circle at point \( Q \), and segment \( PQ \) is a tangent to the circle at point \( R \). If the angle \( \angle MOR = 156^\circ \) and \( \angle QRP = 38^\circ \), find the value of angle \( \angle NQP \).",102^\circ,"674dcdb4b00b977d048c931a,674dcdd3b00b977d048c9337","A, D, B, and C lie on a circle, center O. AP is a tangent to the circle at A and BP is a tangent to the circle at B. \angle AOB = 142^\circ \text{ and } \angle DAP = 42^\circ. \text{ (a) Find the value of (i) } \angle ACB, \text{ (ii) } \angle ADB. \text{ (b) Is OB parallel to AD? Explain.}","A, B, C \text{ and } D \text{ lie on a circle with centre } O \text{ and radius } 5 \text{ cm. } \angle AOB = 1.8 \text{ radians. }",,
+True,3,True,01JF76HSEF64NFMFAGQEYPKSSR,Can you provide practice problems on applying rates in real-world contexts?,"A car accelerates uniformly from rest in a straight line. The acceleration-time graph is a horizontal line at \(2 \text{ m/s}^2\) for \(5\text{ seconds}\), and then the car moves at a constant speed. 
+
+(a) Calculate the acceleration of the car at \(t = 3 \text{ seconds}\).
+
+(b) Find the total distance travelled by the car in the first \(8\text{ seconds}\).",55m,"674dcde3b00b977d048c9356,674dcde3b00b977d048c9357,674dcde4b00b977d048c9358",The diagram is the speed-time graph for the first k seconds of the motion of an object. (a) Find the acceleration when \( t = 5 \).,(b) Find the distance travelled in the first 10 seconds.,(c) The distance travelled in the first k seconds is 520 m. Find the value of k.,
+True,3,True,01JF76HT8SY7GJZ5WPYFKM0JDJ,I need exercises involving real-world rate applications; can you help?,"The diagram is a speed-time graph for the first \( m \) seconds of the motion of a vehicle. 
+
+(a) Determine the acceleration when \( t = 4 \).
+
+(b) Compute the distance travelled in the first 8 seconds.","Theanswerwilldependonthegraphspecifics,usegraphinterpretations.","674dcde3b00b977d048c9356,674dcde3b00b977d048c9357,674dcde4b00b977d048c9358",The diagram is the speed-time graph for the first k seconds of the motion of an object. (a) Find the acceleration when \( t = 5 \).,(b) Find the distance travelled in the first 10 seconds.,(c) The distance travelled in the first k seconds is 520 m. Find the value of k.,
+True,3,True,01JF76J5NAJGBDYY6F8PWS53K2,Where can I find practice questions on rates in practical situations?,"An object moves such that its velocity-time graph for the first 12 seconds is described as follows: It accelerates uniformly from rest to a speed of \(60\,\text{m/s}\) in the first 4 seconds, remains constant for the next 4 seconds, and then decelerates uniformly to a stop in the final 4 seconds.\( \)
+(a) Determine the acceleration during the first 4 seconds.\( \)
+(b) Calculate the total distance travelled by the object in the first 12 seconds.","(a)15\,\text{m/s}^2;(b)480\,\text{m}","674dcde3b00b977d048c9356,674dcde3b00b977d048c9357,674dcde4b00b977d048c9358",The diagram is the speed-time graph for the first k seconds of the motion of an object. (a) Find the acceleration when \( t = 5 \).,(b) Find the distance travelled in the first 10 seconds.,(c) The distance travelled in the first k seconds is 520 m. Find the value of k.,
+True,3,True,01JF76K29CGJM4T6XG2F4518WJ,Can you provide practice problems on finding the probability of single events?,"A bookshelf contains 30 books: 12 are novels, 8 are biographies, and 10 are science books. Emma chooses one book at random. What is the probability that the book selected is not a science book?",\(\frac{2}{3}\),"674dcd9db00b977d048c9301,674dcd9eb00b977d048c9304,674dcd9fb00b977d048c9305","(c) Ethan picks one of these days at random. Find the probability that, on that day, the amount of rain was 3 mm or more.","A drawer contains 40 balls. 15 balls are black, 5 balls are grey and 20 balls are white. Samuel chooses one ball from the drawer at random. (a) Find the probability that the ball is not black.",Samuel adds a few more grey balls. The probability of choosing a grey ball is now \( \frac{2}{7} \). (b) Find the number of grey balls he added.,
+True,3,True,01JF76JQ766TSFAPJQBB8XW9JV,Could you give me some problems to practice rates in real-world contexts?,"A speed-time graph shows the speed of a cyclist in meters per second (m/s). The cyclist accelerates uniformly from a speed of \(0\) m/s to \(25\) m/s over \(10\) seconds. After reaching this speed, the cyclist continues at \(25\) m/s for the next \(5\) seconds.\[\text{(a)}\] Calculate the acceleration during the first \(10\) seconds.\[\text{(b)}\] Determine the total distance covered in the first \(15\) seconds.",375m,"674dcde3b00b977d048c9356,674dcde3b00b977d048c9357,674dcde4b00b977d048c9358",The diagram is the speed-time graph for the first k seconds of the motion of an object. (a) Find the acceleration when \( t = 5 \).,(b) Find the distance travelled in the first 10 seconds.,(c) The distance travelled in the first k seconds is 520 m. Find the value of k.,
+True,3,True,01JF76K9G2VGKKTY0BQB74J3R3,I need exercises involving probability of single events; can you help?,"A basket contains 50 fruit pieces: 18 are apples, 15 are oranges, and 17 are bananas. Olivia selects one fruit at random. \[ \text{(a)} \] What is the probability that the fruit is not an apple?",\frac{16}{25},"674dcd9db00b977d048c9301,674dcd9eb00b977d048c9304,674dcd9fb00b977d048c9305","(c) Ethan picks one of these days at random. Find the probability that, on that day, the amount of rain was 3 mm or more.","A drawer contains 40 balls. 15 balls are black, 5 balls are grey and 20 balls are white. Samuel chooses one ball from the drawer at random. (a) Find the probability that the ball is not black.",Samuel adds a few more grey balls. The probability of choosing a grey ball is now \( \frac{2}{7} \). (b) Find the number of grey balls he added.,
+True,3,True,01JF76KE3FVKKE53HPKGFFCD8T,Where can I find practice questions on basic probability?,"A bag contains 25 coloured marbles: 10 are blue, 7 are green, and 8 are red. Leah randomly picks one marble from the bag. What is the probability that the marble is either blue or red?",\(\frac{18}{25}\),"674dcd9db00b977d048c9301,674dcd9eb00b977d048c9304,674dcd9fb00b977d048c9305","(c) Ethan picks one of these days at random. Find the probability that, on that day, the amount of rain was 3 mm or more.","A drawer contains 40 balls. 15 balls are black, 5 balls are grey and 20 balls are white. Samuel chooses one ball from the drawer at random. (a) Find the probability that the ball is not black.",Samuel adds a few more grey balls. The probability of choosing a grey ball is now \( \frac{2}{7} \). (b) Find the number of grey balls he added.,
+True,3,True,01JF76JNT2TCHMN4S397F5E13J,Do you have any sample questions on applying rates to real-life problems?,"The diagram is the speed-time graph for the first \( t \) seconds of the motion of an object. Assume that for 0 seconds \( \le t < 4 \) seconds, the speed increases uniformly from 0 m/s to 30 m/s; then for 4 seconds \( \le t < 6 \) seconds, the speed remains constant at 30 m/s; and finally for 6 seconds \( \le t < 9 \) seconds, the speed decreases uniformly to 0 m/s. 
+
+(a) Find the acceleration when \( t = 3 \). 
+(b) Calculate the total distance covered in the first 9 seconds.","(a)10\text{m/s}^2,(b)135\text{meters}","674dcde3b00b977d048c9356,674dcde3b00b977d048c9357,674dcde4b00b977d048c9358",The diagram is the speed-time graph for the first k seconds of the motion of an object. (a) Find the acceleration when \( t = 5 \).,(b) Find the distance travelled in the first 10 seconds.,(c) The distance travelled in the first k seconds is 520 m. Find the value of k.,
+True,3,True,01JF76KPFZ69YXH167VASBR8F3,Do you have any sample questions on calculating probabilities of single events?,"In a deck of 52 playing cards, 12 cards are face cards (King, Queen, Jack) and the remaining are numbered cards. If a card is drawn at random, find the probability that it is not a face card.",\frac{10}{13},"674dcd9db00b977d048c9301,674dcd9eb00b977d048c9304,674dcd9fb00b977d048c9305","(c) Ethan picks one of these days at random. Find the probability that, on that day, the amount of rain was 3 mm or more.","A drawer contains 40 balls. 15 balls are black, 5 balls are grey and 20 balls are white. Samuel chooses one ball from the drawer at random. (a) Find the probability that the ball is not black.",Samuel adds a few more grey balls. The probability of choosing a grey ball is now \( \frac{2}{7} \). (b) Find the number of grey balls he added.,
+True,3,True,01JF76KX7Q9F59M1XP2TAJS54P,Could you give me some problems to practice finding probability of single events?,"A jar contains 50 marbles: 12 are red, 18 are green, and 20 are blue. A marble is picked at random from the jar. What is the probability that the marble is either green or blue?",\(\frac{19}{25}\),"674dcd9db00b977d048c9301,674dcd9eb00b977d048c9304,674dcd9fb00b977d048c9305","(c) Ethan picks one of these days at random. Find the probability that, on that day, the amount of rain was 3 mm or more.","A drawer contains 40 balls. 15 balls are black, 5 balls are grey and 20 balls are white. Samuel chooses one ball from the drawer at random. (a) Find the probability that the ball is not black.",Samuel adds a few more grey balls. The probability of choosing a grey ball is now \( \frac{2}{7} \). (b) Find the number of grey balls he added.,
+True,3,True,01JF76M0548QM8YNM3VAS3JXPT,I need exercises involving elimination method for simultaneous equations; can you help?,"Solve the following simultaneous equations:
+\[ 4x + 5y = 20 \]
+\[ 3x - 2y = 6 \]","x=\frac{70}{23},y=\frac{36}{23}","674dcd9fb00b977d048c9306,674dcdccb00b977d048c932a,674dcdccb00b977d048c932b",Solve the simultaneous equations: \( 7x + 2y = 8 \) and \( 3x - y = 3 \).,"ABC is an equilateral triangle with lengths \((5x + y)\) cm, \((16y - x)\) cm and \((4x + 5 - 3y)\) cm. (a) Write down two simultaneous equations, in terms of \(x\) and \(y\), to represent this information.",(b) Solve the simultaneous equations and hence find the area of triangle ABC.,
+True,3,True,01JF76KYM997VVAFG1V7Q8HW59,Can you provide practice problems on solving simultaneous equations using elimination?,"Solve the simultaneous equations:
+\[ 5x + 3y = 1 \]
+\[ 3x - 2y = 14 \]","x=\frac{44}{19},y=-\frac{77}{57}",674dcd9fb00b977d048c9306,Solve the simultaneous equations: \( 7x + 2y = 8 \) and \( 3x - y = 3 \).,,,
+True,3,True,01JF76M9S7VWD72G02PFZ1YQ9H,Do you have any sample questions on elimination method for simultaneous equations?,"Solve the simultaneous equations:
+\[ 3x + 4y = 16 \]
+\[ 5x - 2y = 10 \]","x=\frac{36}{13},y=\frac{25}{13}",674dcd9fb00b977d048c9306,Solve the simultaneous equations: \( 7x + 2y = 8 \) and \( 3x - y = 3 \).,,,
+True,3,True,01JF76M3HR681TYF42CE091P9B,Where can I find practice questions on solving equations by elimination?,"Solve the simultaneous equations:
+\[ 4x + 3y = 9 \]
+\[ -3x + 5y = 14 \]","x=0.104,y=2.862",674dcd9fb00b977d048c9306,Solve the simultaneous equations: \( 7x + 2y = 8 \) and \( 3x - y = 3 \).,,,
+True,3,True,01JF76MGFAAC0VADDVR46H61F7,Could you give me some problems to practice solving simultaneous equations by elimination?,"Solve the simultaneous equations:
+\[ 5x - 4y = 20 \]
+\[ 3x + 2y = 14 \]","x=\frac{48}{11},y=7","674dcd9fb00b977d048c9306,674dcdccb00b977d048c932a,674dcdccb00b977d048c932b",Solve the simultaneous equations: \( 7x + 2y = 8 \) and \( 3x - y = 3 \).,"ABC is an equilateral triangle with lengths \((5x + y)\) cm, \((16y - x)\) cm and \((4x + 5 - 3y)\) cm. (a) Write down two simultaneous equations, in terms of \(x\) and \(y\), to represent this information.",(b) Solve the simultaneous equations and hence find the area of triangle ABC.,
+True,3,True,01JF76MMECQCAXSAFZS36EWTN2,Can you provide practice problems on evaluating algebraic formulas?,"Rearrange this equation to make \( y \) the subject:
+
+\[ \frac{m}{y - 4} = \frac{n}{3y} \]",y=\frac{-4n}{3m-n},674dcdb5b00b977d048c931d,"Given that 2^{32} \times 1 = 6 \times 8^x, \text{ find the value of } x.",,,
+True,3,True,01JF76MSQC82ZCPHGSZM0NTN75,I need exercises involving evaluating algebraic expressions; can you help?,"Given that \( \frac{c}{x-1} = \frac{d}{4x} \), rearrange this equation to make \( x \) the subject.",x=\frac{-d}{4c-d},674dcdb5b00b977d048c931d,"Given that 2^{32} \times 1 = 6 \times 8^x, \text{ find the value of } x.",,,
+True,3,True,01JF76MT3SD185JDXQZ82XZ5YK,Where can I find practice questions on evaluating formulas?,Solve for \( x \) in the equation \( \frac{c}{3x + 1} = \frac{d}{4x} \).,\(x=\frac{d}{4c-3d}\),674dcdb5b00b977d048c931d,"Given that 2^{32} \times 1 = 6 \times 8^x, \text{ find the value of } x.",,,
+True,3,True,01JF76NBMW72Y7W8KMJVQSYYX3,Do you have any sample questions on evaluating algebraic equations?,"If \( \frac{c}{3x+2} = \frac{d}{7x} \), rearrange this equation to make \( x \) the subject.",x=\frac{2d}{7c-3d},674dcdb5b00b977d048c931d,"Given that 2^{32} \times 1 = 6 \times 8^x, \text{ find the value of } x.",,,
+True,3,True,01JF76NFETBEFZDM5E27N86D24,Could you give me some problems to practice evaluating algebraic formulas?,"Rearrange the following equation to make \( x \) the subject:
+
+\[ \frac{p}{3x+4} = \frac{q}{7x-2} \]",\(x=\frac{2p+4q}{7p-3q}\),674dcdb5b00b977d048c931d,"Given that 2^{32} \times 1 = 6 \times 8^x, \text{ find the value of } x.",,,
+True,3,True,01JF76P9NWWYT3YM9W17N3953D,What is the Fibonacci sequence used for in real life?,"John needs to distribute 168 bananas, 224 peaches, and 280 grapes into identical fruit baskets.\n(i) What is the largest possible number of fruit baskets that can be packed?\n(ii) State the number of each fruit in each basket.",56fruitbaskets,"674dcda1b00b977d048c9309,674dcda0b00b977d048c9308",(ii) State the number of each fruit in a fruit basket.,"Mary needs to pack 210 oranges, 252 apples and 294 pears into identical fruit baskets. (i) What is the largest possible number of fruit baskets that can be packed?",,

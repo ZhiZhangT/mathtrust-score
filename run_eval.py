@@ -9,7 +9,7 @@ config = RUN_Config()
 # Assume you load this from a JSON or YAML file
 example_config = {
     # "prompt_file": "prompts/asqa_rejection.json",
-    "eval_file": "amath_qns_eval_data.json",
+    # "eval_file": "amath_qns_eval_data.json",
     "output_dir": "save/AMath",
     "quick_test": None,
     "ndoc": 5,

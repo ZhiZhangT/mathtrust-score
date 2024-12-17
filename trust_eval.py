@@ -295,98 +295,105 @@ def calculate_incorrect_frequency(answered_data):
     }
 
 
-def eval_model(eval_data, args: EVAL_Config):
-    data = eval_data['data']
+def eval_model():
     
-    if "em@5" in args.output_path:
-        qampari = True
-    else:
-        qampari = False
+    results = {}
+    
+    # Iterate through the data in query_results_metrics_v2/grounded_refusals folder and calculate the metrics:
+    for filename in os.listdir("query_results_metrics_v2/grounded_refusals"):
+        
+        with open(f"query_results_metrics_v2/grounded_refusals/{filename}", "r") as f:
+            eval_data = json.load(f)
+            
+        config = filename.split("_")[-1].split(".")[0]
+            
+        data = eval_data['data']
 
-    # Truncate by newline and remove on the fly search result
-    logger.warning("We remove all the pre/appended space/newlines and we truncate the answer by the first newline.")
-    logger.warning("We replace any on the fly search result to standard bracket citation format.")
-    
-    answered_data = []
-    answerable_data = []
-    for idx, item in enumerate(data):
-        rejection = fuzz.partial_ratio(normalize_answer(REJECTION_FLAG), normalize_answer(item['output'])) > REJECTION_FUZZ_THRESHOLD
-        answerable = any(np.bitwise_or.reduce([doc["answers_found"] for doc in item['docs']]))
+        # Truncate by newline and remove on the fly search result
+        logger.warning("We remove all the pre/appended space/newlines and we truncate the answer by the first newline.")
+        logger.warning("We replace any on the fly search result to standard bracket citation format.")
+        
+        answered_data = []
+        answerable_data = []
+        for idx, item in enumerate(data):
+            rejection = fuzz.partial_ratio(normalize_answer(REJECTION_FLAG), normalize_answer(item['output'])) > REJECTION_FUZZ_THRESHOLD
+            answerable = any(np.bitwise_or.reduce([doc["answers_found"] for doc in item['docs']]))
 
-        if not rejection:
-            answered_data.append(copy.deepcopy(item))
+            if not rejection:
+                answered_data.append(copy.deepcopy(item))
 
-        if answerable:
-            answerable_data.append(copy.deepcopy(item))
-    
-    # Remove all citations for all non-AutoAIS evaluation
-    normalized_data = copy.deepcopy(data)
-    normalized_answered_data = copy.deepcopy(answered_data)
-    normalized_answerable_data = copy.deepcopy(answerable_data)
-    for i in range(len(normalized_data)):
-        normalized_data[i]['output'] = remove_citations(normalized_data[i]['output'])
-    for i in range(len(normalized_answered_data)):
-        normalized_answered_data[i]['output'] = remove_citations(normalized_answered_data[i]['output'])
-    for i in range(len(normalized_answerable_data)):
-        normalized_answerable_data[i]['output'] = remove_citations(normalized_answerable_data[i]['output'])
+            if answerable:
+                answerable_data.append(copy.deepcopy(item))
+        
+        # Remove all citations for all non-AutoAIS evaluation
+        normalized_data = copy.deepcopy(data)
+        normalized_answered_data = copy.deepcopy(answered_data)
+        normalized_answerable_data = copy.deepcopy(answerable_data)
+        for i in range(len(normalized_data)):
+            normalized_data[i]['output'] = remove_citations(normalized_data[i]['output'])
+        for i in range(len(normalized_answered_data)):
+            normalized_answered_data[i]['output'] = remove_citations(normalized_answered_data[i]['output'])
+        for i in range(len(normalized_answerable_data)):
+            normalized_answerable_data[i]['output'] = remove_citations(normalized_answerable_data[i]['output'])
 
 
-    result = {}
-    # all data points
-    result['answered_num'] = len(normalized_answered_data)
-    result['answerable_num'] = len(normalized_answerable_data)
-    result['overlapped_num'] = len([item for item in normalized_answered_data if any(np.bitwise_or.reduce([doc["answers_found"] for doc in item['docs']]))])
-    result['regular_length'] = compute_len(normalized_data)
-    result['answered_length'] = compute_len(normalized_answered_data)
-    
-    # # show rejection rate
-    macro_dict = calculate_macro_metrics(data)
-    logger.critical(f"Macro metrics: {repr(macro_dict)}")
-    
-    
-    result.update(macro_dict)
+        result = {}
+        # all data points
+        result['answered_num'] = len(normalized_answered_data)
+        result['answerable_num'] = len(normalized_answerable_data)
+        result['overlapped_num'] = len([item for item in normalized_answered_data if any(np.bitwise_or.reduce([doc["answers_found"] for doc in item['docs']]))])
+        result['regular_length'] = compute_len(normalized_data)
+        result['answered_length'] = compute_len(normalized_answered_data)
+        
+        # # show rejection rate
+        macro_dict = calculate_macro_metrics(data)
+        logger.critical(f"Macro metrics: {repr(macro_dict)}")
+        
+        
+        result.update(macro_dict)
 
-    if args.citations: 
-        # result.update(compute_autoais(data, qampari=qampari, at_most_citations=args.at_most_citations))
-        result.update(calculate_citation_f1(data))
+        # if args.citations: 
+            # result.update(compute_autoais(data, qampari=qampari, at_most_citations=args.at_most_citations))
+            # result.update(calculate_citation_f1(data))
+        
+        print(result)
+        results[config] = result
     
-    print(result)
+    with open("query_results_metrics_v2/grounded_refusals/grounded_refusal_results.json", "w") as f:
+        json.dump(results, f, indent=4)
     
-    with open(args.output_path, "w") as f:
-        json.dump(result, f, indent=4)
-    
-    return result
+    return results
     
 
 def TRUST_SCORE(run_config: RUN_Config):
     
     # eval_data = run_model(run_config)
-    eval_data = json.load(open(run_config.eval_file))
+    # eval_data = json.load(open(run_config.eval_file))
     
     model = run_config.model.split("/")[-1]
-    eval_config = EVAL_Config(output_path=f"{run_config.output_dir}/{model}-{run_config.eval_type}-temp{run_config.temperature}.score")
+    # eval_config = EVAL_Config(output_path=f"{run_config.output_dir}/{model}-{run_config.eval_type}-temp{run_config.temperature}.score")
 
-    if run_config.eval_type == "em":
-        eval_config.update_from_dict(
-            {
-                "citations": True,
-            }
-        )
-    elif run_config.eval_type == "em@5":
-        eval_config.update_from_dict(
-            {
-                "citations": True,
-            }
-        )
-    elif run_config.eval_type == "cm":
-        eval_config.update_from_dict(
-            {
-                "citations": True,
-                "claims_nli": True,
-            }
-        )
+    # if run_config.eval_type == "em":
+    #     eval_config.update_from_dict(
+    #         {
+    #             "citations": True,
+    #         }
+    #     )
+    # elif run_config.eval_type == "em@5":
+    #     eval_config.update_from_dict(
+    #         {
+    #             "citations": True,
+    #         }
+    #     )
+    # elif run_config.eval_type == "cm":
+    #     eval_config.update_from_dict(
+    #         {
+    #             "citations": True,
+    #             "claims_nli": True,
+    #         }
+    #     )
         
-    result = eval_model(eval_data, eval_config)
+    results = eval_model()
     
-    return result
+    return results
 

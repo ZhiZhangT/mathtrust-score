@@ -1,0 +1,148 @@
+use_image,retrieved_docs_count,use_few_shot,query_id,user_query,generated_question,generated_answer,citations,citation_1_text,citation_2_text,citation_3_text,citation_4_text,damerau_levenshtein_sim,jaro_winkler_sim
+True,1,False,01JF749VX3ET2T1YFDNC05YE4D,Can you provide practice problems on multiplying two matrices?,"The admission tickets to the Ocean Aquarium are $45 for an adult, $30 for a child, and $25 for a senior citizen. On a particular Monday, there were 200 adults, 240 children, and 20 senior citizens who visited the Ocean Aquarium, and on a particular Tuesday, there were 220 adults, 260 children, and 15 senior citizens who visited the Ocean Aquarium.
+
+The number of visitors on Monday and Tuesday can be represented by the matrix 
+\[ V = \begin{pmatrix} 200 & 240 & 20 \\ 220 & 260 & 15 \end{pmatrix}. \]
+
+(i) Write a $3 \times 1$ matrix, $P$, to represent the price of the admission tickets.
+
+(ii) Find the matrix $T = VP$.
+
+(iii) Explain what each of the elements of matrix $T$ represents.
+
+(iv) Find the total revenue collected from the sales of the tickets for the 2 days.","T=\begin{pmatrix}15100\\16375\end{pmatrix},Totalrevenue=$31,475",674dcdb4b00b977d048c931b,"The admission tickets to the Singapore Zoo are $50 for an adult, $36 for a child, and $20 for a senior citizen. On a particular Tuesday, there were 212 adults, 251 children, and 15 senior citizens who visited the Singapore Zoo and on a particular Wednesday, there were 231 adults, 266 children, and 12 senior citizens who visited the Singapore Zoo. The number of visitors on the particular Tuesday and Wednesday can be represented by the matrix V = \begin{pmatrix} 212 & 251 & 15 \\ 231 & 266 & 12 \end{pmatrix}. \text{ (i) Write a } 3 \times 1 \text{ matrix, P, to represent the price of the admission tickets. (ii) Find the matrix } T = VP. \text{ (iii) Explain what each of the elements represents. (iv) Find the total amount collected from the sales of the tickets for the 2 days.}",,,,0.19872611464968154,0.1217862895312225
+True,1,False,01JF749WK5NZ7SHSH8MSXHQH84,I need some exercises involving matrix multiplication; can you help?,"The prices for concert tickets are $60 for an adult, $40 for a child, and $25 for a senior. On a certain weekend, the attendance for Saturday and Sunday can be represented by the matrix:
+\[ A = \begin{pmatrix} 150 & 200 & 18 \\ 175 & 225 & 23 \end{pmatrix} \]
+where the columns respectively indicate the number of adults, children, and seniors attending.
+
+(i) Write a 3 x 1 matrix, \( B \), to represent the ticket prices.
+(ii) Calculate the matrix \( C = AB \).
+(iii) Interpret the elements of matrix \( C \).
+(iv) Determine the total revenue from ticket sales over the weekend.",$25675,674dcdb4b00b977d048c931b,"The admission tickets to the Singapore Zoo are $50 for an adult, $36 for a child, and $20 for a senior citizen. On a particular Tuesday, there were 212 adults, 251 children, and 15 senior citizens who visited the Singapore Zoo and on a particular Wednesday, there were 231 adults, 266 children, and 12 senior citizens who visited the Singapore Zoo. The number of visitors on the particular Tuesday and Wednesday can be represented by the matrix V = \begin{pmatrix} 212 & 251 & 15 \\ 231 & 266 & 12 \end{pmatrix}. \text{ (i) Write a } 3 \times 1 \text{ matrix, P, to represent the price of the admission tickets. (ii) Find the matrix } T = VP. \text{ (iii) Explain what each of the elements represents. (iv) Find the total amount collected from the sales of the tickets for the 2 days.}",,,,0.6343949044585987,0.1662343832489641
+True,1,False,01JF749X629QNYSRA0MW5M6ZF6,Where can I find practice questions on multiplication of matrices?,"A wildlife park offers entrance tickets at $40 for adults, $25 for students, and $15 for seniors. On a specific Thursday, there were 180 adults, 300 students, and 20 seniors who visited the park. On Friday, 210 adults, 320 students, and 25 seniors visited the park. The visitor count on Thursday and Friday can be represented by the matrix \( V = \begin{pmatrix} 180 & 300 & 20 \\ 210 & 320 & 25 \end{pmatrix} \).
+
+(i) Construct a \( 3 \times 1 \) matrix, \( P \), to represent the prices of the tickets.
+
+(ii) Calculate the matrix \( T = VP \).
+
+(iii) Explain what each element of \( T \) represents.
+
+(iv) Determine the total revenue from the ticket sales over these two days.",$25225,674dcdb4b00b977d048c931b,"The admission tickets to the Singapore Zoo are $50 for an adult, $36 for a child, and $20 for a senior citizen. On a particular Tuesday, there were 212 adults, 251 children, and 15 senior citizens who visited the Singapore Zoo and on a particular Wednesday, there were 231 adults, 266 children, and 12 senior citizens who visited the Singapore Zoo. The number of visitors on the particular Tuesday and Wednesday can be represented by the matrix V = \begin{pmatrix} 212 & 251 & 15 \\ 231 & 266 & 12 \end{pmatrix}. \text{ (i) Write a } 3 \times 1 \text{ matrix, P, to represent the price of the admission tickets. (ii) Find the matrix } T = VP. \text{ (iii) Explain what each of the elements represents. (iv) Find the total amount collected from the sales of the tickets for the 2 days.}",,,,0.45222929936305734,0.25421807632773685
+True,1,False,01JF74A7N61PC34SD2JBSJ68TG,Do you have any sample questions on multiplying two matrices?,"A concert hall sells tickets for $45 for adults, $30 for students, and $25 for seniors. On a specific day, 150 adults, 200 students, and 30 seniors attended the concert. The following day, 180 adults, 220 students, and 40 seniors attended. The attendance can be represented by the matrix \( A = \begin{bmatrix} 150 & 200 & 30 \\ 180 & 220 & 40 \end{bmatrix} \).
+
+(i) Write a \(3 \times 1\) matrix, \( C \), to represent the cost of the tickets.
+
+(ii) Calculate the matrix \( B = AC \).
+
+(iii) Explain what each element of matrix \( B \) represents.
+
+(iv) Determine the total revenue generated from ticket sales over the two days.","$19,950",674dcdb4b00b977d048c931b,"The admission tickets to the Singapore Zoo are $50 for an adult, $36 for a child, and $20 for a senior citizen. On a particular Tuesday, there were 212 adults, 251 children, and 15 senior citizens who visited the Singapore Zoo and on a particular Wednesday, there were 231 adults, 266 children, and 12 senior citizens who visited the Singapore Zoo. The number of visitors on the particular Tuesday and Wednesday can be represented by the matrix V = \begin{pmatrix} 212 & 251 & 15 \\ 231 & 266 & 12 \end{pmatrix}. \text{ (i) Write a } 3 \times 1 \text{ matrix, P, to represent the price of the admission tickets. (ii) Find the matrix } T = VP. \text{ (iii) Explain what each of the elements represents. (iv) Find the total amount collected from the sales of the tickets for the 2 days.}",,,,0.5159235668789809,0.2756025626767654
+True,1,False,01JF74AJ68AJJXVWNC0NBBTZNR,Could you give me some problems to practice matrix multiplication?,"The admission tickets to a museum are $45 for an adult, $32 for a child, and $18 for a senior citizen. On two different days, the number of visitors can be represented by the matrix \( V = \begin{pmatrix} 180 & 240 & 20 \\ 200 & 220 & 18 \end{pmatrix} \), where the first row corresponds to the numbers on the first day and the second row corresponds to the numbers on the second day.
+
+(i) Write a \( 3 \times 1 \) matrix, \( P \), to represent the price of the admission tickets.
+(ii) Find the matrix \( T = VP \).
+(iii) Explain what each of the elements in \( T \) represents.
+(iv) Calculate the total revenue collected from ticket sales over the two days.","$26,940",674dcdb4b00b977d048c931b,"The admission tickets to the Singapore Zoo are $50 for an adult, $36 for a child, and $20 for a senior citizen. On a particular Tuesday, there were 212 adults, 251 children, and 15 senior citizens who visited the Singapore Zoo and on a particular Wednesday, there were 231 adults, 266 children, and 12 senior citizens who visited the Singapore Zoo. The number of visitors on the particular Tuesday and Wednesday can be represented by the matrix V = \begin{pmatrix} 212 & 251 & 15 \\ 231 & 266 & 12 \end{pmatrix}. \text{ (i) Write a } 3 \times 1 \text{ matrix, P, to represent the price of the admission tickets. (ii) Find the matrix } T = VP. \text{ (iii) Explain what each of the elements represents. (iv) Find the total amount collected from the sales of the tickets for the 2 days.}",,,,0.4942675159235669,0.14046634321123586
+True,1,False,01JF74ANDAG85F12PCV477DKV9,"I need exercises involving calculating mean, median, and mode; can you help?","Alice records the temperature in Celsius each day for an entire month of 30 days. The data is tabulated with frequency. Determine the mean, median, and mode of the temperature readings for the month.","Mean=m,Median=n,Mode=p",674dcd9cb00b977d048c92ff,"Ethan measures the amount of rain, in millimetres (mm), each day for 31 days. The bar chart shows his results. 
+
+(a) Write down the median amount of rain.",,,,0.6934673366834171,0.28165110018622175
+True,1,False,01JF74AM55B5ZS02TN4G7EQ260,"Can you provide practice problems on finding the mean, median, and mode?","Olivia records the number of cars passing through a street each hour over a 24-hour period. She notes down her observations in a frequency table. Calculate the mean, median, and mode of the data.
+
+\begin{center}
+\begin{tabular}{|c|c|}
+\hline
+\textbf{Number of Cars} & \textbf{Frequency} \\
+\hline
+0-5 & 3 \\
+6-10 & 6 \\
+11-15 & 8 \\
+16-20 & 4 \\
+21-25 & 3 \\
+\hline
+\end{tabular}
+\end{center}","Mean:12\,\text{cars},Median:12\,\text{cars},Mode:11-15\,\text{cars}",674dcd9cb00b977d048c92ff,"Ethan measures the amount of rain, in millimetres (mm), each day for 31 days. The bar chart shows his results. 
+
+(a) Write down the median amount of rain.",,,,0.8137755102040817,0.396969696969697
+True,1,False,01JF74B2AYCRBD6M6K4PWNMGYP,"Where can I find practice questions on mean, median, and mode?","Olivia records the number of hours she studied each day for a month of 30 days. The dataset is as follows: 2, 3, 3, 6, 8, 8, 8, 8, 5, 4, 6, 6, 6, 7, 5, 5, 5, 2, 1, 4, 4, 4, 7, 7, 5, 3, 2, 6, 8, 7. Calculate the mean, median, and mode of the study hours.","Mean:5.03,Median:5.5,Mode:8",674dcd9cb00b977d048c92ff,"Ethan measures the amount of rain, in millimetres (mm), each day for 31 days. The bar chart shows his results. 
+
+(a) Write down the median amount of rain.",,,,0.7549407114624506,0.35602923646401907
+True,1,False,01JF74B70ZN25RJMAHCCWKVSP9,"Do you have any sample questions on finding mean, median, and mode?","Liam records the number of hours he studies, each day, for a month with 30 days. The data is as follows: [2, 3, 4, 5, 5, 6, 7, 8, 9, 10, 3, 4, 5, 6, 7, 8, 9, 5, 6, 7, 8, 9, 10, 4, 3, 2, 7, 8, 9, 6]. Calculate the mean, median, and mode of his study hours.","Mean:6,Median:6,Mode:6and7",674dcd9cb00b977d048c92ff,"Ethan measures the amount of rain, in millimetres (mm), each day for 31 days. The bar chart shows his results. 
+
+(a) Write down the median amount of rain.",,,,0.7450980392156863,0.35781387515133645
+True,1,False,01JF74BEGX8Y2466EB11BEYQ5P,"Could you give me some problems to practice calculating mean, median, and mode?","Liam records the number of customers visiting his bakery each day for one month (30 days). He notes the data in a bar chart. Based on this data, determine the mean, median, and mode of the daily customer visits.","Mean=\(x_1\),Median=\(x_2\),Mode=\(x_3\)",674dcd9cb00b977d048c92ff,"Ethan measures the amount of rain, in millimetres (mm), each day for 31 days. The bar chart shows his results. 
+
+(a) Write down the median amount of rain.",,,,0.6445497630331753,0.28530033731370297
+True,1,False,01JF74BQYJ5MFATXW0TTFARAEE,I need exercises involving angle properties in circle geometry; can you help?,"In the circle with center \( O \), points \( E, F, G, \) and \( H \) lie on the circle. Line \( EQ \) is tangent to the circle at \( E \) and line \( FH \) is parallel to \( EG \). If angle \( EOF = 130^\circ \) and angle \( EHQ = 50^\circ \), find the following:
+
+(a) Find the value of:
+
+(i) angle \( EGF \)
+
+(ii) angle \( FHG \)
+
+(b) Is \( OG \) parallel to any tangent at \( F \)? Justify your answer.","(i)65^\circ\quad(ii)50^\circ\quad(b)No,because\(FHG=50^\circ\neqEGF=65^\circ\)",674dcdb4b00b977d048c931a,"A, D, B, and C lie on a circle, center O. AP is a tangent to the circle at A and BP is a tangent to the circle at B. \angle AOB = 142^\circ \text{ and } \angle DAP = 42^\circ. \text{ (a) Find the value of (i) } \angle ACB, \text{ (ii) } \angle ADB. \text{ (b) Is OB parallel to AD? Explain.}",,,,0.599009900990099,0.3308187614469421
+True,1,False,01JF74BQKXZZ5CAEGZTSR7PYGH,Can you provide practice problems on applying angle properties of circles?,"In the circle with center \(O\), points \(E, F, G,\) and \(H\) lie on the circumference. Tangent \(EQ\) touches the circle at \(E\), and tangent \(FR\) touches the circle at \(F\). \(\angle EOF = 120^\circ\) and \(\angle GEF = 45^\circ\).
+
+(a) Find the value of 
+
+(i) \( \angle EGF \)
+
+(ii) \( \angle FGH \)
+
+(b) Is \( OH \parallel EF \)? Explain.","(i)60^\circ,(ii)15^\circ",674dcdb4b00b977d048c931a,"A, D, B, and C lie on a circle, center O. AP is a tangent to the circle at A and BP is a tangent to the circle at B. \angle AOB = 142^\circ \text{ and } \angle DAP = 42^\circ. \text{ (a) Find the value of (i) } \angle ACB, \text{ (ii) } \angle ADB. \text{ (b) Is OB parallel to AD? Explain.}",,,,0.5014409221902018,0.31533343225528976
+True,1,False,01JF74C5G7JYYBFQ5P1JJHD4C0,Where can I find practice questions on angles in circles?,"A, D, B and C lie on a circle with center O. CP is a tangent to the circle at C and DP is a tangent to the circle at D. Angle AOC = 130^\circ and angle DAC = 50^\circ.\n\n(a) Find the value of\n\n(i) angle ACB,\n\n(ii) angle ADC.\n\n(b) Is OC parallel to CD? Explain.","(i)50^\circ,(ii)50^\circ.Yes,OCisparalleltoCD.",674dcdb4b00b977d048c931a,"A, D, B, and C lie on a circle, center O. AP is a tangent to the circle at A and BP is a tangent to the circle at B. \angle AOB = 142^\circ \text{ and } \angle DAP = 42^\circ. \text{ (a) Find the value of (i) } \angle ACB, \text{ (ii) } \angle ADB. \text{ (b) Is OB parallel to AD? Explain.}",,,,0.21649484536082475,0.12833347395556993
+True,1,False,01JF74CY5W35E3F4DJTP6S1JXM,Can you provide practice problems on applying rates in real-world contexts?,A car accelerates uniformly from rest to a speed of 30 m/s over a period of 10 seconds. It maintains this speed for the next 15 seconds before decelerating uniformly to rest in another 5 seconds. What is the total distance traveled by the car?,675meters,674dcde3b00b977d048c9356,The diagram is the speed-time graph for the first k seconds of the motion of an object. (a) Find the acceleration when \( t = 5 \).,,,,0.7119341563786008,0.37225851359148976
+True,1,False,01JF74CW56MSQWYNJTRTNB66DN,Could you give me some problems to practice applying angle properties in circles?,"A, C, D, and E lie on a circle, center O. CE is a tangent to the circle at C and DE is a tangent to the circle at D. Angle AOD = 150° and angle EDC = 30°.
+
+(a) Find the value of
+
+(i) angle ACB,
+
+(ii) angle ADC.
+
+(b) Is line OC parallel to line DE? Explain.",AngleACB=75°;AngleADC=150°.OCisnotparalleltoDE.,674dcdb4b00b977d048c931a,"A, D, B, and C lie on a circle, center O. AP is a tangent to the circle at A and BP is a tangent to the circle at B. \angle AOB = 142^\circ \text{ and } \angle DAP = 42^\circ. \text{ (a) Find the value of (i) } \angle ACB, \text{ (ii) } \angle ADB. \text{ (b) Is OB parallel to AD? Explain.}",,,,0.29896907216494845,0.17139839275486835
+True,1,False,01JF74D92R0WP8SG0CX8KNSD18,Where can I find practice questions on rates in practical situations?,"A car accelerates uniformly from rest to a speed of \( 30 \, \text{m/s} \) in \( 5 \) seconds. It then maintains this speed for \( 15 \) seconds before decelerating uniformly to stop in \( 10 \) seconds. Calculate the total distance traveled by the car during this journey.","675\,\text{meters}",674dcde3b00b977d048c9356,The diagram is the speed-time graph for the first k seconds of the motion of an object. (a) Find the acceleration when \( t = 5 \).,,,,0.7326007326007326,0.36758078647391634
+True,1,False,01JF74D2EK4TD161XGKN53RSM9,I need exercises involving real-world rate applications; can you help?,"A car accelerates uniformly from rest to a speed of \( 45 \text{ m/s} \) over a period of \( 10 \text{ seconds} \), then moves at a constant speed for another \( 5 \text{ seconds} \). Calculate the total distance covered by the car during this time.",450\text{m},674dcde3b00b977d048c9356,The diagram is the speed-time graph for the first k seconds of the motion of an object. (a) Find the acceleration when \( t = 5 \).,,,,0.7068273092369478,0.36140678960653105
+True,1,False,01JF74C608F3840WJJDZWQXEHD,Do you have any sample questions on angle properties of circles?,"In the circle with center $O$, let $A$, $B$, $C$, and $D$ be points on the circle. The line $AT$ is tangent to the circle at $A$, and $BT$ is tangent to the circle at $B$. Given that angle $AOB = 148^\circ$ and angle $TAD = 36^\circ$.
+
+(a) Find the value of
+
+(i) angle $ACB$, 
+
+(ii) angle $ADB$.
+
+(b) Is $OB$ parallel to $DA$? Explain.","(i)16^\circ,(ii)70^\circ",674dcdb4b00b977d048c931a,"A, D, B, and C lie on a circle, center O. AP is a tangent to the circle at A and BP is a tangent to the circle at B. \angle AOB = 142^\circ \text{ and } \angle DAP = 42^\circ. \text{ (a) Find the value of (i) } \angle ACB, \text{ (ii) } \angle ADB. \text{ (b) Is OB parallel to AD? Explain.}",,,,0.4537313432835821,0.2575724996482037
+True,1,False,01JF74DQ68FPJYBNWQECRQZWXX,Can you provide practice problems on finding the probability of single events?,Jessica rolls a fair six-sided die once. What is the probability that she rolls a number greater than 4?,\(\frac{1}{3}\),674dcd9db00b977d048c9301,"(c) Ethan picks one of these days at random. Find the probability that, on that day, the amount of rain was 3 mm or more.",,,,0.6776859504132231,0.3398707353252808
+True,1,False,01JF74DENY7JTBNRJVFXC2SDNQ,Do you have any sample questions on applying rates to real-life problems?,"A car accelerates uniformly from rest, reaching a speed of 60 km/h after 5 minutes. It maintains this speed for another 10 minutes before decelerating uniformly to rest over 5 minutes. Sketch the speed-time graph and calculate the total distance traveled by the car.",15km,674dcde3b00b977d048c9356,The diagram is the speed-time graph for the first k seconds of the motion of an object. (a) Find the acceleration when \( t = 5 \).,,,,0.7518796992481203,0.3576020203179705
+True,1,False,01JF74DWT7NQ50YCRD9YY02W8C,I need exercises involving probability of single events; can you help?,"A jar contains a total of 30 marbles, of which 12 are blue and the rest are not blue. If one marble is selected at random, find the probability that it is blue.",\(\frac{2}{5}\),674dcd9db00b977d048c9301,"(c) Ethan picks one of these days at random. Find the probability that, on that day, the amount of rain was 3 mm or more.",,,,0.73125,0.29229415365779
+True,1,False,01JF74DMFKE1E3JR0KQ20839EN,Could you give me some problems to practice rates in real-world contexts?,"A car travels along a straight road, and its speed in meters per second over time is represented by the following speed-time graph piece: \[ \begin{array}{|c|c|} \hline \text{Time (s)} & \text{Speed (m/s)} \\ \hline 0 & 0 \\ 10 & 20 \\ 30 & 20 \\ 50 & 0 \\ \hline \end{array} \] Determine the total distance traveled by the car during these 50 seconds.",700meters,674dcde3b00b977d048c9356,The diagram is the speed-time graph for the first k seconds of the motion of an object. (a) Find the acceleration when \( t = 5 \).,,,,0.78125,0.40046456935769914
+True,1,False,01JF74DZ9NTM4VTGV2WHG7T5SE,Where can I find practice questions on basic probability?,A bag contains slips of paper numbered from 1 to 15. Matt randomly draws one slip from the bag. What is the probability that the number on the slip is greater than 10?,\(\frac{1}{3}\),674dcd9db00b977d048c9301,"(c) Ethan picks one of these days at random. Find the probability that, on that day, the amount of rain was 3 mm or more.",,,,0.688622754491018,0.2986209399383052
+True,1,False,01JF74E8ESQX1BBCHQZNKPK63V,Could you give me some problems to practice finding probability of single events?,"At a carnival, there are several games, and each game gives you a token if you win. Suppose you play 15 games in total over the course of the day and win tokens from 9 of these games. If you select one of these games at random, what is the probability that you won a token from that game?",\(\frac{3}{5}\),674dcd9db00b977d048c9301,"(c) Ethan picks one of these days at random. Find the probability that, on that day, the amount of rain was 3 mm or more.",,,,0.7708333333333334,0.3639474892465323
+True,1,False,01JF74E8466JSN5FSX3TEHF69E,Do you have any sample questions on calculating probabilities of single events?,Sophie is drawing a card from a standard deck of 52 playing cards. Find the probability that she draws a heart or a king.,\(\frac{4}{13}\),674dcd9db00b977d048c9301,"(c) Ethan picks one of these days at random. Find the probability that, on that day, the amount of rain was 3 mm or more.",,,,0.71900826446281,0.29061910975786576
+True,1,False,01JF74EB8RVF4VKA5RNXN59FBW,Can you provide practice problems on solving simultaneous equations using elimination?,Solve the simultaneous equations.\[ 3x + 4y = 18 \\ 5x - 4y = 10 \],"x=3.5,y=1.875",674dcd9fb00b977d048c9306,Solve the simultaneous equations: \( 7x + 2y = 8 \) and \( 3x - y = 3 \).,,,,0.2602739726027397,0.08865121722516378
+True,1,False,01JF74EKB6DP3EJFZZRPZY4W8S,Where can I find practice questions on solving equations by elimination?,Solve the simultaneous equations using the method of elimination. \[ 5x - 3y = 9 \] \[ 3x + 4y = 6 \],"x=\frac{54}{29},y=\frac{3}{29}",674dcd9fb00b977d048c9306,Solve the simultaneous equations: \( 7x + 2y = 8 \) and \( 3x - y = 3 \).,,,,0.48514851485148514,0.13542486097924855
+True,1,False,01JF74EVG71NJA8MXT4GZJC43P,Do you have any sample questions on elimination method for simultaneous equations?,Solve the simultaneous equations. \[ 5x + 3y = 11 \] \[ 4x - y = 9 \],"x=2.235,y=-0.06",674dcd9fb00b977d048c9306,Solve the simultaneous equations: \( 7x + 2y = 8 \) and \( 3x - y = 3 \).,,,,0.2191780821917808,0.09107048518926053
+True,1,False,01JF74EENXDXM4WY7206RMBQAD,I need exercises involving elimination method for simultaneous equations; can you help?,"Solve the simultaneous equations:
+
+\[ 4x + 5y = 20 \]
+\[ 3x - 2y = 4 \]","x=\frac{60}{23},y=\frac{20\times23-4\times60}{5\times23}",674dcd9fb00b977d048c9306,Solve the simultaneous equations: \( 7x + 2y = 8 \) and \( 3x - y = 3 \).,,,,0.2465753424657534,0.1060572863697159
+True,1,False,01JF74F00T5VTA85H1TP2K5KV4,Can you provide practice problems on evaluating algebraic formulas?,"Rearrange the equation to make \( x \) the subject:
+\[
+\frac{c}{3x+2} = \frac{d}{4x}
+\]",\(x=\frac{2d}{4c-3d}\),674dcdb5b00b977d048c931d,"Given that 2^{32} \times 1 = 6 \times 8^x, \text{ find the value of } x.",,,,0.8045977011494253,0.4231684662719145
+True,1,False,01JF74F7Y8ZWGY5RTMRTAXW8WA,I need exercises involving evaluating algebraic expressions; can you help?,Rearrange the equation to make \( x \) the subject: \[ \frac{c}{3x+1} = \frac{d}{7x} \],\(x=\frac{d}{7c-3d}\),674dcdb5b00b977d048c931d,"Given that 2^{32} \times 1 = 6 \times 8^x, \text{ find the value of } x.",,,,0.7816091954022989,0.4063697318007663
+True,1,False,01JF74EY9HS66Y3ZYRDV971T5Q,Could you give me some problems to practice solving simultaneous equations by elimination?,Solve the simultaneous equations using the elimination method.\[ 5x - 3y = 12 \\\ 3x + 6y = 9 \],"x=\frac{15}{7},y=\frac{3}{7}",674dcd9fb00b977d048c9306,Solve the simultaneous equations: \( 7x + 2y = 8 \) and \( 3x - y = 3 \).,,,,0.46875,0.11804171855541712
+True,1,False,01JF74FDHC1NV85TJXMVJ18PS6,Where can I find practice questions on evaluating formulas?,"Rearrange this equation to make \( x \) the subject.
+
+\[
+\frac{c}{x+1} = \frac{d}{3x-5}
+\]",x=\frac{5c+d}{3c-d},674dcdb5b00b977d048c931d,"Given that 2^{32} \times 1 = 6 \times 8^x, \text{ find the value of } x.",,,,0.8,0.4011904761904762
+True,1,False,01JF74G01H0N1D9C3AZGCVHDC6,Could you give me some problems to practice evaluating algebraic formulas?,"Rearrange this equation to make \( x \) the subject:
+
+\[ \frac{c}{3x + 4} = \frac{d}{6x} \]",\(x=\frac{4d}{6c-3d}\),674dcdb5b00b977d048c931d,"Given that 2^{32} \times 1 = 6 \times 8^x, \text{ find the value of } x.",,,,0.7692307692307693,0.3987016687016687
+True,1,False,01JF74FRVCPX5ABT2BWJ7QWWHN,Do you have any sample questions on evaluating algebraic equations?,"Rearrange the equation to make \( x \) the subject:
+
+\[ \frac{c}{3x+4} = \frac{d}{2x+1} \]",x=\frac{4d-c}{2c-3d},674dcdb5b00b977d048c931d,"Given that 2^{32} \times 1 = 6 \times 8^x, \text{ find the value of } x.",,,,0.7888888888888889,0.4168439716312057
+True,1,False,01JF74GWJ7NAZSAX3A6C6AT9MR,What is the Fibonacci sequence used for in real life?,"John has 300 bananas, 450 grapes, and 600 strawberries. He wants to divide them into identical fruit boxes. 
+(i) What is the largest possible number of fruit boxes that can be packed? 
+(ii) State the number of each type of fruit in one fruit box.","150fruitboxes;eachboxcontains2bananas,3grapes,and4strawberries.","674dcda1b00b977d048c9309,674dcda0b00b977d048c9308",(ii) State the number of each fruit in a fruit basket.,"Mary needs to pack 210 oranges, 252 apples and 294 pears into identical fruit baskets. (i) What is the largest possible number of fruit baskets that can be packed?",,,0.6747967479674797,0.3728650926856765
