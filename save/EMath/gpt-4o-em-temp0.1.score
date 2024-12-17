@@ -1,0 +1,19 @@
+{
+    "answered_num": 33,
+    "answerable_num": 35,
+    "overlapped_num": 32,
+    "regular_length": 23.85,
+    "answered_length": 40.90909090909091,
+    "reject_rec": 96.0,
+    "reject_prec": 88.88888888888889,
+    "reject_f1": 92.30769230769229,
+    "answerable_rec": 91.42857142857143,
+    "answerable_prec": 96.96969696969697,
+    "answerable_f1": 94.11764705882354,
+    "macro_avg": 93.71428571428572,
+    "macro_f1": 93.21266968325791,
+    
+    "citation_rec": 84.84848484848484,
+    "citation_prec": 21.9011544011544,
+    "citation_f1": 34.81566364875479
+}

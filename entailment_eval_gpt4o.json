@@ -1,0 +1,622 @@
+[
+    {
+        "generated_question": "A cinema sells tickets for adults and children. The prices are $12 for an adult and $7 for a child. On a particular Saturday, Cinema 1 sold 150 adult tickets and 80 child tickets, while Cinema 2 sold 200 adult tickets and 110 child tickets. This scenario is represented by the matrix \\( V = \\begin{bmatrix} 150 & 80 \\\\ 200 & 110 \\end{bmatrix} \\).\n\n(i) Write a \\( 2 \\times 1 \\) matrix, \\( P \\), to represent the price of the tickets.\n\n(ii) Calculate the matrix \\( T = VP \\).\n\n(iii) What does each element of matrix \\( T \\) represent?",
+        "citations": [
+            {
+                "cited_text": "The admission tickets to the Singapore Zoo are $50 for an adult, $36 for a child, and $20 for a senior citizen. On a particular Tuesday, there were 212 adults, 251 children, and 15 senior citizens who visited the Singapore Zoo and on a particular Wednesday, there were 231 adults, 266 children, and 12 senior citizens who visited the Singapore Zoo. The number of visitors on the particular Tuesday and Wednesday can be represented by the matrix V = \\begin{pmatrix} 212 & 251 & 15 \\\\ 231 & 266 & 12 \\end{pmatrix}. \\text{ (i) Write a } 3 \\times 1 \\text{ matrix, P, to represent the price of the admission tickets. (ii) Find the matrix } T = VP. \\text{ (iii) Explain what each of the elements represents. (iv) Find the total amount collected from the sales of the tickets for the 2 days.}",
+                "score": 1,
+                "gpt4o_score": 1
+            },
+            {
+                "cited_text": "Two outlets of a coffee chain sell three different types of coffee: espresso, flat white and mocha. The table shows the number of cups of each type of coffee sold on a particular day. Outlet A: Espresso 30, Flat White 30, Mocha 35; Outlet B: Espresso x, Flat White x + 2, Mocha 40. This information can be represented by the matrix \\( P = \\begin{pmatrix} 30 & 30 & 35 \\\\ x & x+2 & 40 \\end{pmatrix} \\). The coffee chain sells a cup of espresso at $2.50, a cup of flat white at $4 and a cup of mocha at $5.50. This information can be represented by the matrix \\( Q = \\begin{pmatrix} 2.5 \\\\ 4 \\\\ 5.5 \\end{pmatrix} \\). (a) Find, in terms of x, the matrix \\( R = PQ \\).",
+                "score": 1,
+                "gpt4o_score": 0
+            }
+        ]
+    },
+    {
+        "generated_question": "The entry ticket prices for a botanical garden are $40 for an adult, $25 for a child, and $15 for a senior citizen. On a given Monday, 180 adults, 210 children, and 25 senior citizens visited the garden. On a particular Thursday, there were 200 adults, 195 children, and 30 senior citizens who visited the garden.\n\nThe number of visitors on these two days can be represented by the matrix \\( V = \\begin{bmatrix} 180 & 210 & 25 \\\\ 200 & 195 & 30 \\end{bmatrix} \\).\n\n(i) Write a \\(3 \\times 1\\) matrix, \\( P \\), to represent the price of the admission tickets.\n\n(ii) Find the matrix \\( T = VP \\).\n\n(iii) Explain what does each of the elements represents.\n\n(iv) Find the total amount collected from the sales of the tickets for the two days.",
+        "citations": [
+            {
+                "cited_text": "The admission tickets to the Singapore Zoo are $50 for an adult, $36 for a child, and $20 for a senior citizen. On a particular Tuesday, there were 212 adults, 251 children, and 15 senior citizens who visited the Singapore Zoo and on a particular Wednesday, there were 231 adults, 266 children, and 12 senior citizens who visited the Singapore Zoo. The number of visitors on the particular Tuesday and Wednesday can be represented by the matrix V = \\begin{pmatrix} 212 & 251 & 15 \\\\ 231 & 266 & 12 \\end{pmatrix}. \\text{ (i) Write a } 3 \\times 1 \\text{ matrix, P, to represent the price of the admission tickets. (ii) Find the matrix } T = VP. \\text{ (iii) Explain what each of the elements represents. (iv) Find the total amount collected from the sales of the tickets for the 2 days.}",
+                "score": 1,
+                "gpt4o_score": 1
+            }
+        ]
+    },
+    {
+        "generated_question": "In a small town, a movie theater sells three types of snacks: popcorn, nachos, and drinks. The sales data for two different weeks are represented by the matrix \n\\[ S = \\begin{bmatrix} 120 & 95 & 150 \\\\ 140 & 110 & 125 \\end{bmatrix} \\] \nwhere the columns represent sales of popcorn, nachos, and drinks respectively.\n\nThe price matrix for each snack is represented by:\n\\[ P = \\begin{bmatrix} 5 \\\\ 6 \\\\ 4.5 \\end{bmatrix} \\]\n\n(i) Calculate the total revenue matrix \\( R = SP \\). \n(ii) Explain what each element of the resulting matrix \\( R \\) represents.",
+        "citations": [
+            {
+                "cited_text": "The admission tickets to the Singapore Zoo are $50 for an adult, $36 for a child, and $20 for a senior citizen. On a particular Tuesday, there were 212 adults, 251 children, and 15 senior citizens who visited the Singapore Zoo and on a particular Wednesday, there were 231 adults, 266 children, and 12 senior citizens who visited the Singapore Zoo. The number of visitors on the particular Tuesday and Wednesday can be represented by the matrix V = \\begin{pmatrix} 212 & 251 & 15 \\\\ 231 & 266 & 12 \\end{pmatrix}. \\text{ (i) Write a } 3 \\times 1 \\text{ matrix, P, to represent the price of the admission tickets. (ii) Find the matrix } T = VP. \\text{ (iii) Explain what each of the elements represents. (iv) Find the total amount collected from the sales of the tickets for the 2 days.}",
+                "score": 1,
+                "gpt4o_score": 0
+            },
+            {
+                "cited_text": "Two outlets of a coffee chain sell three different types of coffee: espresso, flat white and mocha. The table shows the number of cups of each type of coffee sold on a particular day. Outlet A: Espresso 30, Flat White 30, Mocha 35; Outlet B: Espresso x, Flat White x + 2, Mocha 40. This information can be represented by the matrix \\( P = \\begin{pmatrix} 30 & 30 & 35 \\\\ x & x+2 & 40 \\end{pmatrix} \\). The coffee chain sells a cup of espresso at $2.50, a cup of flat white at $4 and a cup of mocha at $5.50. This information can be represented by the matrix \\( Q = \\begin{pmatrix} 2.5 \\\\ 4 \\\\ 5.5 \\end{pmatrix} \\). (a) Find, in terms of x, the matrix \\( R = PQ \\).",
+                "score": 1,
+                "gpt4o_score": 0
+            }
+        ]
+    },
+    {
+        "generated_question": "A movie theater sells tickets at different prices for children, adults, and seniors. The number of tickets sold over a weekend is represented by the matrix:\n\\[ V = \\begin{bmatrix} 180 & 300 & 20 \\\\ 225 & 310 & 30 \\end{bmatrix} \\]\n\nThe prices for children, adults, and seniors are $12, $15, and $10 respectively, represented by the matrix:\n\\[ P = \\begin{bmatrix} 12 \\\\ 15 \\\\ 10 \\end{bmatrix} \\]\n\nCalculate the total revenue generated for the weekend by finding the matrix \\( T = VP \\).",
+        "citations": [
+            {
+                "cited_text": "The admission tickets to the Singapore Zoo are $50 for an adult, $36 for a child, and $20 for a senior citizen. On a particular Tuesday, there were 212 adults, 251 children, and 15 senior citizens who visited the Singapore Zoo and on a particular Wednesday, there were 231 adults, 266 children, and 12 senior citizens who visited the Singapore Zoo. The number of visitors on the particular Tuesday and Wednesday can be represented by the matrix V = \\begin{pmatrix} 212 & 251 & 15 \\\\ 231 & 266 & 12 \\end{pmatrix}. \\text{ (i) Write a } 3 \\times 1 \\text{ matrix, P, to represent the price of the admission tickets. (ii) Find the matrix } T = VP. \\text{ (iii) Explain what each of the elements represents. (iv) Find the total amount collected from the sales of the tickets for the 2 days.}",
+                "score": 1,
+                "gpt4o_score": 1
+            }
+        ]
+    },
+    {
+        "generated_question": "A movie theater sells tickets for $10, $8, and $6 for adults, children, and seniors, respectively. On Saturday, 150 adults, 225 children, and 30 seniors visited the theater, while on Sunday, 180 adults, 200 children, and 40 seniors attended. Represent this scenario with matrices and calculate the total revenue for each day.\n\n(i) Define a 3x1 matrix, \\( T \\), to represent the ticket prices for adults, children, and seniors.\n\n(ii) Let \\( V = \\begin{bmatrix} 150 & 225 & 30 \\\\ 180 & 200 & 40 \\end{bmatrix} \\). Find the matrix \\( R = VT \\) and interpret its elements.",
+        "citations": [
+            {
+                "cited_text": "The admission tickets to the Singapore Zoo are $50 for an adult, $36 for a child, and $20 for a senior citizen. On a particular Tuesday, there were 212 adults, 251 children, and 15 senior citizens who visited the Singapore Zoo and on a particular Wednesday, there were 231 adults, 266 children, and 12 senior citizens who visited the Singapore Zoo. The number of visitors on the particular Tuesday and Wednesday can be represented by the matrix V = \\begin{pmatrix} 212 & 251 & 15 \\\\ 231 & 266 & 12 \\end{pmatrix}. \\text{ (i) Write a } 3 \\times 1 \\text{ matrix, P, to represent the price of the admission tickets. (ii) Find the matrix } T = VP. \\text{ (iii) Explain what each of the elements represents. (iv) Find the total amount collected from the sales of the tickets for the 2 days.}",
+                "score": 1,
+                "gpt4o_score": 1
+            }
+        ]
+    },
+    {
+        "generated_question": "Alex records the daily high temperatures, in degrees Celsius, for a month. The temperatures he noted are as follows: \\[ \\begin{array}{cccccc} 12 & 14 & 14 & 15 & 15 & 15 \\\\ 16 & 16 & 16 & 17 & 17 & 18 \\\\ 18 & 18 & 19 & 20 & 21 & 21 \\\\ 21 & 22 & 23 & 23 & 24 & 24 \\\\ 24 & 25 & 26 & 27 & 28 & 28 \\\\ 29 \\end{array} \\] Calculate the mean, median, and mode of the recorded temperatures.",
+        "citations": [
+            {
+                "cited_text": "Ethan measures the amount of rain, in millimetres (mm), each day for 31 days. The bar chart shows his results. \n\n(a) Write down the median amount of rain.",
+                "score": 1,
+                "gpt4o_score": 1
+            },
+            {
+                "cited_text": "(b) Find the mean amount of rain per day.",
+                "score": 1,
+                "gpt4o_score": 0
+            },
+            {
+                "cited_text": "Tristen has written five positive integers. The median of these numbers is 8, the mode is 7 and the mean is 13. The range of these numbers is 21. Find the five numbers.",
+                "score": 0,
+                "gpt4o_score": 0
+            }
+        ]
+    },
+    {
+        "generated_question": "In a town, the average temperature (in degrees Celsius) over 30 days was recorded and plotted in a line graph. \n\nThe data is shown below:\n\n- Temperature (\u00b0C): \\[10, 12, 15, 14, x, 12, 13, 12, 14, 15, 16, 14, 15, 14, 12, 13, 15, x, 12, 13, 12, 14, 15, 16, 13, 15, x, 12, 14, 13\\]\n\nIf the mean temperature is 14\u00b0C, find the median and the mode of the temperatures.",
+        "citations": [
+            {
+                "cited_text": "Ethan measures the amount of rain, in millimetres (mm), each day for 31 days. The bar chart shows his results. \n\n(a) Write down the median amount of rain.",
+                "score": 1,
+                "gpt4o_score": 0
+            },
+            {
+                "cited_text": "(b) Find the mean amount of rain per day.",
+                "score": 1,
+                "gpt4o_score": 0
+            },
+            {
+                "cited_text": "Tristen has written five positive integers. The median of these numbers is 8, the mode is 7 and the mean is 13. The range of these numbers is 21. Find the five numbers.",
+                "score": 1,
+                "gpt4o_score": 0
+            }
+        ]
+    },
+    {
+        "generated_question": "A horticulturist records the number of blooming flowers in her garden each week for 15 weeks. The sequence is as follows:\n\n\\[ 4, 7, 7, 9, 10, 10, 10, 12, 13, 14, 15, 15, 16, 18, 20 \\]\n\nFind the mean, median, and mode number of blooming flowers over these weeks.",
+        "citations": [
+            {
+                "cited_text": "Ethan measures the amount of rain, in millimetres (mm), each day for 31 days. The bar chart shows his results. \n\n(a) Write down the median amount of rain.",
+                "score": 1,
+                "gpt4o_score": 1
+            },
+            {
+                "cited_text": "(b) Find the mean amount of rain per day.",
+                "score": 1,
+                "gpt4o_score": 0
+            }
+        ]
+    },
+    {
+        "generated_question": "In a class of 30 students, each student's score in a mathematics test out of 100 is recorded below. The scores are grouped into intervals: 40-49, 50-59, 60-69, 70-79, 80-89, 90-100. The frequency of each group is as follows:\n\n\\[\n\\begin{array}{|c|c|}\n\\hline\n\\text{Score Interval} & \\text{Frequency} \\\\\n\\hline\n40-49 & 3 \\\\\n50-59 & 7 \\\\\n60-69 & 8 \\\\\n70-79 & 5 \\\\\n80-89 & 4 \\\\\n90-100 & 3 \\\\\n\\hline\n\\end{array}\n\\]\n\nCalculate the mean, median, and mode of the scores.",
+        "citations": [
+            {
+                "cited_text": "Ethan measures the amount of rain, in millimetres (mm), each day for 31 days. The bar chart shows his results. \n\n(a) Write down the median amount of rain.",
+                "score": 1,
+                "gpt4o_score": 0
+            },
+            {
+                "cited_text": "(b) Find the mean amount of rain per day.",
+                "score": 1,
+                "gpt4o_score": 0
+            },
+            {
+                "cited_text": "Tristen has written five positive integers. The median of these numbers is 8, the mode is 7 and the mean is 13. The range of these numbers is 21. Find the five numbers.",
+                "score": 0,
+                "gpt4o_score": 0
+            }
+        ]
+    },
+    {
+        "generated_question": "In the diagram, points \\( A, C, \\text{ and } D \\) are on a circle with center \\( O \\). Tangent \\( PQ \\) is drawn such that \\( PA \\) and \\( QC \\) are tangents to the circle. If \\( \\angle AOD = 110^\\circ \\) and \\( \\angle CAP = 30^\\circ \\), find the value of \\( \\angle ACD \\).",
+        "citations": [
+            {
+                "cited_text": "A, D, B, and C lie on a circle, center O. AP is a tangent to the circle at A and BP is a tangent to the circle at B. \\angle AOB = 142^\\circ \\text{ and } \\angle DAP = 42^\\circ. \\text{ (a) Find the value of (i) } \\angle ACB, \\text{ (ii) } \\angle ADB. \\text{ (b) Is OB parallel to AD? Explain.}",
+                "score": 1,
+                "gpt4o_score": 1
+            }
+        ]
+    },
+    {
+        "generated_question": "In the figure, points \\( P, Q, S , \\) and \\( T \\) lie on a circle with center \\( R \\). \\( ST \\) is a tangent to the circle at \\( S \\), and \\( UT \\) is a tangent to the circle at \\( T \\). Given that angle \\( \\angle SRT \\) is \\( 138^\\circ \\) and angle \\( \\angle URT = 48^\\circ \\), find the measure of angle \\( \\angle PQU \\).",
+        "citations": [
+            {
+                "cited_text": "A, D, B, and C lie on a circle, center O. AP is a tangent to the circle at A and BP is a tangent to the circle at B. \\angle AOB = 142^\\circ \\text{ and } \\angle DAP = 42^\\circ. \\text{ (a) Find the value of (i) } \\angle ACB, \\text{ (ii) } \\angle ADB. \\text{ (b) Is OB parallel to AD? Explain.}",
+                "score": 1,
+                "gpt4o_score": 1
+            },
+            {
+                "cited_text": "A, B, C \\text{ and } D \\text{ lie on a circle with centre } O \\text{ and radius } 5 \\text{ cm. } \\angle AOB = 1.8 \\text{ radians. }",
+                "score": 0,
+                "gpt4o_score": 0
+            },
+            {
+                "cited_text": "\\text{Write down an expression, in terms of } \\pi, \\text{ for the reflex angle } AOB.",
+                "score": 0,
+                "gpt4o_score": 0
+            }
+        ]
+    },
+    {
+        "generated_question": "In the diagram, points \\( E \\), \\( F \\), \\( G \\), and \\( H \\) lie on a circle with center \\( O \\). The line \\( EF \\) is a tangent to the circle at \\( E \\), and line \\( GH \\) is tangent to the circle at \\( G \\). If angle \\( EOF = 120^\\circ \\) and angle \\( EFH = 38^\\circ \\), find the value of angle \\( EGH \\).",
+        "citations": [
+            {
+                "cited_text": "A, D, B, and C lie on a circle, center O. AP is a tangent to the circle at A and BP is a tangent to the circle at B. \\angle AOB = 142^\\circ \\text{ and } \\angle DAP = 42^\\circ. \\text{ (a) Find the value of (i) } \\angle ACB, \\text{ (ii) } \\angle ADB. \\text{ (b) Is OB parallel to AD? Explain.}",
+                "score": 1,
+                "gpt4o_score": 1
+            },
+            {
+                "cited_text": "A, B, C \\text{ and } D \\text{ lie on a circle with centre } O \\text{ and radius } 5 \\text{ cm. } \\angle AOB = 1.8 \\text{ radians. }",
+                "score": 0,
+                "gpt4o_score": 0
+            },
+            {
+                "cited_text": "\\text{Write down an expression, in terms of } \\pi, \\text{ for the reflex angle } AOB.",
+                "score": 0,
+                "gpt4o_score": 0
+            }
+        ]
+    },
+    {
+        "generated_question": "Jenny recorded the height, in centimeters, of different plants in her garden over a week. The results are displayed below:\n\n\\[\n\\begin{array}{|c|c|c|c|c|c|c|c|}\n\\hline\n\\text{Height (cm)} & 10 & 15 & 20 & 25 & 30 & 35 & 40 \\\\\n\\hline\n\\text{Frequency} & 5 & 7 & x & 6 & y & 8 & 3 \\\\\n\\hline\n\\end{array}\n\\]\n\nThe mean height is 25 cm. Determine the median and mode of the plant heights.",
+        "citations": [
+            {
+                "cited_text": "Ethan measures the amount of rain, in millimetres (mm), each day for 31 days. The bar chart shows his results. \n\n(a) Write down the median amount of rain.",
+                "score": 1,
+                "gpt4o_score": 0
+            },
+            {
+                "cited_text": "(b) Find the mean amount of rain per day.",
+                "score": 1,
+                "gpt4o_score": 0
+            },
+            {
+                "cited_text": "Tristen has written five positive integers. The median of these numbers is 8, the mode is 7 and the mean is 13. The range of these numbers is 21. Find the five numbers.",
+                "score": 0,
+                "gpt4o_score": 0
+            }
+        ]
+    },
+    {
+        "generated_question": "A circle has center \\( O \\), and points \\( A \\), \\( B \\), and \\( C \\) lie on the circle forming triangle \\( ABC \\). Given that \\( \\angle AOB = 128^\\circ \\) and \\( D \\) is a point such that \\( OD \\) is a diameter of the circle. If \\( P \\) is the point of intersection of tangent lines to the circle at \\( A \\) and \\( B \\), find \\( \\angle ACB \\).",
+        "citations": [
+            {
+                "cited_text": "A, D, B, and C lie on a circle, center O. AP is a tangent to the circle at A and BP is a tangent to the circle at B. \\angle AOB = 142^\\circ \\text{ and } \\angle DAP = 42^\\circ. \\text{ (a) Find the value of (i) } \\angle ACB, \\text{ (ii) } \\angle ADB. \\text{ (b) Is OB parallel to AD? Explain.}",
+                "score": 1,
+                "gpt4o_score": 1
+            }
+        ]
+    },
+    {
+        "generated_question": "In the diagram, points \\( P, Q, R, \\) and \\( S \\) lie on a circle with center \\( O \\). \\( PQ \\) is a tangent to the circle at \\( P \\) and angle \\( QRO = 148^\\circ \\). If angle \\( POS = 96^\\circ \\), find the measure of angle \\( PRQ \\).",
+        "citations": [
+            {
+                "cited_text": "A, D, B, and C lie on a circle, center O. AP is a tangent to the circle at A and BP is a tangent to the circle at B. \\angle AOB = 142^\\circ \\text{ and } \\angle DAP = 42^\\circ. \\text{ (a) Find the value of (i) } \\angle ACB, \\text{ (ii) } \\angle ADB. \\text{ (b) Is OB parallel to AD? Explain.}",
+                "score": 1,
+                "gpt4o_score": 0
+            }
+        ]
+    },
+    {
+        "generated_question": "A car accelerates uniformly from rest. The speed-time graph shows speed in m/s on the vertical axis and time in seconds on the horizontal axis. The speed reaches 25 m/s in the first 5 seconds, remains constant for the next 10 seconds, and then decelerates to rest in 5 seconds.\\n\\n(a) Find the acceleration during the first 5 seconds.\\n\\n(b) Find the total distance travelled by the car in the entire journey.",
+        "citations": [
+            {
+                "cited_text": "The diagram is the speed-time graph for the first k seconds of the motion of an object. (a) Find the acceleration when \\( t = 5 \\).",
+                "score": 1,
+                "gpt4o_score": 1
+            },
+            {
+                "cited_text": "(b) Find the distance travelled in the first 10 seconds.",
+                "score": 1,
+                "gpt4o_score": 1
+            },
+            {
+                "cited_text": "(c) The distance travelled in the first k seconds is 520 m. Find the value of k.",
+                "score": 1,
+                "gpt4o_score": 1
+            }
+        ]
+    },
+    {
+        "generated_question": "The diagram is a speed-time graph for the first \\( n \\) seconds of the motion of an object. The speed increases at a constant rate from 0 to 30 m/s in the first 3 seconds, then remains constant for the next 2 seconds, and finally decreases to 0 m/s in the last 5 seconds. \n(a) Find the acceleration during the first 3 seconds.\n(b) Calculate the total distance traveled by the object in the first 10 seconds.",
+        "citations": [
+            {
+                "cited_text": "The diagram is the speed-time graph for the first k seconds of the motion of an object. (a) Find the acceleration when \\( t = 5 \\).",
+                "score": 1,
+                "gpt4o_score": 1
+            },
+            {
+                "cited_text": "(b) Find the distance travelled in the first 10 seconds.",
+                "score": 1,
+                "gpt4o_score": 1
+            },
+            {
+                "cited_text": "(c) The distance travelled in the first k seconds is 520 m. Find the value of k.",
+                "score": 1,
+                "gpt4o_score": 0
+            }
+        ]
+    },
+    {
+        "generated_question": "An object moves with the speed-time profile depicted as follows: for the first 4 seconds, the object accelerates uniformly from rest to 30 m/s; it then maintains a constant velocity of 30 m/s for the next 4 seconds before decelerating uniformly to rest over the next 4 seconds.\\\n\\(a)\\) Find the object's acceleration during the first 4 seconds.\\\n\\(b)\\) Calculate the total distance traveled by the object over the 12-second period.",
+        "citations": [
+            {
+                "cited_text": "The diagram is the speed-time graph for the first k seconds of the motion of an object. (a) Find the acceleration when \\( t = 5 \\).",
+                "score": 1,
+                "gpt4o_score": 1
+            },
+            {
+                "cited_text": "(b) Find the distance travelled in the first 10 seconds.",
+                "score": 1,
+                "gpt4o_score": 1
+            },
+            {
+                "cited_text": "(c) The distance travelled in the first k seconds is 520 m. Find the value of k.",
+                "score": 1,
+                "gpt4o_score": 0
+            }
+        ]
+    },
+    {
+        "generated_question": "A car starts from rest and accelerates uniformly to a speed of \\(60\\text{ m/s}\\) over \\(15\\text{ seconds}\\). The car then continues at a constant speed for \\(5\\text{ seconds}\\), abruptly decelerates to \\(20\\text{ m/s}\\) over \\(10\\text{ seconds}\\), and finally slows steadily to a stop in \\(10\\text{ seconds}\\). \\text{(a)} Calculate the car's acceleration during the first \\(15\\text{ seconds}\\). \\text{(b)} Determine the total distance traveled by the car in the first \\(40\\text{ seconds}\\).",
+        "citations": [
+            {
+                "cited_text": "The diagram is the speed-time graph for the first k seconds of the motion of an object. (a) Find the acceleration when \\( t = 5 \\).",
+                "score": 1,
+                "gpt4o_score": 1
+            },
+            {
+                "cited_text": "(b) Find the distance travelled in the first 10 seconds.",
+                "score": 1,
+                "gpt4o_score": 1
+            },
+            {
+                "cited_text": "(c) The distance travelled in the first k seconds is 520 m. Find the value of k.",
+                "score": 1,
+                "gpt4o_score": 0
+            }
+        ]
+    },
+    {
+        "generated_question": "A box contains 50 marbles: 10 are red, 25 are blue, and 15 are green. Riley picks one marble at random. What is the probability that Riley picks a marble that is not red?",
+        "citations": [
+            {
+                "cited_text": "A drawer contains 40 balls. 15 balls are black, 5 balls are grey and 20 balls are white. Samuel chooses one ball from the drawer at random. (a) Find the probability that the ball is not black.",
+                "score": 1,
+                "gpt4o_score": 1
+            },
+            {
+                "cited_text": "Samuel adds a few more grey balls. The probability of choosing a grey ball is now \\( \\frac{2}{7} \\). (b) Find the number of grey balls he added.",
+                "score": 0,
+                "gpt4o_score": 0
+            }
+        ]
+    },
+    {
+        "generated_question": "A box contains 25 cards. 10 cards are red, 8 cards are blue, and the rest are green. A card is chosen at random from the box. Calculate the probability that the card chosen is either red or green.",
+        "citations": [
+            {
+                "cited_text": "(c) Ethan picks one of these days at random. Find the probability that, on that day, the amount of rain was 3 mm or more.",
+                "score": 0,
+                "gpt4o_score": 0
+            },
+            {
+                "cited_text": "A drawer contains 40 balls. 15 balls are black, 5 balls are grey and 20 balls are white. Samuel chooses one ball from the drawer at random. (a) Find the probability that the ball is not black.",
+                "score": 1,
+                "gpt4o_score": 1
+            },
+            {
+                "cited_text": "Samuel adds a few more grey balls. The probability of choosing a grey ball is now \\( \\frac{2}{7} \\). (b) Find the number of grey balls he added.",
+                "score": 0,
+                "gpt4o_score": 0
+            }
+        ]
+    },
+    {
+        "generated_question": "A library has three sections: Fiction, Non-Fiction, and Science. The Fiction section contains 20 books, the Non-Fiction section contains 15 books, and the Science section contains 25 books. Sarah randomly picks a book.\n\n(a) What is the probability that the book is not from the Science section?",
+        "citations": [
+            {
+                "cited_text": "A drawer contains 40 balls. 15 balls are black, 5 balls are grey and 20 balls are white. Samuel chooses one ball from the drawer at random. (a) Find the probability that the ball is not black.",
+                "score": 1,
+                "gpt4o_score": 1
+            },
+            {
+                "cited_text": "Samuel adds a few more grey balls. The probability of choosing a grey ball is now \\( \\frac{2}{7} \\). (b) Find the number of grey balls he added.",
+                "score": 0,
+                "gpt4o_score": 0
+            }
+        ]
+    },
+    {
+        "generated_question": "A jar contains 40 marbles. 10 marbles are red, 15 are green, and 15 are blue. If one marble is randomly selected from the jar, what is the probability that it is either green or blue?",
+        "citations": [
+            {
+                "cited_text": "(c) Ethan picks one of these days at random. Find the probability that, on that day, the amount of rain was 3 mm or more.",
+                "score": 1,
+                "gpt4o_score": 0
+            },
+            {
+                "cited_text": "A drawer contains 40 balls. 15 balls are black, 5 balls are grey and 20 balls are white. Samuel chooses one ball from the drawer at random. (a) Find the probability that the ball is not black.",
+                "score": 1,
+                "gpt4o_score": 1
+            },
+            {
+                "cited_text": "Samuel adds a few more grey balls. The probability of choosing a grey ball is now \\( \\frac{2}{7} \\). (b) Find the number of grey balls he added.",
+                "score": 0,
+                "gpt4o_score": 0
+            }
+        ]
+    },
+    {
+        "generated_question": "A car accelerates from rest at a constant rate. Its speed-time graph shows that the speed reaches 20 m/s in 4 seconds and then remains constant for an additional 6 seconds. \\[ \\text{(a) Calculate the acceleration during the first 4 seconds.} \\] \\[ \\text{(b) Determine the total distance traveled in the first 10 seconds.} \\]",
+        "citations": [
+            {
+                "cited_text": "The diagram is the speed-time graph for the first k seconds of the motion of an object. (a) Find the acceleration when \\( t = 5 \\).",
+                "score": 1,
+                "gpt4o_score": 1
+            },
+            {
+                "cited_text": "(b) Find the distance travelled in the first 10 seconds.",
+                "score": 1,
+                "gpt4o_score": 1
+            }
+        ]
+    },
+    {
+        "generated_question": "A jar contains a mix of candies: 8 are cherry flavored, 12 are lemon flavored, and 10 are strawberry flavored. If Maria selects one candy at random from this jar, what is the probability that it is not cherry flavored?",
+        "citations": [
+            {
+                "cited_text": "(c) Ethan picks one of these days at random. Find the probability that, on that day, the amount of rain was 3 mm or more.",
+                "score": 1,
+                "gpt4o_score": 0
+            },
+            {
+                "cited_text": "A drawer contains 40 balls. 15 balls are black, 5 balls are grey and 20 balls are white. Samuel chooses one ball from the drawer at random. (a) Find the probability that the ball is not black.",
+                "score": 1,
+                "gpt4o_score": 1
+            },
+            {
+                "cited_text": "Samuel adds a few more grey balls. The probability of choosing a grey ball is now \\( \\frac{2}{7} \\). (b) Find the number of grey balls he added.",
+                "score": 0,
+                "gpt4o_score": 0
+            }
+        ]
+    },
+    {
+        "generated_question": "Solve the simultaneous equations:\n\\[ 5x - 4y = 9 \\]\n\\[ 3x + 2y = 7 \\]",
+        "citations": [
+            {
+                "cited_text": "Solve the simultaneous equations: \\( 7x + 2y = 8 \\) and \\( 3x - y = 3 \\).",
+                "score": 1,
+                "gpt4o_score": 1
+            },
+            {
+                "cited_text": "ABC is an equilateral triangle with lengths \\((5x + y)\\) cm, \\((16y - x)\\) cm and \\((4x + 5 - 3y)\\) cm. (a) Write down two simultaneous equations, in terms of \\(x\\) and \\(y\\), to represent this information.",
+                "score": 1,
+                "gpt4o_score": 0
+            },
+            {
+                "cited_text": "(b) Solve the simultaneous equations and hence find the area of triangle ABC.",
+                "score": 0,
+                "gpt4o_score": 1
+            }
+        ]
+    },
+    {
+        "generated_question": "Solve the simultaneous equations.\n\\[ 4x + 3y = 10 \\]\n\\[ 3x - 5y = -7 \\]",
+        "citations": [
+            {
+                "cited_text": "Solve the simultaneous equations: \\( 7x + 2y = 8 \\) and \\( 3x - y = 3 \\).",
+                "score": 1,
+                "gpt4o_score": 1
+            },
+            {
+                "cited_text": "ABC is an equilateral triangle with lengths \\((5x + y)\\) cm, \\((16y - x)\\) cm and \\((4x + 5 - 3y)\\) cm. (a) Write down two simultaneous equations, in terms of \\(x\\) and \\(y\\), to represent this information.",
+                "score": 0,
+                "gpt4o_score": 0
+            },
+            {
+                "cited_text": "(b) Solve the simultaneous equations and hence find the area of triangle ABC.",
+                "score": 0,
+                "gpt4o_score": 1
+            }
+        ]
+    },
+    {
+        "generated_question": "Solve the following simultaneous equations for \\(x\\) and \\(y\\):\n\\[ 5x - 2y = 10 \\]\n\\[ 3x + 4y = 20 \\]",
+        "citations": [
+            {
+                "cited_text": "Solve the simultaneous equations: \\( 7x + 2y = 8 \\) and \\( 3x - y = 3 \\).",
+                "score": 1,
+                "gpt4o_score": 0
+            },
+            {
+                "cited_text": "ABC is an equilateral triangle with lengths \\((5x + y)\\) cm, \\((16y - x)\\) cm and \\((4x + 5 - 3y)\\) cm. (a) Write down two simultaneous equations, in terms of \\(x\\) and \\(y\\), to represent this information.",
+                "score": 0,
+                "gpt4o_score": 0
+            },
+            {
+                "cited_text": "(b) Solve the simultaneous equations and hence find the area of triangle ABC.",
+                "score": 0,
+                "gpt4o_score": 1
+            }
+        ]
+    },
+    {
+        "generated_question": "Solve the simultaneous equations using the method of elimination:\n\\[ 3x + 5y = 17 \\]\n\\[ 5x - 2y = 4 \\]",
+        "citations": [
+            {
+                "cited_text": "Solve the simultaneous equations: \\( 7x + 2y = 8 \\) and \\( 3x - y = 3 \\).",
+                "score": 1,
+                "gpt4o_score": 1
+            },
+            {
+                "cited_text": "ABC is an equilateral triangle with lengths \\((5x + y)\\) cm, \\((16y - x)\\) cm and \\((4x + 5 - 3y)\\) cm. (a) Write down two simultaneous equations, in terms of \\(x\\) and \\(y\\), to represent this information.",
+                "score": 0,
+                "gpt4o_score": 0
+            },
+            {
+                "cited_text": "(b) Solve the simultaneous equations and hence find the area of triangle ABC.",
+                "score": 0,
+                "gpt4o_score": 1
+            }
+        ]
+    },
+    {
+        "generated_question": "Solve the simultaneous equations by elimination:\n\\[ 4x + 9y = 19 \\]\n\\[ 3x - 2y = 11 \\]",
+        "citations": [
+            {
+                "cited_text": "Solve the simultaneous equations: \\( 7x + 2y = 8 \\) and \\( 3x - y = 3 \\).",
+                "score": 1,
+                "gpt4o_score": 1
+            },
+            {
+                "cited_text": "ABC is an equilateral triangle with lengths \\((5x + y)\\) cm, \\((16y - x)\\) cm and \\((4x + 5 - 3y)\\) cm. (a) Write down two simultaneous equations, in terms of \\(x\\) and \\(y\\), to represent this information.",
+                "score": 0,
+                "gpt4o_score": 0
+            },
+            {
+                "cited_text": "(b) Solve the simultaneous equations and hence find the area of triangle ABC.",
+                "score": 0,
+                "gpt4o_score": 1
+            }
+        ]
+    },
+    {
+        "generated_question": "Rearrange this formula to solve for \\( v \\):  \n\\[d = \\frac{c}{5v+2} + \\frac{e}{3v}\\]",
+        "citations": [
+            {
+                "cited_text": "Given that 2^{32} \\times 1 = 6 \\times 8^x, \\text{ find the value of } x.",
+                "score": 1,
+                "gpt4o_score": 0
+            },
+            {
+                "cited_text": "Given \\( a = 2bv + xk \\), find \\( x \\) when \\( a = 2 \\), \\( b = 3 \\), \\( v = -4 \\), and \\( k = 5 \\).",
+                "score": 0,
+                "gpt4o_score": 0
+            }
+        ]
+    },
+    {
+        "generated_question": "Rearrange the equation \\( \\frac{m}{3x+4} = \\frac{n}{7x} \\) to make \\( x \\) the subject.",
+        "citations": [
+            {
+                "cited_text": "Given that 2^{32} \\times 1 = 6 \\times 8^x, \\text{ find the value of } x.",
+                "score": 1,
+                "gpt4o_score": 0
+            }
+        ]
+    },
+    {
+        "generated_question": "Given the formula \\( y = \\frac{mx + c}{d} \\), rearrange this equation to make \\( x \\) the subject.",
+        "citations": [
+            {
+                "cited_text": "Given that 2^{32} \\times 1 = 6 \\times 8^x, \\text{ find the value of } x.",
+                "score": 1,
+                "gpt4o_score": 0
+            }
+        ]
+    },
+    {
+        "generated_question": "Rearrange the equation \\( \\frac{p}{3x+4} = \\frac{q}{7x} \\) to make \\( x \\) the subject.",
+        "citations": [
+            {
+                "cited_text": "Given that 2^{32} \\times 1 = 6 \\times 8^x, \\text{ find the value of } x.",
+                "score": 1,
+                "gpt4o_score": 0
+            }
+        ]
+    },
+    {
+        "generated_question": "Rearrange the following equation to make \\( x \\) the subject:\n\n\\[ \\frac{c}{3x+2} = \\frac{d}{4x-5} \\]",
+        "citations": [
+            {
+                "cited_text": "Given that 2^{32} \\times 1 = 6 \\times 8^x, \\text{ find the value of } x.",
+                "score": 1,
+                "gpt4o_score": 0
+            }
+        ]
+    },
+    {
+        "generated_question": "Concert tickets are sold for a local music festival at $70 for an adult, $45 for a child, and $25 for a student. On a particular Thursday, there were 180 adults, 140 children, and 30 students who attended the festival. On the following Friday, the numbers were 200 adults, 160 children, and 45 students. The attendance for these days is represented by the matrix \\( A = \\begin{pmatrix} 180 & 140 & 30 \\\\ 200 & 160 & 45 \\end{pmatrix} \\). \\( \\text{(i) Construct a } 3 \\times 1 \\text{ matrix, } C, \\text{ representing the ticket prices. (ii) Compute the matrix } B = AC. \\text{ (iii) Explain the significance of each element in } B. \\text{ (iv) Calculate the total revenue from ticket sales over the two days.}",
+        "citations": [
+            {
+                "cited_text": "The admission tickets to the Singapore Zoo are $50 for an adult, $36 for a child, and $20 for a senior citizen. On a particular Tuesday, there were 212 adults, 251 children, and 15 senior citizens who visited the Singapore Zoo and on a particular Wednesday, there were 231 adults, 266 children, and 12 senior citizens who visited the Singapore Zoo. The number of visitors on the particular Tuesday and Wednesday can be represented by the matrix V = \\begin{pmatrix} 212 & 251 & 15 \\\\ 231 & 266 & 12 \\end{pmatrix}. \\text{ (i) Write a } 3 \\times 1 \\text{ matrix, P, to represent the price of the admission tickets. (ii) Find the matrix } T = VP. \\text{ (iii) Explain what each of the elements represents. (iv) Find the total amount collected from the sales of the tickets for the 2 days.}",
+                "score": 1,
+                "gpt4o_score": 0
+            }
+        ]
+    },
+    {
+        "generated_question": "John has 180 bananas, 240 strawberries, and 300 blueberries. He wants to pack them into identical bags. \\((i)\\) What is the largest possible number of bags that can be packed? \\((ii)\\) State the number of each fruit in a bag.",
+        "citations": [
+            {
+                "cited_text": "(ii) State the number of each fruit in a fruit basket.",
+                "score": 1,
+                "gpt4o_score": 1
+            },
+            {
+                "cited_text": "Mary needs to pack 210 oranges, 252 apples and 294 pears into identical fruit baskets. (i) What is the largest possible number of fruit baskets that can be packed?",
+                "score": 1,
+                "gpt4o_score": 1
+            }
+        ]
+    },
+    {
+        "generated_question": "Sarah recorded the number of hours she spent reading each week for 9 weeks. The data she collected is shown in the following ordered list: \\[ 3.5, 4, 5.5, 6, 6.5, 7, 8, 9, 10 \\] Write down the median number of hours Sarah spent reading.",
+        "citations": [
+            {
+                "cited_text": "Ethan measures the amount of rain, in millimetres (mm), each day for 31 days. The bar chart shows his results. \n\n(a) Write down the median amount of rain.",
+                "score": 1,
+                "gpt4o_score": 1
+            }
+        ]
+    },
+    {
+        "generated_question": "P, Q, R, and S are four points on a circle with center X. PQ is a tangent to the circle at P and RQ is a tangent to the circle at R. Given that \\( \\angle PXQ = 148^\\circ \\) and \\( \\angle SPR = 38^\\circ\\), find the following: (a) Calculate (i) \\( \\angle PSR \\), (ii) \\( \\angle QPR \\). (b) Determine if XR is parallel to PS. Justify your reasoning.",
+        "citations": [
+            {
+                "cited_text": "A, D, B, and C lie on a circle, center O. AP is a tangent to the circle at A and BP is a tangent to the circle at B. \\angle AOB = 142^\\circ \\text{ and } \\angle DAP = 42^\\circ. \\text{ (a) Find the value of (i) } \\angle ACB, \\text{ (ii) } \\angle ADB. \\text{ (b) Is OB parallel to AD? Explain.}",
+                "score": 1,
+                "gpt4o_score": 1
+            }
+        ]
+    },
+    {
+        "generated_question": "A speed-time graph depicts the journey of a cyclist accelerating from rest. It is a straight line passing through the origin, reaching a speed of 25 m/s at t = 10 seconds. (a) Calculate the acceleration of the cyclist at t = 6 seconds.",
+        "citations": [
+            {
+                "cited_text": "The diagram is the speed-time graph for the first k seconds of the motion of an object. (a) Find the acceleration when \\( t = 5 \\).",
+                "score": 1,
+                "gpt4o_score": 0
+            }
+        ]
+    }
+]

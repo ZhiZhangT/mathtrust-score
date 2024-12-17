@@ -1,0 +1,82 @@
+{
+    "(False, 1, False)": {
+        "citation_rec": 86.11111111111111,
+        "citation_prec": 94.44444444444444,
+        "citation_f1": 90.08547008547009
+    },
+    "(False, 1, True)": {
+        "citation_rec": 66.66666666666666,
+        "citation_prec": 61.111111111111114,
+        "citation_f1": 63.76811594202899
+    },
+    "(False, 2, False)": {
+        "citation_rec": 71.42857142857143,
+        "citation_prec": 65.71428571428571,
+        "citation_f1": 68.45238095238095
+    },
+    "(False, 2, True)": {
+        "citation_rec": 69.44444444444444,
+        "citation_prec": 59.72222222222222,
+        "citation_f1": 64.21744324970132
+    },
+    "(False, 3, False)": {
+        "citation_rec": 65.71428571428571,
+        "citation_prec": 59.523809523809526,
+        "citation_f1": 62.46605105920695
+    },
+    "(False, 3, True)": {
+        "citation_rec": 61.111111111111114,
+        "citation_prec": 48.148148148148145,
+        "citation_f1": 53.86064030131826
+    },
+    "(False, 4, False)": {
+        "citation_rec": 69.44444444444444,
+        "citation_prec": 53.24074074074075,
+        "citation_f1": 60.27253668763103
+    },
+    "(False, 4, True)": {
+        "citation_rec": 69.44444444444444,
+        "citation_prec": 64.12037037037037,
+        "citation_f1": 66.67629501251685
+    },
+    "(True, 1, False)": {
+        "citation_rec": 41.66666666666667,
+        "citation_prec": 44.44444444444444,
+        "citation_f1": 43.01075268817204
+    },
+    "(True, 1, True)": {
+        "citation_rec": 41.66666666666667,
+        "citation_prec": 38.88888888888889,
+        "citation_f1": 40.229885057471265
+    },
+    "(True, 2, False)": {
+        "citation_rec": 55.55555555555556,
+        "citation_prec": 38.88888888888889,
+        "citation_f1": 45.751633986928105
+    },
+    "(True, 2, True)": {
+        "citation_rec": 41.66666666666667,
+        "citation_prec": 36.11111111111111,
+        "citation_f1": 38.69047619047619
+    },
+    "(True, 3, False)": {
+        "citation_rec": 63.888888888888886,
+        "citation_prec": 34.25925925925926,
+        "citation_f1": 44.60167714884696
+    },
+    "(True, 3, True)": {
+        "citation_rec": 58.333333333333336,
+        "citation_prec": 37.96296296296296,
+        "citation_f1": 45.99358974358974
+    },
+    "(True, 4, False)": {
+        "citation_rec": 68.57142857142857,
+        "citation_prec": 40.71428571428571,
+        "citation_f1": 51.09243697478991
+    },
+    "(True, 4, True)": {
+        "citation_rec": 75.0,
+        "citation_prec": 45.83333333333333,
+        "citation_f1": 56.896551724137936
+    }
+}

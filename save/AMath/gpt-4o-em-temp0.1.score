@@ -1,0 +1,20 @@
+{
+    "answered_num": 25,
+    "answerable_num": 25,
+    "overlapped_num": 25,
+    "regular_length": 28.44,
+    "answered_length": 53.88,
+    "reject_rec": 100.0,
+    "reject_prec": 100.0,
+    "reject_f1": 100.0,
+    "answerable_rec": 100.0,
+    "answerable_prec": 100.0,
+    "answerable_f1": 100.0,
+    "macro_avg": 100.0,
+    "macro_f1": 100.0,
+
+    
+    "citation_rec": 100.0,
+    "citation_prec": 21.504761904761914,
+    "citation_f1": 35.39739771124001
+}

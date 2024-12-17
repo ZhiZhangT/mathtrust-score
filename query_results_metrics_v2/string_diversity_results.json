@@ -1,0 +1,66 @@
+{
+    "(False, 1, False)": {
+        "damerau_levenshtein_avg": 0.5301238036989334,
+        "jaro_winkler_avg": 0.2726459698495806
+    },
+    "(False, 1, True)": {
+        "damerau_levenshtein_avg": 0.5987697131610795,
+        "jaro_winkler_avg": 0.2874572162097641
+    },
+    "(False, 2, False)": {
+        "damerau_levenshtein_avg": 0.613509420756076,
+        "jaro_winkler_avg": 0.3122203885346307
+    },
+    "(False, 2, True)": {
+        "damerau_levenshtein_avg": 0.6861243363465646,
+        "jaro_winkler_avg": 0.34660558193130986
+    },
+    "(False, 3, False)": {
+        "damerau_levenshtein_avg": 0.6183104551410306,
+        "jaro_winkler_avg": 0.3212183913662756
+    },
+    "(False, 3, True)": {
+        "damerau_levenshtein_avg": 0.6637922267556979,
+        "jaro_winkler_avg": 0.3285041802380286
+    },
+    "(False, 4, False)": {
+        "damerau_levenshtein_avg": 0.6220952078262695,
+        "jaro_winkler_avg": 0.30813226921266773
+    },
+    "(False, 4, True)": {
+        "damerau_levenshtein_avg": 0.6125928117812158,
+        "jaro_winkler_avg": 0.30783776309282107
+    },
+    "(True, 1, False)": {
+        "damerau_levenshtein_avg": 0.5996655627993822,
+        "jaro_winkler_avg": 0.284516070667102
+    },
+    "(True, 1, True)": {
+        "damerau_levenshtein_avg": 0.6174119798383518,
+        "jaro_winkler_avg": 0.2979685542302301
+    },
+    "(True, 2, False)": {
+        "damerau_levenshtein_avg": 0.7283580343645485,
+        "jaro_winkler_avg": 0.35673461867427747
+    },
+    "(True, 2, True)": {
+        "damerau_levenshtein_avg": 0.7223123145297841,
+        "jaro_winkler_avg": 0.3526997790031408
+    },
+    "(True, 3, False)": {
+        "damerau_levenshtein_avg": 0.7137506900839344,
+        "jaro_winkler_avg": 0.36448144311746217
+    },
+    "(True, 3, True)": {
+        "damerau_levenshtein_avg": 0.6935659574591214,
+        "jaro_winkler_avg": 0.3366315653327676
+    },
+    "(True, 4, False)": {
+        "damerau_levenshtein_avg": 0.6885712076057434,
+        "jaro_winkler_avg": 0.34192229238993294
+    },
+    "(True, 4, True)": {
+        "damerau_levenshtein_avg": 0.699999704565438,
+        "jaro_winkler_avg": 0.3427920861128735
+    }
+}

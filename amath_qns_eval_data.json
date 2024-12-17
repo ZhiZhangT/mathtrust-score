@@ -1,0 +1,1936 @@
+{
+    "data": [
+        {
+            "question": "Could you provide me with practice problems on applications of the binomial theorem?",
+            "answers": [],
+            "docs": [
+                {
+                    "title": "674dcd3ab00b977d048c92e0",
+                    "text": "Using the substitution $z = \\frac{1}{x+1}$, write down all the terms in the expansion of $6[1 + (1 + x)]$, leaving each term in the form $(1 + x)^p$ where $k$ and $p$ are integers.",
+                    "answers_found": [
+                        1
+                    ]
+                },
+                {
+                    "title": "674dcd15b00b977d048c92b7",
+                    "text": "Write down the first four terms in the expansion of \\( (1 - 4x)^6 \\).",
+                    "answers_found": [
+                        1
+                    ]
+                },
+                {
+                    "title": "674dcd15b00b977d048c92b8",
+                    "text": "Hence find the coefficient of \\( x^3 \\) in the expansion of \\( (3x + 2)(1 - 4x)^6 \\).",
+                    "answers_found": [
+                        1
+                    ]
+                },
+                {
+                    "title": "674dcd16b00b977d048c92b9",
+                    "text": "Explain why there is no constant term in the expansion of \\( \\left( 12x + \\frac{3}{x} \\right)^{18} \\).",
+                    "answers_found": [
+                        1
+                    ]
+                },
+                {
+                    "title": "674dcd3bb00b977d048c92e2",
+                    "text": "Given that the coefficient of $x^2$ in the expansion of $(1 + 2x)^5(1 - px)$ is 20, find the two possible values of the constant $p$.",
+                    "answers_found": [
+                        1
+                    ]
+                },
+                {
+                    "title": "674dce8db00b977d048c93c6",
+                    "text": "Given that \\[ \\begin{pmatrix} 1 & 2 & 0 \\\\ 3 & 0 & 3 \\\\ 2 & 2 & 1 \\end{pmatrix} \\begin{pmatrix} x \\\\ y \\\\ 1 \\end{pmatrix} = \\begin{pmatrix} 5 \\\\ 13 \\\\ 4 \\end{pmatrix} \\], find the value of \\( x \\) and \\( y \\).",
+                    "answers_found": [
+                        0
+                    ]
+                }
+            ],
+            "output": "(a) Using the substitution z = 2 - x, write down the terms in the expansion of [1 + (2 - x)]^5, leaving each term in the form k(2-x)^q where k and q are integers.\n\n(ii) Hence show that the remainder when (3 - x)^5 is divided by 2 - x is 1.\n\n(b) Given that the coefficient of x^3 in the expansion of (1 - x)(2 + qx)^4 is 35, find the possible values of the constant q."
+        },
+        {
+            "question": "I need some exercises involving binomial theorem applications; can you help?",
+            "answers": [],
+            "docs": [
+                {
+                    "title": "674dcd3ab00b977d048c92e0",
+                    "text": "Using the substitution $z = \\frac{1}{x+1}$, write down all the terms in the expansion of $6[1 + (1 + x)]$, leaving each term in the form $(1 + x)^p$ where $k$ and $p$ are integers.",
+                    "answers_found": [
+                        1
+                    ]
+                },
+                {
+                    "title": "674dcd15b00b977d048c92b7",
+                    "text": "Write down the first four terms in the expansion of \\( (1 - 4x)^6 \\).",
+                    "answers_found": [
+                        1
+                    ]
+                },
+                {
+                    "title": "674dcd15b00b977d048c92b8",
+                    "text": "Hence find the coefficient of \\( x^3 \\) in the expansion of \\( (3x + 2)(1 - 4x)^6 \\).",
+                    "answers_found": [
+                        1
+                    ]
+                },
+                {
+                    "title": "674dcd16b00b977d048c92b9",
+                    "text": "Explain why there is no constant term in the expansion of \\( \\left( 12x + \\frac{3}{x} \\right)^{18} \\).",
+                    "answers_found": [
+                        1
+                    ]
+                },
+                {
+                    "title": "674dcd3bb00b977d048c92e2",
+                    "text": "Given that the coefficient of $x^2$ in the expansion of $(1 + 2x)^5(1 - px)$ is 20, find the two possible values of the constant $p$.",
+                    "answers_found": [
+                        1
+                    ]
+                },
+                {
+                    "title": "674dce91b00b977d048c93cf",
+                    "text": "Find, in terms of x, the matrix T = CD.",
+                    "answers_found": [
+                        0
+                    ]
+                },
+                {
+                    "title": "674dcd43b00b977d048c92f1",
+                    "text": "Find the radius of the circle and the coordinates of its centre.",
+                    "answers_found": [
+                        0
+                    ]
+                },
+                {
+                    "title": "674dcd43b00b977d048c92f2",
+                    "text": "State the equations of the horizontal tangents to the circle.",
+                    "answers_found": [
+                        0
+                    ]
+                },
+                {
+                    "title": "674dcd47b00b977d048c92fa",
+                    "text": "Use the graph to estimate the value of each of the constants \\( a \\) and \\( b \\).",
+                    "answers_found": [
+                        0
+                    ]
+                }
+            ],
+            "output": "(a) (i) Using the substitution z = 2 - x, write down all the terms in the expansion of [2 + (2 - x)]^5, leaving each term in the form k(2 - x)^p where k and p are integers. \n\n(ii) Hence show that the remainder when (4 - x)^5 is divided by 2 - x is 1.\n\n(b) Given that the coefficient of x^2 in the expansion of (2 + x)(1 - qx)^4 is 15, find the two possible values of the constant q."
+        },
+        {
+            "question": "Where can I find practice questions on applying the binomial theorem?",
+            "answers": [],
+            "docs": [
+                {
+                    "title": "674dcd3ab00b977d048c92e0",
+                    "text": "Using the substitution $z = \\frac{1}{x+1}$, write down all the terms in the expansion of $6[1 + (1 + x)]$, leaving each term in the form $(1 + x)^p$ where $k$ and $p$ are integers.",
+                    "answers_found": [
+                        1
+                    ]
+                },
+                {
+                    "title": "674dcd15b00b977d048c92b7",
+                    "text": "Write down the first four terms in the expansion of \\( (1 - 4x)^6 \\).",
+                    "answers_found": [
+                        1
+                    ]
+                },
+                {
+                    "title": "674dcd15b00b977d048c92b8",
+                    "text": "Hence find the coefficient of \\( x^3 \\) in the expansion of \\( (3x + 2)(1 - 4x)^6 \\).",
+                    "answers_found": [
+                        1
+                    ]
+                },
+                {
+                    "title": "674dcd16b00b977d048c92b9",
+                    "text": "Explain why there is no constant term in the expansion of \\( \\left( 12x + \\frac{3}{x} \\right)^{18} \\).",
+                    "answers_found": [
+                        1
+                    ]
+                },
+                {
+                    "title": "674dcd3bb00b977d048c92e2",
+                    "text": "Given that the coefficient of $x^2$ in the expansion of $(1 + 2x)^5(1 - px)$ is 20, find the two possible values of the constant $p$.",
+                    "answers_found": [
+                        1
+                    ]
+                },
+                {
+                    "title": "674dcd2ab00b977d048c92d5",
+                    "text": "After n years, the population, P, in thousands, of a certain species of foxes can be modeled by an equation \\( P = Ae^{kn} \\), where A and k are constants. The table below shows the values of n and P. \\( \\begin{array}{c|c} n & P \\\\ \\hline 5 & 6.23 \\\\ 10 & 4.85 \\\\ 15 & 3.78 \\\\ 20 & 2.94 \\\\ 25 & 2.29 \\end{array} \\) (a) On the grid on the next page, plot \\( \\ln P \\) against n and draw a straight line graph. (b) Use your graph to estimate the initial population of the foxes and the value of k. (c) If this model for the population remains valid, after how many whole years would the population of the foxes first decreased to 1000?",
+                    "answers_found": [
+                        0
+                    ]
+                }
+            ],
+            "output": "(a) (i) Using the substitution y = 1 - x, write down the terms in the expansion of [1 - (1-x)]^5, leaving each term in the form d(1-x)^q where d and q are integers. \n\n(ii) Hence show that the remainder when (3 - x)^5 is divided by 1 - x is 1.\n\n(b) Given that the coefficient of x^3 in the expansion of (1-3x)(1+qx)^4 is -45, find the possible values of the constant q."
+        },
+        {
+            "question": "Can I get some problems to practice the applications of the binomial theorem?",
+            "answers": [],
+            "docs": [
+                {
+                    "title": "674dcd3ab00b977d048c92e0",
+                    "text": "Using the substitution $z = \\frac{1}{x+1}$, write down all the terms in the expansion of $6[1 + (1 + x)]$, leaving each term in the form $(1 + x)^p$ where $k$ and $p$ are integers.",
+                    "answers_found": [
+                        1
+                    ]
+                },
+                {
+                    "title": "674dcd15b00b977d048c92b7",
+                    "text": "Write down the first four terms in the expansion of \\( (1 - 4x)^6 \\).",
+                    "answers_found": [
+                        1
+                    ]
+                },
+                {
+                    "title": "674dcd15b00b977d048c92b8",
+                    "text": "Hence find the coefficient of \\( x^3 \\) in the expansion of \\( (3x + 2)(1 - 4x)^6 \\).",
+                    "answers_found": [
+                        1
+                    ]
+                },
+                {
+                    "title": "674dcd16b00b977d048c92b9",
+                    "text": "Explain why there is no constant term in the expansion of \\( \\left( 12x + \\frac{3}{x} \\right)^{18} \\).",
+                    "answers_found": [
+                        1
+                    ]
+                },
+                {
+                    "title": "674dcd3bb00b977d048c92e2",
+                    "text": "Given that the coefficient of $x^2$ in the expansion of $(1 + 2x)^5(1 - px)$ is 20, find the two possible values of the constant $p$.",
+                    "answers_found": [
+                        1
+                    ]
+                },
+                {
+                    "title": "674dcd47b00b977d048c92fa",
+                    "text": "Use the graph to estimate the value of each of the constants \\( a \\) and \\( b \\).",
+                    "answers_found": [
+                        0
+                    ]
+                },
+                {
+                    "title": "674dcd2ab00b977d048c92d5",
+                    "text": "After n years, the population, P, in thousands, of a certain species of foxes can be modeled by an equation \\( P = Ae^{kn} \\), where A and k are constants. The table below shows the values of n and P. \\( \\begin{array}{c|c} n & P \\\\ \\hline 5 & 6.23 \\\\ 10 & 4.85 \\\\ 15 & 3.78 \\\\ 20 & 2.94 \\\\ 25 & 2.29 \\end{array} \\) (a) On the grid on the next page, plot \\( \\ln P \\) against n and draw a straight line graph. (b) Use your graph to estimate the initial population of the foxes and the value of k. (c) If this model for the population remains valid, after how many whole years would the population of the foxes first decreased to 1000?",
+                    "answers_found": [
+                        0
+                    ]
+                },
+                {
+                    "title": "674dcd43b00b977d048c92f2",
+                    "text": "State the equations of the horizontal tangents to the circle.",
+                    "answers_found": [
+                        0
+                    ]
+                },
+                {
+                    "title": "674dcd43b00b977d048c92f1",
+                    "text": "Find the radius of the circle and the coordinates of its centre.",
+                    "answers_found": [
+                        0
+                    ]
+                }
+            ],
+            "output": "(a) Use the substitution z = 1 - 2x, and write down all the terms in the expansion of [1 - (1 - 2x)]^5, leaving each term as (m(1 - 2x)^n), where m and n are integers. \n\n(b) Hence show that the remainder when (3 + x)^5 is divided by 1 - 2x is 2."
+        },
+        {
+            "question": "Do you have any sample questions on applications of the binomial theorem?",
+            "answers": [],
+            "docs": [
+                {
+                    "title": "674dcd3ab00b977d048c92e0",
+                    "text": "Using the substitution $z = \\frac{1}{x+1}$, write down all the terms in the expansion of $6[1 + (1 + x)]$, leaving each term in the form $(1 + x)^p$ where $k$ and $p$ are integers.",
+                    "answers_found": [
+                        1
+                    ]
+                },
+                {
+                    "title": "674dcd15b00b977d048c92b7",
+                    "text": "Write down the first four terms in the expansion of \\( (1 - 4x)^6 \\).",
+                    "answers_found": [
+                        1
+                    ]
+                },
+                {
+                    "title": "674dcd15b00b977d048c92b8",
+                    "text": "Hence find the coefficient of \\( x^3 \\) in the expansion of \\( (3x + 2)(1 - 4x)^6 \\).",
+                    "answers_found": [
+                        1
+                    ]
+                },
+                {
+                    "title": "674dcd16b00b977d048c92b9",
+                    "text": "Explain why there is no constant term in the expansion of \\( \\left( 12x + \\frac{3}{x} \\right)^{18} \\).",
+                    "answers_found": [
+                        1
+                    ]
+                },
+                {
+                    "title": "674dcd3bb00b977d048c92e2",
+                    "text": "Given that the coefficient of $x^2$ in the expansion of $(1 + 2x)^5(1 - px)$ is 20, find the two possible values of the constant $p$.",
+                    "answers_found": [
+                        1
+                    ]
+                },
+                {
+                    "title": "674dcd46b00b977d048c92f7",
+                    "text": "The diagram shows part of the curve $y = \\frac{1}{4} e^{-x} x$. The point $M$ is the maximum point of the curve and $OM$ is a straight line.",
+                    "answers_found": [
+                        0
+                    ]
+                }
+            ],
+            "output": "(a) (i) Use the substitution u = 2 + x, then write down all the terms in the expansion of [2 + (2 + x)]^4, presenting each term in the form m(2 + x)^n where m and n are integers.\n(ii) Hence demonstrate that the remainder when (3 + x)^4 is divided by 2 + x is 1.\n(b) Given that the coefficient of x^3 in the expansion of (1 - 3x)(2 + qx)^4 is 35, determine the two possible values of the constant q."
+        },
+        {
+            "question": "Can you provide practice problems on the application of tangents in circles?",
+            "answers": [],
+            "docs": [
+                {
+                    "title": "674dcd41b00b977d048c92ed",
+                    "text": "Another line $y = x + a$ is a tangent to the curve $C_1$ at the point $P$.",
+                    "answers_found": [
+                        1
+                    ]
+                },
+                {
+                    "title": "674dcd43b00b977d048c92f2",
+                    "text": "State the equations of the horizontal tangents to the circle.",
+                    "answers_found": [
+                        1
+                    ]
+                },
+                {
+                    "title": "674dcd43b00b977d048c92f0",
+                    "text": "The equation of a circle is $x^2 + y^2 - 4x - 12y + 36 = 0$. The equation of the line $L$ is $y = kx$, where $k$ is a constant.",
+                    "answers_found": [
+                        1
+                    ]
+                },
+                {
+                    "title": "674dcd2cb00b977d048c92d9",
+                    "text": "The diagram shows a circle, centre O. Points A, B, D and E lie on the circle. The line AD is a diameter of the circle and DCP is the tangent of the circle at D. The lines EB and AD intersect at point Q. The chord AB is produced to meet the tangent DCP at P. It is given that angle CBP = angle DEB. (a) Show that angle BCD = 90^\\circ.",
+                    "answers_found": [
+                        1
+                    ]
+                },
+                {
+                    "title": "674dcd17b00b977d048c92bb",
+                    "text": "On the grid opposite, draw a straight line graph of \\( \\ln T \\) against \\( t \\).",
+                    "answers_found": [
+                        0
+                    ]
+                },
+                {
+                    "title": "674dcd46b00b977d048c92f9",
+                    "text": "The temperature, \\( \\theta^\\circ C \\), of a liquid placed in a container can be modelled by an equation of the form \\( \\theta = ae^{-bt} + 32 \\), where \\( a \\) and \\( b \\) are constants and \\( t \\) is the time in minutes that the liquid has been left in the container. The table below records the value of \\( \\theta \\) for various values of \\( t \\). \n\n\\[ \\begin{array}{c|cccc} \n t \\text{ minutes} & 0 & 10 & 20 & 30 \\\\ \n \\hline \n \\theta^\\circ C & 120.0 & 107.6 & 97.7 & 88.0 \n\\end{array} \\] \n\n(i) On the grid given, plot \\( \\ln(\\theta - 32) \\) against \\( t \\) and draw a straight line graph.",
+                    "answers_found": [
+                        0
+                    ]
+                }
+            ],
+            "output": "Consider the equation of the circle: x^2 + y^2 - 6x - 8y + 9 = 0. Find the equations of the vertical tangents to the circle."
+        },
+        {
+            "question": "I need some exercises involving tangents and circles; can you help?",
+            "answers": [],
+            "docs": [
+                {
+                    "title": "674dcd41b00b977d048c92ed",
+                    "text": "Another line $y = x + a$ is a tangent to the curve $C_1$ at the point $P$.",
+                    "answers_found": [
+                        1
+                    ]
+                },
+                {
+                    "title": "674dcd43b00b977d048c92f2",
+                    "text": "State the equations of the horizontal tangents to the circle.",
+                    "answers_found": [
+                        1
+                    ]
+                },
+                {
+                    "title": "674dcd43b00b977d048c92f0",
+                    "text": "The equation of a circle is $x^2 + y^2 - 4x - 12y + 36 = 0$. The equation of the line $L$ is $y = kx$, where $k$ is a constant.",
+                    "answers_found": [
+                        1
+                    ]
+                },
+                {
+                    "title": "674dcd2cb00b977d048c92d9",
+                    "text": "The diagram shows a circle, centre O. Points A, B, D and E lie on the circle. The line AD is a diameter of the circle and DCP is the tangent of the circle at D. The lines EB and AD intersect at point Q. The chord AB is produced to meet the tangent DCP at P. It is given that angle CBP = angle DEB. (a) Show that angle BCD = 90^\\circ.",
+                    "answers_found": [
+                        1
+                    ]
+                },
+                {
+                    "title": "674dcd10b00b977d048c92ad",
+                    "text": "A circle with centre $O$ passes through the points $P(-1, 7)$ and $Q(0, 8)$. (c) Hence find the equation of the circle. [2]",
+                    "answers_found": [
+                        0
+                    ]
+                },
+                {
+                    "title": "674dce8db00b977d048c93c6",
+                    "text": "Given that \\[ \\begin{pmatrix} 1 & 2 & 0 \\\\ 3 & 0 & 3 \\\\ 2 & 2 & 1 \\end{pmatrix} \\begin{pmatrix} x \\\\ y \\\\ 1 \\end{pmatrix} = \\begin{pmatrix} 5 \\\\ 13 \\\\ 4 \\end{pmatrix} \\], find the value of \\( x \\) and \\( y \\).",
+                    "answers_found": [
+                        0
+                    ]
+                },
+                {
+                    "title": "674dcd3bb00b977d048c92e2",
+                    "text": "Given that the coefficient of $x^2$ in the expansion of $(1 + 2x)^5(1 - px)$ is 20, find the two possible values of the constant $p$.",
+                    "answers_found": [
+                        0
+                    ]
+                }
+            ],
+            "output": "The equation of a circle is given by x^2 + y^2 - 6x - 8y + 9 = 0. Determine the equations of the vertical tangents to this circle."
+        },
+        {
+            "question": "Where can I find problems on applying tangents in circle geometry?",
+            "answers": [],
+            "docs": [
+                {
+                    "title": "674dcd41b00b977d048c92ed",
+                    "text": "Another line $y = x + a$ is a tangent to the curve $C_1$ at the point $P$.",
+                    "answers_found": [
+                        1
+                    ]
+                },
+                {
+                    "title": "674dcd43b00b977d048c92f2",
+                    "text": "State the equations of the horizontal tangents to the circle.",
+                    "answers_found": [
+                        1
+                    ]
+                },
+                {
+                    "title": "674dcd43b00b977d048c92f0",
+                    "text": "The equation of a circle is $x^2 + y^2 - 4x - 12y + 36 = 0$. The equation of the line $L$ is $y = kx$, where $k$ is a constant.",
+                    "answers_found": [
+                        1
+                    ]
+                },
+                {
+                    "title": "674dcd2cb00b977d048c92d9",
+                    "text": "The diagram shows a circle, centre O. Points A, B, D and E lie on the circle. The line AD is a diameter of the circle and DCP is the tangent of the circle at D. The lines EB and AD intersect at point Q. The chord AB is produced to meet the tangent DCP at P. It is given that angle CBP = angle DEB. (a) Show that angle BCD = 90^\\circ.",
+                    "answers_found": [
+                        1
+                    ]
+                },
+                {
+                    "title": "674dcd40b00b977d048c92ea",
+                    "text": "The equation of a curve $C_1$ is $y = 6x^2 - 3x$. Show that the coordinates of the maximum point of the curve $C_1$ are $(1, 3)$.",
+                    "answers_found": [
+                        0
+                    ]
+                },
+                {
+                    "title": "674dce91b00b977d048c93cf",
+                    "text": "Find, in terms of x, the matrix T = CD.",
+                    "answers_found": [
+                        0
+                    ]
+                }
+            ],
+            "output": "In the diagram, circle with center O, and points A, B, and C lie on the circle. The chord AB is extended to meet the tangent at point T. The angle ATB is equal to angle ABC. Show that angle ACT = 90 degrees."
+        },
+        {
+            "question": "Do you have any sample questions about the application of tangent lines in circles?",
+            "answers": [],
+            "docs": [
+                {
+                    "title": "674dcd41b00b977d048c92ed",
+                    "text": "Another line $y = x + a$ is a tangent to the curve $C_1$ at the point $P$.",
+                    "answers_found": [
+                        1
+                    ]
+                },
+                {
+                    "title": "674dcd43b00b977d048c92f2",
+                    "text": "State the equations of the horizontal tangents to the circle.",
+                    "answers_found": [
+                        1
+                    ]
+                },
+                {
+                    "title": "674dcd43b00b977d048c92f0",
+                    "text": "The equation of a circle is $x^2 + y^2 - 4x - 12y + 36 = 0$. The equation of the line $L$ is $y = kx$, where $k$ is a constant.",
+                    "answers_found": [
+                        1
+                    ]
+                },
+                {
+                    "title": "674dcd2cb00b977d048c92d9",
+                    "text": "The diagram shows a circle, centre O. Points A, B, D and E lie on the circle. The line AD is a diameter of the circle and DCP is the tangent of the circle at D. The lines EB and AD intersect at point Q. The chord AB is produced to meet the tangent DCP at P. It is given that angle CBP = angle DEB. (a) Show that angle BCD = 90^\\circ.",
+                    "answers_found": [
+                        1
+                    ]
+                },
+                {
+                    "title": "674dcd15b00b977d048c92b8",
+                    "text": "Hence find the coefficient of \\( x^3 \\) in the expansion of \\( (3x + 2)(1 - 4x)^6 \\).",
+                    "answers_found": [
+                        0
+                    ]
+                },
+                {
+                    "title": "674dcd40b00b977d048c92ea",
+                    "text": "The equation of a curve $C_1$ is $y = 6x^2 - 3x$. Show that the coordinates of the maximum point of the curve $C_1$ are $(1, 3)$.",
+                    "answers_found": [
+                        0
+                    ]
+                },
+                {
+                    "title": "674dcd25b00b977d048c92c9",
+                    "text": "(b) State the x-coordinate of the minimum point of \\( y = f(x) \\) and explain why it is the minimum point.",
+                    "answers_found": [
+                        0
+                    ]
+                }
+            ],
+            "output": "The equation of a different circle is x^2 + y^2 - 6x - 8y + 9 = 0. Determine the equations of the vertical tangents to this circle."
+        },
+        {
+            "question": "Could you give me some practice questions on tangents in circle problems?",
+            "answers": [],
+            "docs": [
+                {
+                    "title": "674dcd41b00b977d048c92ed",
+                    "text": "Another line $y = x + a$ is a tangent to the curve $C_1$ at the point $P$.",
+                    "answers_found": [
+                        1
+                    ]
+                },
+                {
+                    "title": "674dcd43b00b977d048c92f2",
+                    "text": "State the equations of the horizontal tangents to the circle.",
+                    "answers_found": [
+                        1
+                    ]
+                },
+                {
+                    "title": "674dcd43b00b977d048c92f0",
+                    "text": "The equation of a circle is $x^2 + y^2 - 4x - 12y + 36 = 0$. The equation of the line $L$ is $y = kx$, where $k$ is a constant.",
+                    "answers_found": [
+                        1
+                    ]
+                },
+                {
+                    "title": "674dcd2cb00b977d048c92d9",
+                    "text": "The diagram shows a circle, centre O. Points A, B, D and E lie on the circle. The line AD is a diameter of the circle and DCP is the tangent of the circle at D. The lines EB and AD intersect at point Q. The chord AB is produced to meet the tangent DCP at P. It is given that angle CBP = angle DEB. (a) Show that angle BCD = 90^\\circ.",
+                    "answers_found": [
+                        1
+                    ]
+                },
+                {
+                    "title": "674dcd47b00b977d048c92fa",
+                    "text": "Use the graph to estimate the value of each of the constants \\( a \\) and \\( b \\).",
+                    "answers_found": [
+                        0
+                    ]
+                },
+                {
+                    "title": "674dcd3ab00b977d048c92e0",
+                    "text": "Using the substitution $z = \\frac{1}{x+1}$, write down all the terms in the expansion of $6[1 + (1 + x)]$, leaving each term in the form $(1 + x)^p$ where $k$ and $p$ are integers.",
+                    "answers_found": [
+                        0
+                    ]
+                },
+                {
+                    "title": "674dcd43b00b977d048c92f1",
+                    "text": "Find the radius of the circle and the coordinates of its centre.",
+                    "answers_found": [
+                        0
+                    ]
+                }
+            ],
+            "output": "The equation of a circle is x^2 + y^2 - 6x - 8y + 9 = 0. Find the equations of the vertical tangents to this circle."
+        },
+        {
+            "question": "Can you provide practice problems on maxima and minima?",
+            "answers": [],
+            "docs": [
+                {
+                    "title": "674dcd25b00b977d048c92c9",
+                    "text": "(b) State the x-coordinate of the minimum point of \\( y = f(x) \\) and explain why it is the minimum point.",
+                    "answers_found": [
+                        1
+                    ]
+                },
+                {
+                    "title": "674dcd40b00b977d048c92ea",
+                    "text": "The equation of a curve $C_1$ is $y = 6x^2 - 3x$. Show that the coordinates of the maximum point of the curve $C_1$ are $(1, 3)$.",
+                    "answers_found": [
+                        1
+                    ]
+                },
+                {
+                    "title": "674dcd46b00b977d048c92f7",
+                    "text": "The diagram shows part of the curve $y = \\frac{1}{4} e^{-x} x$. The point $M$ is the maximum point of the curve and $OM$ is a straight line.",
+                    "answers_found": [
+                        1
+                    ]
+                },
+                {
+                    "title": "674dcd43b00b977d048c92f2",
+                    "text": "State the equations of the horizontal tangents to the circle.",
+                    "answers_found": [
+                        0
+                    ]
+                }
+            ],
+            "output": "Find the x-coordinate of the maximum point for the function y = 12x - 2x^2, and verify why it is a maximum point."
+        },
+        {
+            "question": "I need some exercises involving finding maximum and minimum values; can you help?",
+            "answers": [],
+            "docs": [
+                {
+                    "title": "674dcd25b00b977d048c92c9",
+                    "text": "(b) State the x-coordinate of the minimum point of \\( y = f(x) \\) and explain why it is the minimum point.",
+                    "answers_found": [
+                        1
+                    ]
+                },
+                {
+                    "title": "674dcd40b00b977d048c92ea",
+                    "text": "The equation of a curve $C_1$ is $y = 6x^2 - 3x$. Show that the coordinates of the maximum point of the curve $C_1$ are $(1, 3)$.",
+                    "answers_found": [
+                        1
+                    ]
+                },
+                {
+                    "title": "674dcd46b00b977d048c92f7",
+                    "text": "The diagram shows part of the curve $y = \\frac{1}{4} e^{-x} x$. The point $M$ is the maximum point of the curve and $OM$ is a straight line.",
+                    "answers_found": [
+                        1
+                    ]
+                },
+                {
+                    "title": "674dcd15b00b977d048c92b8",
+                    "text": "Hence find the coefficient of \\( x^3 \\) in the expansion of \\( (3x + 2)(1 - 4x)^6 \\).",
+                    "answers_found": [
+                        0
+                    ]
+                }
+            ],
+            "output": "The equation of a curve is y = 8x - 4x^2. Determine the x-coordinate of the minimum point and verify why it is a minimum."
+        },
+        {
+            "question": "Where can I find problems on maxima and minima?",
+            "answers": [],
+            "docs": [
+                {
+                    "title": "674dcd25b00b977d048c92c9",
+                    "text": "(b) State the x-coordinate of the minimum point of \\( y = f(x) \\) and explain why it is the minimum point.",
+                    "answers_found": [
+                        1
+                    ]
+                },
+                {
+                    "title": "674dcd40b00b977d048c92ea",
+                    "text": "The equation of a curve $C_1$ is $y = 6x^2 - 3x$. Show that the coordinates of the maximum point of the curve $C_1$ are $(1, 3)$.",
+                    "answers_found": [
+                        1
+                    ]
+                },
+                {
+                    "title": "674dcd46b00b977d048c92f7",
+                    "text": "The diagram shows part of the curve $y = \\frac{1}{4} e^{-x} x$. The point $M$ is the maximum point of the curve and $OM$ is a straight line.",
+                    "answers_found": [
+                        1
+                    ]
+                },
+                {
+                    "title": "674dcd3ab00b977d048c92e0",
+                    "text": "Using the substitution $z = \\frac{1}{x+1}$, write down all the terms in the expansion of $6[1 + (1 + x)]$, leaving each term in the form $(1 + x)^p$ where $k$ and $p$ are integers.",
+                    "answers_found": [
+                        0
+                    ]
+                }
+            ],
+            "output": "Consider the curve y = 8x - 2x^2. \n(i) Show that the coordinates of the maximum point of the curve are (2, 8). \n(ii) Determine the x-coordinate of the minimum point of the curve and explain why it is the minimum point."
+        },
+        {
+            "question": "Do you have any sample questions about optimization problems in calculus?",
+            "answers": [],
+            "docs": [
+                {
+                    "title": "674dcd25b00b977d048c92c9",
+                    "text": "(b) State the x-coordinate of the minimum point of \\( y = f(x) \\) and explain why it is the minimum point.",
+                    "answers_found": [
+                        1
+                    ]
+                },
+                {
+                    "title": "674dcd40b00b977d048c92ea",
+                    "text": "The equation of a curve $C_1$ is $y = 6x^2 - 3x$. Show that the coordinates of the maximum point of the curve $C_1$ are $(1, 3)$.",
+                    "answers_found": [
+                        1
+                    ]
+                },
+                {
+                    "title": "674dcd46b00b977d048c92f7",
+                    "text": "The diagram shows part of the curve $y = \\frac{1}{4} e^{-x} x$. The point $M$ is the maximum point of the curve and $OM$ is a straight line.",
+                    "answers_found": [
+                        1
+                    ]
+                },
+                {
+                    "title": "674dce91b00b977d048c93cf",
+                    "text": "Find, in terms of x, the matrix T = CD.",
+                    "answers_found": [
+                        0
+                    ]
+                },
+                {
+                    "title": "674dcd10b00b977d048c92ad",
+                    "text": "A circle with centre $O$ passes through the points $P(-1, 7)$ and $Q(0, 8)$. (c) Hence find the equation of the circle. [2]",
+                    "answers_found": [
+                        0
+                    ]
+                }
+            ],
+            "output": "Consider the curve given by the equation y = 8x - 4x^2. \n\n(i) Find the coordinates of the maximum point of this curve.\n(ii) Determine the range of values of k for which the entire curve lies below the line y = k."
+        },
+        {
+            "question": "Could you give me some practice questions on maxima and minima concepts?",
+            "answers": [],
+            "docs": [
+                {
+                    "title": "674dcd25b00b977d048c92c9",
+                    "text": "(b) State the x-coordinate of the minimum point of \\( y = f(x) \\) and explain why it is the minimum point.",
+                    "answers_found": [
+                        1
+                    ]
+                },
+                {
+                    "title": "674dcd40b00b977d048c92ea",
+                    "text": "The equation of a curve $C_1$ is $y = 6x^2 - 3x$. Show that the coordinates of the maximum point of the curve $C_1$ are $(1, 3)$.",
+                    "answers_found": [
+                        1
+                    ]
+                },
+                {
+                    "title": "674dcd46b00b977d048c92f7",
+                    "text": "The diagram shows part of the curve $y = \\frac{1}{4} e^{-x} x$. The point $M$ is the maximum point of the curve and $OM$ is a straight line.",
+                    "answers_found": [
+                        1
+                    ]
+                },
+                {
+                    "title": "674dcd2ab00b977d048c92d5",
+                    "text": "After n years, the population, P, in thousands, of a certain species of foxes can be modeled by an equation \\( P = Ae^{kn} \\), where A and k are constants. The table below shows the values of n and P. \\( \\begin{array}{c|c} n & P \\\\ \\hline 5 & 6.23 \\\\ 10 & 4.85 \\\\ 15 & 3.78 \\\\ 20 & 2.94 \\\\ 25 & 2.29 \\end{array} \\) (a) On the grid on the next page, plot \\( \\ln P \\) against n and draw a straight line graph. (b) Use your graph to estimate the initial population of the foxes and the value of k. (c) If this model for the population remains valid, after how many whole years would the population of the foxes first decreased to 1000?",
+                    "answers_found": [
+                        0
+                    ]
+                }
+            ],
+            "output": "The equation of a curve is y = 8x - 4x^3. Find the x-coordinate of the point where the curve has a maximum value, and justify that it is indeed a maximum point."
+        },
+        {
+            "question": "Can you provide practice problems on graphs of exponential and logarithmic functions?",
+            "answers": [],
+            "docs": [
+                {
+                    "title": "674dcd17b00b977d048c92bb",
+                    "text": "On the grid opposite, draw a straight line graph of \\( \\ln T \\) against \\( t \\).",
+                    "answers_found": [
+                        1
+                    ]
+                },
+                {
+                    "title": "674dcd2ab00b977d048c92d5",
+                    "text": "After n years, the population, P, in thousands, of a certain species of foxes can be modeled by an equation \\( P = Ae^{kn} \\), where A and k are constants. The table below shows the values of n and P. \\( \\begin{array}{c|c} n & P \\\\ \\hline 5 & 6.23 \\\\ 10 & 4.85 \\\\ 15 & 3.78 \\\\ 20 & 2.94 \\\\ 25 & 2.29 \\end{array} \\) (a) On the grid on the next page, plot \\( \\ln P \\) against n and draw a straight line graph. (b) Use your graph to estimate the initial population of the foxes and the value of k. (c) If this model for the population remains valid, after how many whole years would the population of the foxes first decreased to 1000?",
+                    "answers_found": [
+                        1
+                    ]
+                },
+                {
+                    "title": "674dcd46b00b977d048c92f9",
+                    "text": "The temperature, \\( \\theta^\\circ C \\), of a liquid placed in a container can be modelled by an equation of the form \\( \\theta = ae^{-bt} + 32 \\), where \\( a \\) and \\( b \\) are constants and \\( t \\) is the time in minutes that the liquid has been left in the container. The table below records the value of \\( \\theta \\) for various values of \\( t \\). \n\n\\[ \\begin{array}{c|cccc} \n t \\text{ minutes} & 0 & 10 & 20 & 30 \\\\ \n \\hline \n \\theta^\\circ C & 120.0 & 107.6 & 97.7 & 88.0 \n\\end{array} \\] \n\n(i) On the grid given, plot \\( \\ln(\\theta - 32) \\) against \\( t \\) and draw a straight line graph.",
+                    "answers_found": [
+                        1
+                    ]
+                },
+                {
+                    "title": "674dcd47b00b977d048c92fa",
+                    "text": "Use the graph to estimate the value of each of the constants \\( a \\) and \\( b \\).",
+                    "answers_found": [
+                        1
+                    ]
+                },
+                {
+                    "title": "674dcd25b00b977d048c92c9",
+                    "text": "(b) State the x-coordinate of the minimum point of \\( y = f(x) \\) and explain why it is the minimum point.",
+                    "answers_found": [
+                        0
+                    ]
+                }
+            ],
+            "output": "The concentration of a chemical, C, in a solution after t minutes is given by the equation C = be^(kt), where b and k are constants. The table below shows the values of t and C.\n\n| t  |  10  |  20  |  30  |  40  |  50  |\n|----|------|------|------|------|------|\n| C  | 12.3 | 9.8  | 7.6  | 5.9  | 4.5  |\n\n(a) On the grid given, plot ln C against t and draw a straight line graph.\n\n(b) Use the graph to estimate the initial concentration of the chemical and the value of k.\n\n(c) Assuming the model remains valid, after how many minutes would the concentration decrease to 2 mg/L?"
+        },
+        {
+            "question": "I need exercises involving plotting exponential and logarithmic functions; can you help?",
+            "answers": [],
+            "docs": [
+                {
+                    "title": "674dcd17b00b977d048c92bb",
+                    "text": "On the grid opposite, draw a straight line graph of \\( \\ln T \\) against \\( t \\).",
+                    "answers_found": [
+                        1
+                    ]
+                },
+                {
+                    "title": "674dcd2ab00b977d048c92d5",
+                    "text": "After n years, the population, P, in thousands, of a certain species of foxes can be modeled by an equation \\( P = Ae^{kn} \\), where A and k are constants. The table below shows the values of n and P. \\( \\begin{array}{c|c} n & P \\\\ \\hline 5 & 6.23 \\\\ 10 & 4.85 \\\\ 15 & 3.78 \\\\ 20 & 2.94 \\\\ 25 & 2.29 \\end{array} \\) (a) On the grid on the next page, plot \\( \\ln P \\) against n and draw a straight line graph. (b) Use your graph to estimate the initial population of the foxes and the value of k. (c) If this model for the population remains valid, after how many whole years would the population of the foxes first decreased to 1000?",
+                    "answers_found": [
+                        1
+                    ]
+                },
+                {
+                    "title": "674dcd46b00b977d048c92f9",
+                    "text": "The temperature, \\( \\theta^\\circ C \\), of a liquid placed in a container can be modelled by an equation of the form \\( \\theta = ae^{-bt} + 32 \\), where \\( a \\) and \\( b \\) are constants and \\( t \\) is the time in minutes that the liquid has been left in the container. The table below records the value of \\( \\theta \\) for various values of \\( t \\). \n\n\\[ \\begin{array}{c|cccc} \n t \\text{ minutes} & 0 & 10 & 20 & 30 \\\\ \n \\hline \n \\theta^\\circ C & 120.0 & 107.6 & 97.7 & 88.0 \n\\end{array} \\] \n\n(i) On the grid given, plot \\( \\ln(\\theta - 32) \\) against \\( t \\) and draw a straight line graph.",
+                    "answers_found": [
+                        1
+                    ]
+                },
+                {
+                    "title": "674dcd47b00b977d048c92fa",
+                    "text": "Use the graph to estimate the value of each of the constants \\( a \\) and \\( b \\).",
+                    "answers_found": [
+                        1
+                    ]
+                },
+                {
+                    "title": "674dcd43b00b977d048c92f0",
+                    "text": "The equation of a circle is $x^2 + y^2 - 4x - 12y + 36 = 0$. The equation of the line $L$ is $y = kx$, where $k$ is a constant.",
+                    "answers_found": [
+                        0
+                    ]
+                },
+                {
+                    "title": "674dce91b00b977d048c93cf",
+                    "text": "Find, in terms of x, the matrix T = CD.",
+                    "answers_found": [
+                        0
+                    ]
+                },
+                {
+                    "title": "674dcd40b00b977d048c92ea",
+                    "text": "The equation of a curve $C_1$ is $y = 6x^2 - 3x$. Show that the coordinates of the maximum point of the curve $C_1$ are $(1, 3)$.",
+                    "answers_found": [
+                        0
+                    ]
+                }
+            ],
+            "output": "The population P of a certain city is modeled by the equation P = c * e^(kt), where c and k are constants and t is the time in years since the beginning of 2000. The table below records the population for various years. \n\n| Year      | Population |\n|-----------|------------|\n| 2000      | 500,000    |\n| 2005      | 532,000    |\n| 2010      | 566,000    |\n| 2015      | 600,000    |\n\n(a) On the grid given, plot ln(P) against t and draw a straight line graph.\n(b) Use your graph to estimate the values of c and k.\n(c) Using part (a), explain why the population P can never be zero."
+        },
+        {
+            "question": "Where can I find practice questions on graphing exponentials and logarithms?",
+            "answers": [],
+            "docs": [
+                {
+                    "title": "674dcd17b00b977d048c92bb",
+                    "text": "On the grid opposite, draw a straight line graph of \\( \\ln T \\) against \\( t \\).",
+                    "answers_found": [
+                        1
+                    ]
+                },
+                {
+                    "title": "674dcd2ab00b977d048c92d5",
+                    "text": "After n years, the population, P, in thousands, of a certain species of foxes can be modeled by an equation \\( P = Ae^{kn} \\), where A and k are constants. The table below shows the values of n and P. \\( \\begin{array}{c|c} n & P \\\\ \\hline 5 & 6.23 \\\\ 10 & 4.85 \\\\ 15 & 3.78 \\\\ 20 & 2.94 \\\\ 25 & 2.29 \\end{array} \\) (a) On the grid on the next page, plot \\( \\ln P \\) against n and draw a straight line graph. (b) Use your graph to estimate the initial population of the foxes and the value of k. (c) If this model for the population remains valid, after how many whole years would the population of the foxes first decreased to 1000?",
+                    "answers_found": [
+                        1
+                    ]
+                },
+                {
+                    "title": "674dcd46b00b977d048c92f9",
+                    "text": "The temperature, \\( \\theta^\\circ C \\), of a liquid placed in a container can be modelled by an equation of the form \\( \\theta = ae^{-bt} + 32 \\), where \\( a \\) and \\( b \\) are constants and \\( t \\) is the time in minutes that the liquid has been left in the container. The table below records the value of \\( \\theta \\) for various values of \\( t \\). \n\n\\[ \\begin{array}{c|cccc} \n t \\text{ minutes} & 0 & 10 & 20 & 30 \\\\ \n \\hline \n \\theta^\\circ C & 120.0 & 107.6 & 97.7 & 88.0 \n\\end{array} \\] \n\n(i) On the grid given, plot \\( \\ln(\\theta - 32) \\) against \\( t \\) and draw a straight line graph.",
+                    "answers_found": [
+                        1
+                    ]
+                },
+                {
+                    "title": "674dcd47b00b977d048c92fa",
+                    "text": "Use the graph to estimate the value of each of the constants \\( a \\) and \\( b \\).",
+                    "answers_found": [
+                        1
+                    ]
+                },
+                {
+                    "title": "674dcd43b00b977d048c92f0",
+                    "text": "The equation of a circle is $x^2 + y^2 - 4x - 12y + 36 = 0$. The equation of the line $L$ is $y = kx$, where $k$ is a constant.",
+                    "answers_found": [
+                        0
+                    ]
+                }
+            ],
+            "output": "The population P of a bacteria culture is modeled by the equation P = 50e^(kt), where k is a constant and t is time in hours.\n\n(a) Plot a graph of ln(P/50) against t and draw a straight line.\n(b) Use your graph to estimate the value of the constant k.\n(c) Explain why the population P will never reach zero."
+        },
+        {
+            "question": "Do you have any sample problems on the graphs of exponential and logarithmic equations?",
+            "answers": [],
+            "docs": [
+                {
+                    "title": "674dcd17b00b977d048c92bb",
+                    "text": "On the grid opposite, draw a straight line graph of \\( \\ln T \\) against \\( t \\).",
+                    "answers_found": [
+                        1
+                    ]
+                },
+                {
+                    "title": "674dcd2ab00b977d048c92d5",
+                    "text": "After n years, the population, P, in thousands, of a certain species of foxes can be modeled by an equation \\( P = Ae^{kn} \\), where A and k are constants. The table below shows the values of n and P. \\( \\begin{array}{c|c} n & P \\\\ \\hline 5 & 6.23 \\\\ 10 & 4.85 \\\\ 15 & 3.78 \\\\ 20 & 2.94 \\\\ 25 & 2.29 \\end{array} \\) (a) On the grid on the next page, plot \\( \\ln P \\) against n and draw a straight line graph. (b) Use your graph to estimate the initial population of the foxes and the value of k. (c) If this model for the population remains valid, after how many whole years would the population of the foxes first decreased to 1000?",
+                    "answers_found": [
+                        1
+                    ]
+                },
+                {
+                    "title": "674dcd46b00b977d048c92f9",
+                    "text": "The temperature, \\( \\theta^\\circ C \\), of a liquid placed in a container can be modelled by an equation of the form \\( \\theta = ae^{-bt} + 32 \\), where \\( a \\) and \\( b \\) are constants and \\( t \\) is the time in minutes that the liquid has been left in the container. The table below records the value of \\( \\theta \\) for various values of \\( t \\). \n\n\\[ \\begin{array}{c|cccc} \n t \\text{ minutes} & 0 & 10 & 20 & 30 \\\\ \n \\hline \n \\theta^\\circ C & 120.0 & 107.6 & 97.7 & 88.0 \n\\end{array} \\] \n\n(i) On the grid given, plot \\( \\ln(\\theta - 32) \\) against \\( t \\) and draw a straight line graph.",
+                    "answers_found": [
+                        1
+                    ]
+                },
+                {
+                    "title": "674dcd47b00b977d048c92fa",
+                    "text": "Use the graph to estimate the value of each of the constants \\( a \\) and \\( b \\).",
+                    "answers_found": [
+                        1
+                    ]
+                },
+                {
+                    "title": "674dcd2cb00b977d048c92d9",
+                    "text": "The diagram shows a circle, centre O. Points A, B, D and E lie on the circle. The line AD is a diameter of the circle and DCP is the tangent of the circle at D. The lines EB and AD intersect at point Q. The chord AB is produced to meet the tangent DCP at P. It is given that angle CBP = angle DEB. (a) Show that angle BCD = 90^\\circ.",
+                    "answers_found": [
+                        0
+                    ]
+                },
+                {
+                    "title": "674dcd34b00b977d048c92dc",
+                    "text": "The equation of a circle is (x - 3)^2 + (y + 4)^2 = 26. Determine if the origin O lies inside or outside the circle.",
+                    "answers_found": [
+                        0
+                    ]
+                },
+                {
+                    "title": "674dcd15b00b977d048c92b8",
+                    "text": "Hence find the coefficient of \\( x^3 \\) in the expansion of \\( (3x + 2)(1 - 4x)^6 \\).",
+                    "answers_found": [
+                        0
+                    ]
+                }
+            ],
+            "output": "The mass M (in kilograms) of a radioactive substance is decreasing exponentially and can be modeled by the equation M = c * e^(dt), where c and d are constants and t is the time in years. The data below shows the mass for various values of t:\n\n| t (years) | M (kg) |\n|----------|--------|\n| 0        | 150.0  |\n| 1        | 120.0  |\n| 2        | 96.0   |\n| 3        | 76.8   |\n\n(a) Plot a graph of ln(M) against t.\n(b) Use your graph to estimate the value of each of the constants c and d.\n(c) Based on the graph in (a), explain why the mass M cannot become negative."
+        },
+        {
+            "question": "Could you give me some practice questions on exponential and logarithmic function graphs?",
+            "answers": [],
+            "docs": [
+                {
+                    "title": "674dcd17b00b977d048c92bb",
+                    "text": "On the grid opposite, draw a straight line graph of \\( \\ln T \\) against \\( t \\).",
+                    "answers_found": [
+                        1
+                    ]
+                },
+                {
+                    "title": "674dcd2ab00b977d048c92d5",
+                    "text": "After n years, the population, P, in thousands, of a certain species of foxes can be modeled by an equation \\( P = Ae^{kn} \\), where A and k are constants. The table below shows the values of n and P. \\( \\begin{array}{c|c} n & P \\\\ \\hline 5 & 6.23 \\\\ 10 & 4.85 \\\\ 15 & 3.78 \\\\ 20 & 2.94 \\\\ 25 & 2.29 \\end{array} \\) (a) On the grid on the next page, plot \\( \\ln P \\) against n and draw a straight line graph. (b) Use your graph to estimate the initial population of the foxes and the value of k. (c) If this model for the population remains valid, after how many whole years would the population of the foxes first decreased to 1000?",
+                    "answers_found": [
+                        1
+                    ]
+                },
+                {
+                    "title": "674dcd46b00b977d048c92f9",
+                    "text": "The temperature, \\( \\theta^\\circ C \\), of a liquid placed in a container can be modelled by an equation of the form \\( \\theta = ae^{-bt} + 32 \\), where \\( a \\) and \\( b \\) are constants and \\( t \\) is the time in minutes that the liquid has been left in the container. The table below records the value of \\( \\theta \\) for various values of \\( t \\). \n\n\\[ \\begin{array}{c|cccc} \n t \\text{ minutes} & 0 & 10 & 20 & 30 \\\\ \n \\hline \n \\theta^\\circ C & 120.0 & 107.6 & 97.7 & 88.0 \n\\end{array} \\] \n\n(i) On the grid given, plot \\( \\ln(\\theta - 32) \\) against \\( t \\) and draw a straight line graph.",
+                    "answers_found": [
+                        1
+                    ]
+                },
+                {
+                    "title": "674dcd47b00b977d048c92fa",
+                    "text": "Use the graph to estimate the value of each of the constants \\( a \\) and \\( b \\).",
+                    "answers_found": [
+                        1
+                    ]
+                },
+                {
+                    "title": "674dcd16b00b977d048c92b9",
+                    "text": "Explain why there is no constant term in the expansion of \\( \\left( 12x + \\frac{3}{x} \\right)^{18} \\).",
+                    "answers_found": [
+                        0
+                    ]
+                },
+                {
+                    "title": "674dcd41b00b977d048c92ed",
+                    "text": "Another line $y = x + a$ is a tangent to the curve $C_1$ at the point $P$.",
+                    "answers_found": [
+                        0
+                    ]
+                },
+                {
+                    "title": "674dcd43b00b977d048c92f2",
+                    "text": "State the equations of the horizontal tangents to the circle.",
+                    "answers_found": [
+                        0
+                    ]
+                }
+            ],
+            "output": "The population of a certain species of bacteria is modeled by the equation P = A * e^(rt), where A and r are constants, and t is the time in hours. A table is provided with values of t and corresponding values of P.\n\n(a) On the grid given, plot ln(P) against t and draw a straight line graph.\n(b) Use your graph to estimate the values of A and r.\n(c) With reference to your graph, explain why P cannot be zero."
+        },
+        {
+            "question": "Can you provide practice problems on finding the equation of a circle and testing point positions relative to it?",
+            "answers": [],
+            "docs": [
+                {
+                    "title": "674dcd34b00b977d048c92dc",
+                    "text": "The equation of a circle is (x - 3)^2 + (y + 4)^2 = 26. Determine if the origin O lies inside or outside the circle.",
+                    "answers_found": [
+                        1
+                    ]
+                },
+                {
+                    "title": "674dcd10b00b977d048c92ad",
+                    "text": "A circle with centre $O$ passes through the points $P(-1, 7)$ and $Q(0, 8)$. (c) Hence find the equation of the circle. [2]",
+                    "answers_found": [
+                        1
+                    ]
+                },
+                {
+                    "title": "674dcd43b00b977d048c92f1",
+                    "text": "Find the radius of the circle and the coordinates of its centre.",
+                    "answers_found": [
+                        1
+                    ]
+                },
+                {
+                    "title": "674dce8db00b977d048c93c6",
+                    "text": "Given that \\[ \\begin{pmatrix} 1 & 2 & 0 \\\\ 3 & 0 & 3 \\\\ 2 & 2 & 1 \\end{pmatrix} \\begin{pmatrix} x \\\\ y \\\\ 1 \\end{pmatrix} = \\begin{pmatrix} 5 \\\\ 13 \\\\ 4 \\end{pmatrix} \\], find the value of \\( x \\) and \\( y \\).",
+                    "answers_found": [
+                        1
+                    ]
+                },
+                {
+                    "title": "674dce91b00b977d048c93cf",
+                    "text": "Find, in terms of x, the matrix T = CD.",
+                    "answers_found": [
+                        1
+                    ]
+                },
+                {
+                    "title": "674dcd15b00b977d048c92b8",
+                    "text": "Hence find the coefficient of \\( x^3 \\) in the expansion of \\( (3x + 2)(1 - 4x)^6 \\).",
+                    "answers_found": [
+                        0
+                    ]
+                },
+                {
+                    "title": "674dcd16b00b977d048c92b9",
+                    "text": "Explain why there is no constant term in the expansion of \\( \\left( 12x + \\frac{3}{x} \\right)^{18} \\).",
+                    "answers_found": [
+                        0
+                    ]
+                }
+            ],
+            "output": "A circle passes through the points A(2, 3) and B(4, 5), with center at point M. Explain the relationship between the perpendicular bisector of AB and the point M."
+        },
+        {
+            "question": "I need exercises involving determining if points lie inside, on, or outside a circle; can you help?",
+            "answers": [],
+            "docs": [
+                {
+                    "title": "674dcd34b00b977d048c92dc",
+                    "text": "The equation of a circle is (x - 3)^2 + (y + 4)^2 = 26. Determine if the origin O lies inside or outside the circle.",
+                    "answers_found": [
+                        1
+                    ]
+                },
+                {
+                    "title": "674dcd10b00b977d048c92ad",
+                    "text": "A circle with centre $O$ passes through the points $P(-1, 7)$ and $Q(0, 8)$. (c) Hence find the equation of the circle. [2]",
+                    "answers_found": [
+                        1
+                    ]
+                },
+                {
+                    "title": "674dcd43b00b977d048c92f1",
+                    "text": "Find the radius of the circle and the coordinates of its centre.",
+                    "answers_found": [
+                        1
+                    ]
+                },
+                {
+                    "title": "674dce8db00b977d048c93c6",
+                    "text": "Given that \\[ \\begin{pmatrix} 1 & 2 & 0 \\\\ 3 & 0 & 3 \\\\ 2 & 2 & 1 \\end{pmatrix} \\begin{pmatrix} x \\\\ y \\\\ 1 \\end{pmatrix} = \\begin{pmatrix} 5 \\\\ 13 \\\\ 4 \\end{pmatrix} \\], find the value of \\( x \\) and \\( y \\).",
+                    "answers_found": [
+                        1
+                    ]
+                },
+                {
+                    "title": "674dce91b00b977d048c93cf",
+                    "text": "Find, in terms of x, the matrix T = CD.",
+                    "answers_found": [
+                        1
+                    ]
+                },
+                {
+                    "title": "674dcd40b00b977d048c92ea",
+                    "text": "The equation of a curve $C_1$ is $y = 6x^2 - 3x$. Show that the coordinates of the maximum point of the curve $C_1$ are $(1, 3)$.",
+                    "answers_found": [
+                        0
+                    ]
+                }
+            ],
+            "output": "A circle is centered at (5, -2) and has an equation (x - 5)^2 + (y + 2)^2 = 20. Determine if the point (6, -4) lies inside, outside, or on the circle."
+        },
+        {
+            "question": "Where can I find problems on equations of circles and point positions?",
+            "answers": [],
+            "docs": [
+                {
+                    "title": "674dcd34b00b977d048c92dc",
+                    "text": "The equation of a circle is (x - 3)^2 + (y + 4)^2 = 26. Determine if the origin O lies inside or outside the circle.",
+                    "answers_found": [
+                        1
+                    ]
+                },
+                {
+                    "title": "674dcd10b00b977d048c92ad",
+                    "text": "A circle with centre $O$ passes through the points $P(-1, 7)$ and $Q(0, 8)$. (c) Hence find the equation of the circle. [2]",
+                    "answers_found": [
+                        1
+                    ]
+                },
+                {
+                    "title": "674dcd43b00b977d048c92f1",
+                    "text": "Find the radius of the circle and the coordinates of its centre.",
+                    "answers_found": [
+                        1
+                    ]
+                },
+                {
+                    "title": "674dce8db00b977d048c93c6",
+                    "text": "Given that \\[ \\begin{pmatrix} 1 & 2 & 0 \\\\ 3 & 0 & 3 \\\\ 2 & 2 & 1 \\end{pmatrix} \\begin{pmatrix} x \\\\ y \\\\ 1 \\end{pmatrix} = \\begin{pmatrix} 5 \\\\ 13 \\\\ 4 \\end{pmatrix} \\], find the value of \\( x \\) and \\( y \\).",
+                    "answers_found": [
+                        1
+                    ]
+                },
+                {
+                    "title": "674dce91b00b977d048c93cf",
+                    "text": "Find, in terms of x, the matrix T = CD.",
+                    "answers_found": [
+                        1
+                    ]
+                },
+                {
+                    "title": "674dcd3ab00b977d048c92e0",
+                    "text": "Using the substitution $z = \\frac{1}{x+1}$, write down all the terms in the expansion of $6[1 + (1 + x)]$, leaving each term in the form $(1 + x)^p$ where $k$ and $p$ are integers.",
+                    "answers_found": [
+                        0
+                    ]
+                },
+                {
+                    "title": "674dcd3bb00b977d048c92e2",
+                    "text": "Given that the coefficient of $x^2$ in the expansion of $(1 + 2x)^5(1 - px)$ is 20, find the two possible values of the constant $p$.",
+                    "answers_found": [
+                        0
+                    ]
+                }
+            ],
+            "output": "A circle with center C passes through the points A(2, -1) and B(5, 6). \n\n(a) Describe the relationship between the perpendicular bisector of AB and the point C. \n\nThe equation of a circle is (x + 1)^2 + (y - 5)^2 = 20. Determine if the point (2, 3) is inside, outside, or on the circle. \n\nFind the radius of the circle and the coordinates of its center if the circle's equation is given by x^2 + y^2 + 6x - 8y - 10 = 0."
+        },
+        {
+            "question": "Do you have any sample questions about finding circle equations and point location relative to circles?",
+            "answers": [],
+            "docs": [
+                {
+                    "title": "674dcd34b00b977d048c92dc",
+                    "text": "The equation of a circle is (x - 3)^2 + (y + 4)^2 = 26. Determine if the origin O lies inside or outside the circle.",
+                    "answers_found": [
+                        1
+                    ]
+                },
+                {
+                    "title": "674dcd10b00b977d048c92ad",
+                    "text": "A circle with centre $O$ passes through the points $P(-1, 7)$ and $Q(0, 8)$. (c) Hence find the equation of the circle. [2]",
+                    "answers_found": [
+                        1
+                    ]
+                },
+                {
+                    "title": "674dcd43b00b977d048c92f1",
+                    "text": "Find the radius of the circle and the coordinates of its centre.",
+                    "answers_found": [
+                        1
+                    ]
+                },
+                {
+                    "title": "674dce8db00b977d048c93c6",
+                    "text": "Given that \\[ \\begin{pmatrix} 1 & 2 & 0 \\\\ 3 & 0 & 3 \\\\ 2 & 2 & 1 \\end{pmatrix} \\begin{pmatrix} x \\\\ y \\\\ 1 \\end{pmatrix} = \\begin{pmatrix} 5 \\\\ 13 \\\\ 4 \\end{pmatrix} \\], find the value of \\( x \\) and \\( y \\).",
+                    "answers_found": [
+                        1
+                    ]
+                },
+                {
+                    "title": "674dce91b00b977d048c93cf",
+                    "text": "Find, in terms of x, the matrix T = CD.",
+                    "answers_found": [
+                        1
+                    ]
+                },
+                {
+                    "title": "674dcd40b00b977d048c92ea",
+                    "text": "The equation of a curve $C_1$ is $y = 6x^2 - 3x$. Show that the coordinates of the maximum point of the curve $C_1$ are $(1, 3)$.",
+                    "answers_found": [
+                        0
+                    ]
+                }
+            ],
+            "output": "The equation of a circle is (x + 2)^2 + (y - 6)^2 = 40. Determine if the point (3, 2) lies inside, on, or outside the circle."
+        },
+        {
+            "question": "Could you give me some practice questions on circle equations and determining point positions?",
+            "answers": [],
+            "docs": [
+                {
+                    "title": "674dcd34b00b977d048c92dc",
+                    "text": "The equation of a circle is (x - 3)^2 + (y + 4)^2 = 26. Determine if the origin O lies inside or outside the circle.",
+                    "answers_found": [
+                        1
+                    ]
+                },
+                {
+                    "title": "674dcd10b00b977d048c92ad",
+                    "text": "A circle with centre $O$ passes through the points $P(-1, 7)$ and $Q(0, 8)$. (c) Hence find the equation of the circle. [2]",
+                    "answers_found": [
+                        1
+                    ]
+                },
+                {
+                    "title": "674dcd43b00b977d048c92f1",
+                    "text": "Find the radius of the circle and the coordinates of its centre.",
+                    "answers_found": [
+                        1
+                    ]
+                },
+                {
+                    "title": "674dce8db00b977d048c93c6",
+                    "text": "Given that \\[ \\begin{pmatrix} 1 & 2 & 0 \\\\ 3 & 0 & 3 \\\\ 2 & 2 & 1 \\end{pmatrix} \\begin{pmatrix} x \\\\ y \\\\ 1 \\end{pmatrix} = \\begin{pmatrix} 5 \\\\ 13 \\\\ 4 \\end{pmatrix} \\], find the value of \\( x \\) and \\( y \\).",
+                    "answers_found": [
+                        1
+                    ]
+                },
+                {
+                    "title": "674dce91b00b977d048c93cf",
+                    "text": "Find, in terms of x, the matrix T = CD.",
+                    "answers_found": [
+                        1
+                    ]
+                },
+                {
+                    "title": "674dcd16b00b977d048c92b9",
+                    "text": "Explain why there is no constant term in the expansion of \\( \\left( 12x + \\frac{3}{x} \\right)^{18} \\).",
+                    "answers_found": [
+                        0
+                    ]
+                },
+                {
+                    "title": "674dcd2ab00b977d048c92d5",
+                    "text": "After n years, the population, P, in thousands, of a certain species of foxes can be modeled by an equation \\( P = Ae^{kn} \\), where A and k are constants. The table below shows the values of n and P. \\( \\begin{array}{c|c} n & P \\\\ \\hline 5 & 6.23 \\\\ 10 & 4.85 \\\\ 15 & 3.78 \\\\ 20 & 2.94 \\\\ 25 & 2.29 \\end{array} \\) (a) On the grid on the next page, plot \\( \\ln P \\) against n and draw a straight line graph. (b) Use your graph to estimate the initial population of the foxes and the value of k. (c) If this model for the population remains valid, after how many whole years would the population of the foxes first decreased to 1000?",
+                    "answers_found": [
+                        0
+                    ]
+                }
+            ],
+            "output": "A circle with center C passes through the points A(2, -1) and B(4, 3). (a) Determine the relationship between the perpendicular bisector of AB and the point C."
+        },
+        {
+            "question": "What is the periodic table and who invented it?",
+            "answers": [],
+            "docs": [
+                {
+                    "title": "674dcd43b00b977d048c92f0",
+                    "text": "The equation of a circle is $x^2 + y^2 - 4x - 12y + 36 = 0$. The equation of the line $L$ is $y = kx$, where $k$ is a constant.",
+                    "answers_found": [
+                        0
+                    ]
+                },
+                {
+                    "title": "674dcd43b00b977d048c92f2",
+                    "text": "State the equations of the horizontal tangents to the circle.",
+                    "answers_found": [
+                        0
+                    ]
+                }
+            ],
+            "output": "Error generating output"
+        },
+        {
+            "question": "Explain the water cycle with examples.",
+            "answers": [],
+            "docs": [
+                {
+                    "title": "674dcd34b00b977d048c92dc",
+                    "text": "The equation of a circle is (x - 3)^2 + (y + 4)^2 = 26. Determine if the origin O lies inside or outside the circle.",
+                    "answers_found": [
+                        0
+                    ]
+                },
+                {
+                    "title": "674dcd2ab00b977d048c92d5",
+                    "text": "After n years, the population, P, in thousands, of a certain species of foxes can be modeled by an equation \\( P = Ae^{kn} \\), where A and k are constants. The table below shows the values of n and P. \\( \\begin{array}{c|c} n & P \\\\ \\hline 5 & 6.23 \\\\ 10 & 4.85 \\\\ 15 & 3.78 \\\\ 20 & 2.94 \\\\ 25 & 2.29 \\end{array} \\) (a) On the grid on the next page, plot \\( \\ln P \\) against n and draw a straight line graph. (b) Use your graph to estimate the initial population of the foxes and the value of k. (c) If this model for the population remains valid, after how many whole years would the population of the foxes first decreased to 1000?",
+                    "answers_found": [
+                        0
+                    ]
+                },
+                {
+                    "title": "674dcd46b00b977d048c92f7",
+                    "text": "The diagram shows part of the curve $y = \\frac{1}{4} e^{-x} x$. The point $M$ is the maximum point of the curve and $OM$ is a straight line.",
+                    "answers_found": [
+                        0
+                    ]
+                }
+            ],
+            "output": "Error generating output"
+        },
+        {
+            "question": "What are the different states of matter?",
+            "answers": [],
+            "docs": [
+                {
+                    "title": "674dcd16b00b977d048c92b9",
+                    "text": "Explain why there is no constant term in the expansion of \\( \\left( 12x + \\frac{3}{x} \\right)^{18} \\).",
+                    "answers_found": [
+                        0
+                    ]
+                },
+                {
+                    "title": "674dcd43b00b977d048c92f1",
+                    "text": "Find the radius of the circle and the coordinates of its centre.",
+                    "answers_found": [
+                        0
+                    ]
+                },
+                {
+                    "title": "674dcd2ab00b977d048c92d5",
+                    "text": "After n years, the population, P, in thousands, of a certain species of foxes can be modeled by an equation \\( P = Ae^{kn} \\), where A and k are constants. The table below shows the values of n and P. \\( \\begin{array}{c|c} n & P \\\\ \\hline 5 & 6.23 \\\\ 10 & 4.85 \\\\ 15 & 3.78 \\\\ 20 & 2.94 \\\\ 25 & 2.29 \\end{array} \\) (a) On the grid on the next page, plot \\( \\ln P \\) against n and draw a straight line graph. (b) Use your graph to estimate the initial population of the foxes and the value of k. (c) If this model for the population remains valid, after how many whole years would the population of the foxes first decreased to 1000?",
+                    "answers_found": [
+                        0
+                    ]
+                },
+                {
+                    "title": "674dcd46b00b977d048c92f7",
+                    "text": "The diagram shows part of the curve $y = \\frac{1}{4} e^{-x} x$. The point $M$ is the maximum point of the curve and $OM$ is a straight line.",
+                    "answers_found": [
+                        0
+                    ]
+                }
+            ],
+            "output": "Error generating output"
+        },
+        {
+            "question": "What is the difference between velocity and speed?",
+            "answers": [],
+            "docs": [
+                {
+                    "title": "674dcd3ab00b977d048c92e0",
+                    "text": "Using the substitution $z = \\frac{1}{x+1}$, write down all the terms in the expansion of $6[1 + (1 + x)]$, leaving each term in the form $(1 + x)^p$ where $k$ and $p$ are integers.",
+                    "answers_found": [
+                        0
+                    ]
+                }
+            ],
+            "output": "Error generating output"
+        },
+        {
+            "question": "How do cells divide during mitosis?",
+            "answers": [],
+            "docs": [
+                {
+                    "title": "674dcd17b00b977d048c92bb",
+                    "text": "On the grid opposite, draw a straight line graph of \\( \\ln T \\) against \\( t \\).",
+                    "answers_found": [
+                        0
+                    ]
+                },
+                {
+                    "title": "674dcd43b00b977d048c92f2",
+                    "text": "State the equations of the horizontal tangents to the circle.",
+                    "answers_found": [
+                        0
+                    ]
+                },
+                {
+                    "title": "674dcd46b00b977d048c92f7",
+                    "text": "The diagram shows part of the curve $y = \\frac{1}{4} e^{-x} x$. The point $M$ is the maximum point of the curve and $OM$ is a straight line.",
+                    "answers_found": [
+                        0
+                    ]
+                },
+                {
+                    "title": "674dcd46b00b977d048c92f9",
+                    "text": "The temperature, \\( \\theta^\\circ C \\), of a liquid placed in a container can be modelled by an equation of the form \\( \\theta = ae^{-bt} + 32 \\), where \\( a \\) and \\( b \\) are constants and \\( t \\) is the time in minutes that the liquid has been left in the container. The table below records the value of \\( \\theta \\) for various values of \\( t \\). \n\n\\[ \\begin{array}{c|cccc} \n t \\text{ minutes} & 0 & 10 & 20 & 30 \\\\ \n \\hline \n \\theta^\\circ C & 120.0 & 107.6 & 97.7 & 88.0 \n\\end{array} \\] \n\n(i) On the grid given, plot \\( \\ln(\\theta - 32) \\) against \\( t \\) and draw a straight line graph.",
+                    "answers_found": [
+                        0
+                    ]
+                }
+            ],
+            "output": "Error generating output"
+        },
+        {
+            "question": "What was the significance of the Industrial Revolution?",
+            "answers": [],
+            "docs": [
+                {
+                    "title": "674dcd34b00b977d048c92dc",
+                    "text": "The equation of a circle is (x - 3)^2 + (y + 4)^2 = 26. Determine if the origin O lies inside or outside the circle.",
+                    "answers_found": [
+                        0
+                    ]
+                },
+                {
+                    "title": "674dcd16b00b977d048c92b9",
+                    "text": "Explain why there is no constant term in the expansion of \\( \\left( 12x + \\frac{3}{x} \\right)^{18} \\).",
+                    "answers_found": [
+                        0
+                    ]
+                },
+                {
+                    "title": "674dcd43b00b977d048c92f1",
+                    "text": "Find the radius of the circle and the coordinates of its centre.",
+                    "answers_found": [
+                        0
+                    ]
+                },
+                {
+                    "title": "674dcd15b00b977d048c92b7",
+                    "text": "Write down the first four terms in the expansion of \\( (1 - 4x)^6 \\).",
+                    "answers_found": [
+                        0
+                    ]
+                },
+                {
+                    "title": "674dcd10b00b977d048c92ad",
+                    "text": "A circle with centre $O$ passes through the points $P(-1, 7)$ and $Q(0, 8)$. (c) Hence find the equation of the circle. [2]",
+                    "answers_found": [
+                        0
+                    ]
+                }
+            ],
+            "output": "Error generating output"
+        },
+        {
+            "question": "Who were the main leaders during World War II?",
+            "answers": [],
+            "docs": [
+                {
+                    "title": "674dcd40b00b977d048c92ea",
+                    "text": "The equation of a curve $C_1$ is $y = 6x^2 - 3x$. Show that the coordinates of the maximum point of the curve $C_1$ are $(1, 3)$.",
+                    "answers_found": [
+                        0
+                    ]
+                },
+                {
+                    "title": "674dcd3bb00b977d048c92e2",
+                    "text": "Given that the coefficient of $x^2$ in the expansion of $(1 + 2x)^5(1 - px)$ is 20, find the two possible values of the constant $p$.",
+                    "answers_found": [
+                        0
+                    ]
+                }
+            ],
+            "output": "Error generating output"
+        },
+        {
+            "question": "What is the Magna Carta and why is it important?",
+            "answers": [],
+            "docs": [
+                {
+                    "title": "674dcd46b00b977d048c92f9",
+                    "text": "The temperature, \\( \\theta^\\circ C \\), of a liquid placed in a container can be modelled by an equation of the form \\( \\theta = ae^{-bt} + 32 \\), where \\( a \\) and \\( b \\) are constants and \\( t \\) is the time in minutes that the liquid has been left in the container. The table below records the value of \\( \\theta \\) for various values of \\( t \\). \n\n\\[ \\begin{array}{c|cccc} \n t \\text{ minutes} & 0 & 10 & 20 & 30 \\\\ \n \\hline \n \\theta^\\circ C & 120.0 & 107.6 & 97.7 & 88.0 \n\\end{array} \\] \n\n(i) On the grid given, plot \\( \\ln(\\theta - 32) \\) against \\( t \\) and draw a straight line graph.",
+                    "answers_found": [
+                        0
+                    ]
+                },
+                {
+                    "title": "674dcd43b00b977d048c92f1",
+                    "text": "Find the radius of the circle and the coordinates of its centre.",
+                    "answers_found": [
+                        0
+                    ]
+                },
+                {
+                    "title": "674dcd17b00b977d048c92bb",
+                    "text": "On the grid opposite, draw a straight line graph of \\( \\ln T \\) against \\( t \\).",
+                    "answers_found": [
+                        0
+                    ]
+                }
+            ],
+            "output": "Error generating output"
+        },
+        {
+            "question": "Describe the fall of the Roman Empire.",
+            "answers": [],
+            "docs": [
+                {
+                    "title": "674dcd2cb00b977d048c92d9",
+                    "text": "The diagram shows a circle, centre O. Points A, B, D and E lie on the circle. The line AD is a diameter of the circle and DCP is the tangent of the circle at D. The lines EB and AD intersect at point Q. The chord AB is produced to meet the tangent DCP at P. It is given that angle CBP = angle DEB. (a) Show that angle BCD = 90^\\circ.",
+                    "answers_found": [
+                        0
+                    ]
+                },
+                {
+                    "title": "674dcd41b00b977d048c92ed",
+                    "text": "Another line $y = x + a$ is a tangent to the curve $C_1$ at the point $P$.",
+                    "answers_found": [
+                        0
+                    ]
+                },
+                {
+                    "title": "674dcd47b00b977d048c92fa",
+                    "text": "Use the graph to estimate the value of each of the constants \\( a \\) and \\( b \\).",
+                    "answers_found": [
+                        0
+                    ]
+                },
+                {
+                    "title": "674dcd17b00b977d048c92bb",
+                    "text": "On the grid opposite, draw a straight line graph of \\( \\ln T \\) against \\( t \\).",
+                    "answers_found": [
+                        0
+                    ]
+                }
+            ],
+            "output": "Error generating output"
+        },
+        {
+            "question": "Who built the Great Wall of China?",
+            "answers": [],
+            "docs": [
+                {
+                    "title": "674dcd25b00b977d048c92c9",
+                    "text": "(b) State the x-coordinate of the minimum point of \\( y = f(x) \\) and explain why it is the minimum point.",
+                    "answers_found": [
+                        0
+                    ]
+                },
+                {
+                    "title": "674dcd2ab00b977d048c92d5",
+                    "text": "After n years, the population, P, in thousands, of a certain species of foxes can be modeled by an equation \\( P = Ae^{kn} \\), where A and k are constants. The table below shows the values of n and P. \\( \\begin{array}{c|c} n & P \\\\ \\hline 5 & 6.23 \\\\ 10 & 4.85 \\\\ 15 & 3.78 \\\\ 20 & 2.94 \\\\ 25 & 2.29 \\end{array} \\) (a) On the grid on the next page, plot \\( \\ln P \\) against n and draw a straight line graph. (b) Use your graph to estimate the initial population of the foxes and the value of k. (c) If this model for the population remains valid, after how many whole years would the population of the foxes first decreased to 1000?",
+                    "answers_found": [
+                        0
+                    ]
+                },
+                {
+                    "title": "674dcd43b00b977d048c92f2",
+                    "text": "State the equations of the horizontal tangents to the circle.",
+                    "answers_found": [
+                        0
+                    ]
+                },
+                {
+                    "title": "674dce8db00b977d048c93c6",
+                    "text": "Given that \\[ \\begin{pmatrix} 1 & 2 & 0 \\\\ 3 & 0 & 3 \\\\ 2 & 2 & 1 \\end{pmatrix} \\begin{pmatrix} x \\\\ y \\\\ 1 \\end{pmatrix} = \\begin{pmatrix} 5 \\\\ 13 \\\\ 4 \\end{pmatrix} \\], find the value of \\( x \\) and \\( y \\).",
+                    "answers_found": [
+                        0
+                    ]
+                }
+            ],
+            "output": "Error generating output"
+        },
+        {
+            "question": "What are the themes of George Orwell's '1984'?",
+            "answers": [],
+            "docs": [
+                {
+                    "title": "674dcd3ab00b977d048c92e0",
+                    "text": "Using the substitution $z = \\frac{1}{x+1}$, write down all the terms in the expansion of $6[1 + (1 + x)]$, leaving each term in the form $(1 + x)^p$ where $k$ and $p$ are integers.",
+                    "answers_found": [
+                        0
+                    ]
+                },
+                {
+                    "title": "674dcd16b00b977d048c92b9",
+                    "text": "Explain why there is no constant term in the expansion of \\( \\left( 12x + \\frac{3}{x} \\right)^{18} \\).",
+                    "answers_found": [
+                        0
+                    ]
+                },
+                {
+                    "title": "674dcd40b00b977d048c92ea",
+                    "text": "The equation of a curve $C_1$ is $y = 6x^2 - 3x$. Show that the coordinates of the maximum point of the curve $C_1$ are $(1, 3)$.",
+                    "answers_found": [
+                        0
+                    ]
+                }
+            ],
+            "output": "Error generating output"
+        },
+        {
+            "question": "Who wrote 'Pride and Prejudice,' and what is its plot?",
+            "answers": [],
+            "docs": [
+                {
+                    "title": "674dcd43b00b977d048c92f2",
+                    "text": "State the equations of the horizontal tangents to the circle.",
+                    "answers_found": [
+                        0
+                    ]
+                }
+            ],
+            "output": "Error generating output"
+        },
+        {
+            "question": "What is the symbolism in Robert Frost's poem 'The Road Not Taken'?",
+            "answers": [],
+            "docs": [
+                {
+                    "title": "674dcd46b00b977d048c92f7",
+                    "text": "The diagram shows part of the curve $y = \\frac{1}{4} e^{-x} x$. The point $M$ is the maximum point of the curve and $OM$ is a straight line.",
+                    "answers_found": [
+                        0
+                    ]
+                },
+                {
+                    "title": "674dcd3ab00b977d048c92e0",
+                    "text": "Using the substitution $z = \\frac{1}{x+1}$, write down all the terms in the expansion of $6[1 + (1 + x)]$, leaving each term in the form $(1 + x)^p$ where $k$ and $p$ are integers.",
+                    "answers_found": [
+                        0
+                    ]
+                },
+                {
+                    "title": "674dcd2cb00b977d048c92d9",
+                    "text": "The diagram shows a circle, centre O. Points A, B, D and E lie on the circle. The line AD is a diameter of the circle and DCP is the tangent of the circle at D. The lines EB and AD intersect at point Q. The chord AB is produced to meet the tangent DCP at P. It is given that angle CBP = angle DEB. (a) Show that angle BCD = 90^\\circ.",
+                    "answers_found": [
+                        0
+                    ]
+                }
+            ],
+            "output": "Error generating output"
+        },
+        {
+            "question": "Can you analyze the character of Macbeth in Shakespeare's play?",
+            "answers": [],
+            "docs": [
+                {
+                    "title": "674dce8db00b977d048c93c6",
+                    "text": "Given that \\[ \\begin{pmatrix} 1 & 2 & 0 \\\\ 3 & 0 & 3 \\\\ 2 & 2 & 1 \\end{pmatrix} \\begin{pmatrix} x \\\\ y \\\\ 1 \\end{pmatrix} = \\begin{pmatrix} 5 \\\\ 13 \\\\ 4 \\end{pmatrix} \\], find the value of \\( x \\) and \\( y \\).",
+                    "answers_found": [
+                        0
+                    ]
+                },
+                {
+                    "title": "674dcd2ab00b977d048c92d5",
+                    "text": "After n years, the population, P, in thousands, of a certain species of foxes can be modeled by an equation \\( P = Ae^{kn} \\), where A and k are constants. The table below shows the values of n and P. \\( \\begin{array}{c|c} n & P \\\\ \\hline 5 & 6.23 \\\\ 10 & 4.85 \\\\ 15 & 3.78 \\\\ 20 & 2.94 \\\\ 25 & 2.29 \\end{array} \\) (a) On the grid on the next page, plot \\( \\ln P \\) against n and draw a straight line graph. (b) Use your graph to estimate the initial population of the foxes and the value of k. (c) If this model for the population remains valid, after how many whole years would the population of the foxes first decreased to 1000?",
+                    "answers_found": [
+                        0
+                    ]
+                }
+            ],
+            "output": "Error generating output"
+        },
+        {
+            "question": "What is the significance of the opening line in 'Moby-Dick'?",
+            "answers": [],
+            "docs": [
+                {
+                    "title": "674dcd2cb00b977d048c92d9",
+                    "text": "The diagram shows a circle, centre O. Points A, B, D and E lie on the circle. The line AD is a diameter of the circle and DCP is the tangent of the circle at D. The lines EB and AD intersect at point Q. The chord AB is produced to meet the tangent DCP at P. It is given that angle CBP = angle DEB. (a) Show that angle BCD = 90^\\circ.",
+                    "answers_found": [
+                        0
+                    ]
+                },
+                {
+                    "title": "674dcd3ab00b977d048c92e0",
+                    "text": "Using the substitution $z = \\frac{1}{x+1}$, write down all the terms in the expansion of $6[1 + (1 + x)]$, leaving each term in the form $(1 + x)^p$ where $k$ and $p$ are integers.",
+                    "answers_found": [
+                        0
+                    ]
+                },
+                {
+                    "title": "674dcd40b00b977d048c92ea",
+                    "text": "The equation of a curve $C_1$ is $y = 6x^2 - 3x$. Show that the coordinates of the maximum point of the curve $C_1$ are $(1, 3)$.",
+                    "answers_found": [
+                        0
+                    ]
+                }
+            ],
+            "output": "Error generating output"
+        },
+        {
+            "question": "What are the seven wonders of the ancient world?",
+            "answers": [],
+            "docs": [
+                {
+                    "title": "674dcd43b00b977d048c92f1",
+                    "text": "Find the radius of the circle and the coordinates of its centre.",
+                    "answers_found": [
+                        0
+                    ]
+                },
+                {
+                    "title": "674dcd34b00b977d048c92dc",
+                    "text": "The equation of a circle is (x - 3)^2 + (y + 4)^2 = 26. Determine if the origin O lies inside or outside the circle.",
+                    "answers_found": [
+                        0
+                    ]
+                },
+                {
+                    "title": "674dcd43b00b977d048c92f2",
+                    "text": "State the equations of the horizontal tangents to the circle.",
+                    "answers_found": [
+                        0
+                    ]
+                },
+                {
+                    "title": "674dcd43b00b977d048c92f0",
+                    "text": "The equation of a circle is $x^2 + y^2 - 4x - 12y + 36 = 0$. The equation of the line $L$ is $y = kx$, where $k$ is a constant.",
+                    "answers_found": [
+                        0
+                    ]
+                }
+            ],
+            "output": "Error generating output"
+        },
+        {
+            "question": "How does a bill become law in the United States?",
+            "answers": [],
+            "docs": [
+                {
+                    "title": "674dcd43b00b977d048c92f2",
+                    "text": "State the equations of the horizontal tangents to the circle.",
+                    "answers_found": [
+                        0
+                    ]
+                }
+            ],
+            "output": "Error generating output"
+        },
+        {
+            "question": "What is the United Nations and what are its functions?",
+            "answers": [],
+            "docs": [
+                {
+                    "title": "674dcd46b00b977d048c92f7",
+                    "text": "The diagram shows part of the curve $y = \\frac{1}{4} e^{-x} x$. The point $M$ is the maximum point of the curve and $OM$ is a straight line.",
+                    "answers_found": [
+                        0
+                    ]
+                },
+                {
+                    "title": "674dcd2cb00b977d048c92d9",
+                    "text": "The diagram shows a circle, centre O. Points A, B, D and E lie on the circle. The line AD is a diameter of the circle and DCP is the tangent of the circle at D. The lines EB and AD intersect at point Q. The chord AB is produced to meet the tangent DCP at P. It is given that angle CBP = angle DEB. (a) Show that angle BCD = 90^\\circ.",
+                    "answers_found": [
+                        0
+                    ]
+                },
+                {
+                    "title": "674dcd3ab00b977d048c92e0",
+                    "text": "Using the substitution $z = \\frac{1}{x+1}$, write down all the terms in the expansion of $6[1 + (1 + x)]$, leaving each term in the form $(1 + x)^p$ where $k$ and $p$ are integers.",
+                    "answers_found": [
+                        0
+                    ]
+                }
+            ],
+            "output": "Error generating output"
+        },
+        {
+            "question": "Explain the concept of democracy.",
+            "answers": [],
+            "docs": [
+                {
+                    "title": "674dcd43b00b977d048c92f1",
+                    "text": "Find the radius of the circle and the coordinates of its centre.",
+                    "answers_found": [
+                        0
+                    ]
+                },
+                {
+                    "title": "674dcd3bb00b977d048c92e2",
+                    "text": "Given that the coefficient of $x^2$ in the expansion of $(1 + 2x)^5(1 - px)$ is 20, find the two possible values of the constant $p$.",
+                    "answers_found": [
+                        0
+                    ]
+                },
+                {
+                    "title": "674dcd41b00b977d048c92ed",
+                    "text": "Another line $y = x + a$ is a tangent to the curve $C_1$ at the point $P$.",
+                    "answers_found": [
+                        0
+                    ]
+                }
+            ],
+            "output": "Error generating output"
+        },
+        {
+            "question": "What is the main purpose of the International Space Station?",
+            "answers": [],
+            "docs": [
+                {
+                    "title": "674dcd2cb00b977d048c92d9",
+                    "text": "The diagram shows a circle, centre O. Points A, B, D and E lie on the circle. The line AD is a diameter of the circle and DCP is the tangent of the circle at D. The lines EB and AD intersect at point Q. The chord AB is produced to meet the tangent DCP at P. It is given that angle CBP = angle DEB. (a) Show that angle BCD = 90^\\circ.",
+                    "answers_found": [
+                        0
+                    ]
+                },
+                {
+                    "title": "674dcd41b00b977d048c92ed",
+                    "text": "Another line $y = x + a$ is a tangent to the curve $C_1$ at the point $P$.",
+                    "answers_found": [
+                        0
+                    ]
+                },
+                {
+                    "title": "674dcd2ab00b977d048c92d5",
+                    "text": "After n years, the population, P, in thousands, of a certain species of foxes can be modeled by an equation \\( P = Ae^{kn} \\), where A and k are constants. The table below shows the values of n and P. \\( \\begin{array}{c|c} n & P \\\\ \\hline 5 & 6.23 \\\\ 10 & 4.85 \\\\ 15 & 3.78 \\\\ 20 & 2.94 \\\\ 25 & 2.29 \\end{array} \\) (a) On the grid on the next page, plot \\( \\ln P \\) against n and draw a straight line graph. (b) Use your graph to estimate the initial population of the foxes and the value of k. (c) If this model for the population remains valid, after how many whole years would the population of the foxes first decreased to 1000?",
+                    "answers_found": [
+                        0
+                    ]
+                },
+                {
+                    "title": "674dcd15b00b977d048c92b7",
+                    "text": "Write down the first four terms in the expansion of \\( (1 - 4x)^6 \\).",
+                    "answers_found": [
+                        0
+                    ]
+                },
+                {
+                    "title": "674dcd3bb00b977d048c92e2",
+                    "text": "Given that the coefficient of $x^2$ in the expansion of $(1 + 2x)^5(1 - px)$ is 20, find the two possible values of the constant $p$.",
+                    "answers_found": [
+                        0
+                    ]
+                }
+            ],
+            "output": "Error generating output"
+        },
+        {
+            "question": "What is the difference between a simile and a metaphor?",
+            "answers": [],
+            "docs": [
+                {
+                    "title": "674dcd2cb00b977d048c92d9",
+                    "text": "The diagram shows a circle, centre O. Points A, B, D and E lie on the circle. The line AD is a diameter of the circle and DCP is the tangent of the circle at D. The lines EB and AD intersect at point Q. The chord AB is produced to meet the tangent DCP at P. It is given that angle CBP = angle DEB. (a) Show that angle BCD = 90^\\circ.",
+                    "answers_found": [
+                        0
+                    ]
+                }
+            ],
+            "output": "Error generating output"
+        },
+        {
+            "question": "How do airplanes stay in the air?",
+            "answers": [],
+            "docs": [
+                {
+                    "title": "674dcd34b00b977d048c92dc",
+                    "text": "The equation of a circle is (x - 3)^2 + (y + 4)^2 = 26. Determine if the origin O lies inside or outside the circle.",
+                    "answers_found": [
+                        0
+                    ]
+                },
+                {
+                    "title": "674dcd3bb00b977d048c92e2",
+                    "text": "Given that the coefficient of $x^2$ in the expansion of $(1 + 2x)^5(1 - px)$ is 20, find the two possible values of the constant $p$.",
+                    "answers_found": [
+                        0
+                    ]
+                },
+                {
+                    "title": "674dcd43b00b977d048c92f1",
+                    "text": "Find the radius of the circle and the coordinates of its centre.",
+                    "answers_found": [
+                        0
+                    ]
+                }
+            ],
+            "output": "Error generating output"
+        },
+        {
+            "question": "What are the main ingredients in baking a cake?",
+            "answers": [],
+            "docs": [
+                {
+                    "title": "674dcd2ab00b977d048c92d5",
+                    "text": "After n years, the population, P, in thousands, of a certain species of foxes can be modeled by an equation \\( P = Ae^{kn} \\), where A and k are constants. The table below shows the values of n and P. \\( \\begin{array}{c|c} n & P \\\\ \\hline 5 & 6.23 \\\\ 10 & 4.85 \\\\ 15 & 3.78 \\\\ 20 & 2.94 \\\\ 25 & 2.29 \\end{array} \\) (a) On the grid on the next page, plot \\( \\ln P \\) against n and draw a straight line graph. (b) Use your graph to estimate the initial population of the foxes and the value of k. (c) If this model for the population remains valid, after how many whole years would the population of the foxes first decreased to 1000?",
+                    "answers_found": [
+                        0
+                    ]
+                },
+                {
+                    "title": "674dcd43b00b977d048c92f0",
+                    "text": "The equation of a circle is $x^2 + y^2 - 4x - 12y + 36 = 0$. The equation of the line $L$ is $y = kx$, where $k$ is a constant.",
+                    "answers_found": [
+                        0
+                    ]
+                },
+                {
+                    "title": "674dcd3ab00b977d048c92e0",
+                    "text": "Using the substitution $z = \\frac{1}{x+1}$, write down all the terms in the expansion of $6[1 + (1 + x)]$, leaving each term in the form $(1 + x)^p$ where $k$ and $p$ are integers.",
+                    "answers_found": [
+                        0
+                    ]
+                },
+                {
+                    "title": "674dce8db00b977d048c93c6",
+                    "text": "Given that \\[ \\begin{pmatrix} 1 & 2 & 0 \\\\ 3 & 0 & 3 \\\\ 2 & 2 & 1 \\end{pmatrix} \\begin{pmatrix} x \\\\ y \\\\ 1 \\end{pmatrix} = \\begin{pmatrix} 5 \\\\ 13 \\\\ 4 \\end{pmatrix} \\], find the value of \\( x \\) and \\( y \\).",
+                    "answers_found": [
+                        0
+                    ]
+                },
+                {
+                    "title": "674dcd43b00b977d048c92f2",
+                    "text": "State the equations of the horizontal tangents to the circle.",
+                    "answers_found": [
+                        0
+                    ]
+                }
+            ],
+            "output": "Error generating output"
+        },
+        {
+            "question": "What is the Fibonacci sequence used for in real life?",
+            "answers": [],
+            "docs": [
+                {
+                    "title": "674dcd15b00b977d048c92b7",
+                    "text": "Write down the first four terms in the expansion of \\( (1 - 4x)^6 \\).",
+                    "answers_found": [
+                        0
+                    ]
+                },
+                {
+                    "title": "674dcd43b00b977d048c92f0",
+                    "text": "The equation of a circle is $x^2 + y^2 - 4x - 12y + 36 = 0$. The equation of the line $L$ is $y = kx$, where $k$ is a constant.",
+                    "answers_found": [
+                        0
+                    ]
+                }
+            ],
+            "output": "Error generating output"
+        },
+        {
+            "question": "What is the history of the internet?",
+            "answers": [],
+            "docs": [
+                {
+                    "title": "674dcd46b00b977d048c92f9",
+                    "text": "The temperature, \\( \\theta^\\circ C \\), of a liquid placed in a container can be modelled by an equation of the form \\( \\theta = ae^{-bt} + 32 \\), where \\( a \\) and \\( b \\) are constants and \\( t \\) is the time in minutes that the liquid has been left in the container. The table below records the value of \\( \\theta \\) for various values of \\( t \\). \n\n\\[ \\begin{array}{c|cccc} \n t \\text{ minutes} & 0 & 10 & 20 & 30 \\\\ \n \\hline \n \\theta^\\circ C & 120.0 & 107.6 & 97.7 & 88.0 \n\\end{array} \\] \n\n(i) On the grid given, plot \\( \\ln(\\theta - 32) \\) against \\( t \\) and draw a straight line graph.",
+                    "answers_found": [
+                        0
+                    ]
+                }
+            ],
+            "output": "Error generating output"
+        }
+    ]
+}

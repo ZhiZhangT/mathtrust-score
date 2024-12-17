@@ -1,0 +1,2559 @@
+{
+    "data": [
+        {
+            "question": "Can you provide practice problems on multiplying two matrices?",
+            "answers": [],
+            "docs": [
+                {
+                    "title": "674dcdb4b00b977d048c931b",
+                    "text": "The admission tickets to the Singapore Zoo are $50 for an adult, $36 for a child, and $20 for a senior citizen. On a particular Tuesday, there were 212 adults, 251 children, and 15 senior citizens who visited the Singapore Zoo and on a particular Wednesday, there were 231 adults, 266 children, and 12 senior citizens who visited the Singapore Zoo. The number of visitors on the particular Tuesday and Wednesday can be represented by the matrix V = \\begin{pmatrix} 212 & 251 & 15 \\\\ 231 & 266 & 12 \\end{pmatrix}. \\text{ (i) Write a } 3 \\times 1 \\text{ matrix, P, to represent the price of the admission tickets. (ii) Find the matrix } T = VP. \\text{ (iii) Explain what each of the elements represents. (iv) Find the total amount collected from the sales of the tickets for the 2 days.}",
+                    "answers_found": [
+                        1
+                    ]
+                },
+                {
+                    "title": "674dcde1b00b977d048c9352",
+                    "text": "Two outlets of a coffee chain sell three different types of coffee: espresso, flat white and mocha. The table shows the number of cups of each type of coffee sold on a particular day. Outlet A: Espresso 30, Flat White 30, Mocha 35; Outlet B: Espresso x, Flat White x + 2, Mocha 40. This information can be represented by the matrix \\( P = \\begin{pmatrix} 30 & 30 & 35 \\\\ x & x+2 & 40 \\end{pmatrix} \\). The coffee chain sells a cup of espresso at $2.50, a cup of flat white at $4 and a cup of mocha at $5.50. This information can be represented by the matrix \\( Q = \\begin{pmatrix} 2.5 \\\\ 4 \\\\ 5.5 \\end{pmatrix} \\). (a) Find, in terms of x, the matrix \\( R = PQ \\).",
+                    "answers_found": [
+                        1
+                    ]
+                },
+                {
+                    "title": "674dce0fb00b977d048c9395",
+                    "text": "(c) Evaluate the matrix G = LC.",
+                    "answers_found": [
+                        1
+                    ]
+                },
+                {
+                    "title": "674dce10b00b977d048c9397",
+                    "text": "(e) The dance school wants to attract more students, so in the next 10-week block, the dance school reduces the price for cultural and international dance sessions by 10%. For this block of sessions, on weekdays, there are 5 cultural dance students and 12 international dance students. On weekends, there are 8 cultural dance students and 15 international dance students. By using matrix multiplication, calculate the total amount of money the dance school earns for this 10-week block of sessions.",
+                    "answers_found": [
+                        1
+                    ]
+                },
+                {
+                    "title": "674dce93b00b977d048c93d2",
+                    "text": "On a particular week, supermarket A was offering a store-wide 20% discount promotion while supermarket B was offering a store-wide 10% discount promotion. Write down a matrix P, such that the product of P and T would give the discounted prices which Ron and Zoe each has to pay if they purchase the items from supermarkets A and B respectively.",
+                    "answers_found": [
+                        1
+                    ]
+                },
+                {
+                    "title": "674dce93b00b977d048c93d3",
+                    "text": "Hence, using the value of x found in (d), find the product of the matrices P and T.",
+                    "answers_found": [
+                        1
+                    ]
+                },
+                {
+                    "title": "674dcde3b00b977d048c9356",
+                    "text": "The diagram is the speed-time graph for the first k seconds of the motion of an object. (a) Find the acceleration when \\( t = 5 \\).",
+                    "answers_found": [
+                        0
+                    ]
+                },
+                {
+                    "title": "674dcd9fb00b977d048c9306",
+                    "text": "Solve the simultaneous equations: \\( 7x + 2y = 8 \\) and \\( 3x - y = 3 \\).",
+                    "answers_found": [
+                        0
+                    ]
+                },
+                {
+                    "title": "674dce1ab00b977d048c93a4",
+                    "text": "Jane exchanged 500 Singapore dollars ($) into Thai baht (THB) when the exchange rate was $1 = 26.77 THB. She travelled to Thailand and spent 10,600 THB. On her return to Singapore, she exchanged the remaining Thai baht into dollars with the exchange rate $1 = 26.88 THB. Calculate the amount she received in dollars. Correct your answer to the nearest cent.",
+                    "answers_found": [
+                        0
+                    ]
+                }
+            ],
+            "output": "A theater sells tickets for three different types of seating: VIP, regular, and balcony. The prices for these seats are $120, $75, and $50, respectively. On Tuesday, the theater sold 175 VIP seats, 220 regular seats, and 150 balcony seats. On Wednesday, 160 VIP seats, 245 regular seats, and 165 balcony seats were sold. Represent the sales for Tuesday and Wednesday with the matrix \\( S = \\begin{pmatrix} 175 & 220 & 150 \\\\ 160 & 245 & 165 \\end{pmatrix} \\). (i) Construct a \\( 3 \\times 1 \\) matrix \\( P \\) to represent the price of each type of seating. (ii) Calculate the matrix \\( T = SP \\). (iii) Explain the significance of each element of \\( T \\). (iv) Compute the total revenue generated from ticket sales across the two days."
+        },
+        {
+            "question": "I need some exercises involving matrix multiplication; can you help?",
+            "answers": [],
+            "docs": [
+                {
+                    "title": "674dcdb4b00b977d048c931b",
+                    "text": "The admission tickets to the Singapore Zoo are $50 for an adult, $36 for a child, and $20 for a senior citizen. On a particular Tuesday, there were 212 adults, 251 children, and 15 senior citizens who visited the Singapore Zoo and on a particular Wednesday, there were 231 adults, 266 children, and 12 senior citizens who visited the Singapore Zoo. The number of visitors on the particular Tuesday and Wednesday can be represented by the matrix V = \\begin{pmatrix} 212 & 251 & 15 \\\\ 231 & 266 & 12 \\end{pmatrix}. \\text{ (i) Write a } 3 \\times 1 \\text{ matrix, P, to represent the price of the admission tickets. (ii) Find the matrix } T = VP. \\text{ (iii) Explain what each of the elements represents. (iv) Find the total amount collected from the sales of the tickets for the 2 days.}",
+                    "answers_found": [
+                        1
+                    ]
+                },
+                {
+                    "title": "674dcde1b00b977d048c9352",
+                    "text": "Two outlets of a coffee chain sell three different types of coffee: espresso, flat white and mocha. The table shows the number of cups of each type of coffee sold on a particular day. Outlet A: Espresso 30, Flat White 30, Mocha 35; Outlet B: Espresso x, Flat White x + 2, Mocha 40. This information can be represented by the matrix \\( P = \\begin{pmatrix} 30 & 30 & 35 \\\\ x & x+2 & 40 \\end{pmatrix} \\). The coffee chain sells a cup of espresso at $2.50, a cup of flat white at $4 and a cup of mocha at $5.50. This information can be represented by the matrix \\( Q = \\begin{pmatrix} 2.5 \\\\ 4 \\\\ 5.5 \\end{pmatrix} \\). (a) Find, in terms of x, the matrix \\( R = PQ \\).",
+                    "answers_found": [
+                        1
+                    ]
+                },
+                {
+                    "title": "674dce0fb00b977d048c9395",
+                    "text": "(c) Evaluate the matrix G = LC.",
+                    "answers_found": [
+                        1
+                    ]
+                },
+                {
+                    "title": "674dce10b00b977d048c9397",
+                    "text": "(e) The dance school wants to attract more students, so in the next 10-week block, the dance school reduces the price for cultural and international dance sessions by 10%. For this block of sessions, on weekdays, there are 5 cultural dance students and 12 international dance students. On weekends, there are 8 cultural dance students and 15 international dance students. By using matrix multiplication, calculate the total amount of money the dance school earns for this 10-week block of sessions.",
+                    "answers_found": [
+                        1
+                    ]
+                },
+                {
+                    "title": "674dce93b00b977d048c93d2",
+                    "text": "On a particular week, supermarket A was offering a store-wide 20% discount promotion while supermarket B was offering a store-wide 10% discount promotion. Write down a matrix P, such that the product of P and T would give the discounted prices which Ron and Zoe each has to pay if they purchase the items from supermarkets A and B respectively.",
+                    "answers_found": [
+                        1
+                    ]
+                },
+                {
+                    "title": "674dce93b00b977d048c93d3",
+                    "text": "Hence, using the value of x found in (d), find the product of the matrices P and T.",
+                    "answers_found": [
+                        1
+                    ]
+                },
+                {
+                    "title": "674dcde4b00b977d048c9358",
+                    "text": "(c) The distance travelled in the first k seconds is 520 m. Find the value of k.",
+                    "answers_found": [
+                        0
+                    ]
+                }
+            ],
+            "output": "A performing arts theatre charges $60 for adults, $40 for students, and $25 for children for their events. One week, they have performances on Friday and Saturday. On Friday, 150 adults, 180 students, and 30 children attend, while on Saturday, 200 adults, 220 students, and 50 children attend. Represent the number of attendees on each day using the matrix \\( A = \\begin{pmatrix} 150 & 180 & 30 \\\\ 200 & 220 & 50 \\end{pmatrix} \\). \n\n(i) Write a \\( 3 \\times 1 \\) matrix, \\( P \\), to represent the prices of tickets. \n(ii) Calculate the matrix \\( T = AP \\). \n(iii) Interpret each element of \\( T \\). \n(iv) Determine the total revenue generated from both days combined."
+        },
+        {
+            "question": "Where can I find practice questions on multiplication of matrices?",
+            "answers": [],
+            "docs": [
+                {
+                    "title": "674dcdb4b00b977d048c931b",
+                    "text": "The admission tickets to the Singapore Zoo are $50 for an adult, $36 for a child, and $20 for a senior citizen. On a particular Tuesday, there were 212 adults, 251 children, and 15 senior citizens who visited the Singapore Zoo and on a particular Wednesday, there were 231 adults, 266 children, and 12 senior citizens who visited the Singapore Zoo. The number of visitors on the particular Tuesday and Wednesday can be represented by the matrix V = \\begin{pmatrix} 212 & 251 & 15 \\\\ 231 & 266 & 12 \\end{pmatrix}. \\text{ (i) Write a } 3 \\times 1 \\text{ matrix, P, to represent the price of the admission tickets. (ii) Find the matrix } T = VP. \\text{ (iii) Explain what each of the elements represents. (iv) Find the total amount collected from the sales of the tickets for the 2 days.}",
+                    "answers_found": [
+                        1
+                    ]
+                },
+                {
+                    "title": "674dcde1b00b977d048c9352",
+                    "text": "Two outlets of a coffee chain sell three different types of coffee: espresso, flat white and mocha. The table shows the number of cups of each type of coffee sold on a particular day. Outlet A: Espresso 30, Flat White 30, Mocha 35; Outlet B: Espresso x, Flat White x + 2, Mocha 40. This information can be represented by the matrix \\( P = \\begin{pmatrix} 30 & 30 & 35 \\\\ x & x+2 & 40 \\end{pmatrix} \\). The coffee chain sells a cup of espresso at $2.50, a cup of flat white at $4 and a cup of mocha at $5.50. This information can be represented by the matrix \\( Q = \\begin{pmatrix} 2.5 \\\\ 4 \\\\ 5.5 \\end{pmatrix} \\). (a) Find, in terms of x, the matrix \\( R = PQ \\).",
+                    "answers_found": [
+                        1
+                    ]
+                },
+                {
+                    "title": "674dce0fb00b977d048c9395",
+                    "text": "(c) Evaluate the matrix G = LC.",
+                    "answers_found": [
+                        1
+                    ]
+                },
+                {
+                    "title": "674dce10b00b977d048c9397",
+                    "text": "(e) The dance school wants to attract more students, so in the next 10-week block, the dance school reduces the price for cultural and international dance sessions by 10%. For this block of sessions, on weekdays, there are 5 cultural dance students and 12 international dance students. On weekends, there are 8 cultural dance students and 15 international dance students. By using matrix multiplication, calculate the total amount of money the dance school earns for this 10-week block of sessions.",
+                    "answers_found": [
+                        1
+                    ]
+                },
+                {
+                    "title": "674dce93b00b977d048c93d2",
+                    "text": "On a particular week, supermarket A was offering a store-wide 20% discount promotion while supermarket B was offering a store-wide 10% discount promotion. Write down a matrix P, such that the product of P and T would give the discounted prices which Ron and Zoe each has to pay if they purchase the items from supermarkets A and B respectively.",
+                    "answers_found": [
+                        1
+                    ]
+                },
+                {
+                    "title": "674dce93b00b977d048c93d3",
+                    "text": "Hence, using the value of x found in (d), find the product of the matrices P and T.",
+                    "answers_found": [
+                        1
+                    ]
+                },
+                {
+                    "title": "674dce98b00b977d048c93dc",
+                    "text": "Calculate an estimate of the mean speed.",
+                    "answers_found": [
+                        0
+                    ]
+                },
+                {
+                    "title": "674dcdb4b00b977d048c931a",
+                    "text": "A, D, B, and C lie on a circle, center O. AP is a tangent to the circle at A and BP is a tangent to the circle at B. \\angle AOB = 142^\\circ \\text{ and } \\angle DAP = 42^\\circ. \\text{ (a) Find the value of (i) } \\angle ACB, \\text{ (ii) } \\angle ADB. \\text{ (b) Is OB parallel to AD? Explain.}",
+                    "answers_found": [
+                        0
+                    ]
+                },
+                {
+                    "title": "674dce0cb00b977d048c938f",
+                    "text": "(b) Find an estimate of the (i) mean of the distance ran, Answer .................................km [1]",
+                    "answers_found": [
+                        0
+                    ]
+                }
+            ],
+            "output": "A ticketing company sells tickets to a theatre play. The tickets are priced differently for three categories: VIP at $150, Regular at $60, and Economy at $35. On the opening night, 120 VIP tickets, 250 Regular tickets, and 180 Economy tickets were sold. On the closing night, the company sold 140 VIP tickets, 300 Regular tickets, and 220 Economy tickets. Represent the sales for these two nights in a matrix \\( S = \\begin{pmatrix} 120 & 250 & 180 \\\\ 140 & 300 & 220 \\end{pmatrix} \\). (i) Write a \\( 3 \\times 1 \\) matrix, \\( P \\), to represent the ticket prices. (ii) Calculate the matrix \\( T = SP \\). (iii) Explain what each element of the resulting matrix \\( T \\) represents. (iv) Compute the total revenue collected from ticket sales over the two nights."
+        },
+        {
+            "question": "Do you have any sample questions on multiplying two matrices?",
+            "answers": [],
+            "docs": [
+                {
+                    "title": "674dcdb4b00b977d048c931b",
+                    "text": "The admission tickets to the Singapore Zoo are $50 for an adult, $36 for a child, and $20 for a senior citizen. On a particular Tuesday, there were 212 adults, 251 children, and 15 senior citizens who visited the Singapore Zoo and on a particular Wednesday, there were 231 adults, 266 children, and 12 senior citizens who visited the Singapore Zoo. The number of visitors on the particular Tuesday and Wednesday can be represented by the matrix V = \\begin{pmatrix} 212 & 251 & 15 \\\\ 231 & 266 & 12 \\end{pmatrix}. \\text{ (i) Write a } 3 \\times 1 \\text{ matrix, P, to represent the price of the admission tickets. (ii) Find the matrix } T = VP. \\text{ (iii) Explain what each of the elements represents. (iv) Find the total amount collected from the sales of the tickets for the 2 days.}",
+                    "answers_found": [
+                        1
+                    ]
+                },
+                {
+                    "title": "674dcde1b00b977d048c9352",
+                    "text": "Two outlets of a coffee chain sell three different types of coffee: espresso, flat white and mocha. The table shows the number of cups of each type of coffee sold on a particular day. Outlet A: Espresso 30, Flat White 30, Mocha 35; Outlet B: Espresso x, Flat White x + 2, Mocha 40. This information can be represented by the matrix \\( P = \\begin{pmatrix} 30 & 30 & 35 \\\\ x & x+2 & 40 \\end{pmatrix} \\). The coffee chain sells a cup of espresso at $2.50, a cup of flat white at $4 and a cup of mocha at $5.50. This information can be represented by the matrix \\( Q = \\begin{pmatrix} 2.5 \\\\ 4 \\\\ 5.5 \\end{pmatrix} \\). (a) Find, in terms of x, the matrix \\( R = PQ \\).",
+                    "answers_found": [
+                        1
+                    ]
+                },
+                {
+                    "title": "674dce0fb00b977d048c9395",
+                    "text": "(c) Evaluate the matrix G = LC.",
+                    "answers_found": [
+                        1
+                    ]
+                },
+                {
+                    "title": "674dce10b00b977d048c9397",
+                    "text": "(e) The dance school wants to attract more students, so in the next 10-week block, the dance school reduces the price for cultural and international dance sessions by 10%. For this block of sessions, on weekdays, there are 5 cultural dance students and 12 international dance students. On weekends, there are 8 cultural dance students and 15 international dance students. By using matrix multiplication, calculate the total amount of money the dance school earns for this 10-week block of sessions.",
+                    "answers_found": [
+                        1
+                    ]
+                },
+                {
+                    "title": "674dce93b00b977d048c93d2",
+                    "text": "On a particular week, supermarket A was offering a store-wide 20% discount promotion while supermarket B was offering a store-wide 10% discount promotion. Write down a matrix P, such that the product of P and T would give the discounted prices which Ron and Zoe each has to pay if they purchase the items from supermarkets A and B respectively.",
+                    "answers_found": [
+                        1
+                    ]
+                },
+                {
+                    "title": "674dce93b00b977d048c93d3",
+                    "text": "Hence, using the value of x found in (d), find the product of the matrices P and T.",
+                    "answers_found": [
+                        1
+                    ]
+                },
+                {
+                    "title": "674dcddfb00b977d048c9350",
+                    "text": "There are 30 blue balls, 20 green balls and 14 yellow balls in a bag. A ball is chosen at random from the bag and then replaced. (i) Find the probability of not picking a green ball, express your answer to the lowest term.",
+                    "answers_found": [
+                        0
+                    ]
+                }
+            ],
+            "output": "The town of Lakeside hosts a weekly farmers market where different products are sold. On market day 1, vendors sold 120 units of cheese, 200 units of bread, and 50 units of honey. On market day 2, vendors sold 130 units of cheese, 190 units of bread, and 60 units of honey. Represent these sales using the matrix \\( S = \\begin{pmatrix} 120 & 200 & 50 \\\\ 130 & 190 & 60 \\end{pmatrix} \\). The prices for these items are given as $5 per unit of cheese, $3 per unit of bread, and $7 per unit of honey, represented by matrix \\( P = \\begin{pmatrix} 5 \\\\ 3 \\\\ 7 \\end{pmatrix} \\). (i) Calculate the matrix \\( T = SP \\). (ii) Explain the significance of each element in the result. (iii) Determine the total revenue from sales over the two market days."
+        },
+        {
+            "question": "Could you give me some problems to practice matrix multiplication?",
+            "answers": [],
+            "docs": [
+                {
+                    "title": "674dcdb4b00b977d048c931b",
+                    "text": "The admission tickets to the Singapore Zoo are $50 for an adult, $36 for a child, and $20 for a senior citizen. On a particular Tuesday, there were 212 adults, 251 children, and 15 senior citizens who visited the Singapore Zoo and on a particular Wednesday, there were 231 adults, 266 children, and 12 senior citizens who visited the Singapore Zoo. The number of visitors on the particular Tuesday and Wednesday can be represented by the matrix V = \\begin{pmatrix} 212 & 251 & 15 \\\\ 231 & 266 & 12 \\end{pmatrix}. \\text{ (i) Write a } 3 \\times 1 \\text{ matrix, P, to represent the price of the admission tickets. (ii) Find the matrix } T = VP. \\text{ (iii) Explain what each of the elements represents. (iv) Find the total amount collected from the sales of the tickets for the 2 days.}",
+                    "answers_found": [
+                        1
+                    ]
+                },
+                {
+                    "title": "674dcde1b00b977d048c9352",
+                    "text": "Two outlets of a coffee chain sell three different types of coffee: espresso, flat white and mocha. The table shows the number of cups of each type of coffee sold on a particular day. Outlet A: Espresso 30, Flat White 30, Mocha 35; Outlet B: Espresso x, Flat White x + 2, Mocha 40. This information can be represented by the matrix \\( P = \\begin{pmatrix} 30 & 30 & 35 \\\\ x & x+2 & 40 \\end{pmatrix} \\). The coffee chain sells a cup of espresso at $2.50, a cup of flat white at $4 and a cup of mocha at $5.50. This information can be represented by the matrix \\( Q = \\begin{pmatrix} 2.5 \\\\ 4 \\\\ 5.5 \\end{pmatrix} \\). (a) Find, in terms of x, the matrix \\( R = PQ \\).",
+                    "answers_found": [
+                        1
+                    ]
+                },
+                {
+                    "title": "674dce0fb00b977d048c9395",
+                    "text": "(c) Evaluate the matrix G = LC.",
+                    "answers_found": [
+                        1
+                    ]
+                },
+                {
+                    "title": "674dce10b00b977d048c9397",
+                    "text": "(e) The dance school wants to attract more students, so in the next 10-week block, the dance school reduces the price for cultural and international dance sessions by 10%. For this block of sessions, on weekdays, there are 5 cultural dance students and 12 international dance students. On weekends, there are 8 cultural dance students and 15 international dance students. By using matrix multiplication, calculate the total amount of money the dance school earns for this 10-week block of sessions.",
+                    "answers_found": [
+                        1
+                    ]
+                },
+                {
+                    "title": "674dce93b00b977d048c93d2",
+                    "text": "On a particular week, supermarket A was offering a store-wide 20% discount promotion while supermarket B was offering a store-wide 10% discount promotion. Write down a matrix P, such that the product of P and T would give the discounted prices which Ron and Zoe each has to pay if they purchase the items from supermarkets A and B respectively.",
+                    "answers_found": [
+                        1
+                    ]
+                },
+                {
+                    "title": "674dce93b00b977d048c93d3",
+                    "text": "Hence, using the value of x found in (d), find the product of the matrices P and T.",
+                    "answers_found": [
+                        1
+                    ]
+                },
+                {
+                    "title": "674dcdb4b00b977d048c931a",
+                    "text": "A, D, B, and C lie on a circle, center O. AP is a tangent to the circle at A and BP is a tangent to the circle at B. \\angle AOB = 142^\\circ \\text{ and } \\angle DAP = 42^\\circ. \\text{ (a) Find the value of (i) } \\angle ACB, \\text{ (ii) } \\angle ADB. \\text{ (b) Is OB parallel to AD? Explain.}",
+                    "answers_found": [
+                        0
+                    ]
+                },
+                {
+                    "title": "674dcdb5b00b977d048c931d",
+                    "text": "Given that 2^{32} \\times 1 = 6 \\times 8^x, \\text{ find the value of } x.",
+                    "answers_found": [
+                        0
+                    ]
+                },
+                {
+                    "title": "674dcdd3b00b977d048c9338",
+                    "text": "\\text{Write down an expression, in terms of } \\pi, \\text{ for the reflex angle } AOB.",
+                    "answers_found": [
+                        0
+                    ]
+                },
+                {
+                    "title": "674dcddeb00b977d048c934d",
+                    "text": "\\text{The modal time is 25 minutes. Find the value of } p.",
+                    "answers_found": [
+                        0
+                    ]
+                }
+            ],
+            "output": "A high school plans a two-day excursion to a technology exhibition. The entry fees are $40 for instructors, $30 for college students, and $15 for high school students. On the first day of the excursion, the group includes 150 instructors, 320 college students, and 180 high school students. On the second day, there are 170 instructors, 305 college students, and 190 high school students attending. Represent the number of attendees on both days with the matrix:\n\\[A = \\begin{pmatrix} 150 & 320 & 180 \\\\ 170 & 305 & 190 \\end{pmatrix}\\]\n(i) Write a 3x1 matrix \\( F \\) to represent the entry fees. (ii) Find the matrix \\( C = AF \\). (iii) Interpret the meaning of each element of matrix \\( C \\). (iv) Determine the total revenue collected from the excursion over the two days."
+        },
+        {
+            "question": "Can you provide practice problems on finding the mean, median, and mode?",
+            "answers": [],
+            "docs": [
+                {
+                    "title": "674dcd9cb00b977d048c92ff",
+                    "text": "Ethan measures the amount of rain, in millimetres (mm), each day for 31 days. The bar chart shows his results. \n\n(a) Write down the median amount of rain.",
+                    "answers_found": [
+                        1
+                    ]
+                },
+                {
+                    "title": "674dcd9db00b977d048c9300",
+                    "text": "(b) Find the mean amount of rain per day.",
+                    "answers_found": [
+                        1
+                    ]
+                },
+                {
+                    "title": "674dcddeb00b977d048c934d",
+                    "text": "\\text{The modal time is 25 minutes. Find the value of } p.",
+                    "answers_found": [
+                        1
+                    ]
+                },
+                {
+                    "title": "674dce8db00b977d048c93c7",
+                    "text": "Mr Gan weighed 8 male students. The median mass of the students was 63.5 kg. The interquartile range of the masses of the students was 4.5 kg. Mr Gan realised that the scale of the weighing machine was inaccurate. The correct mass of each student was 1.5 kg less than what he had recorded. Write down the correct values for the median mass and interquartile range.",
+                    "answers_found": [
+                        1
+                    ]
+                },
+                {
+                    "title": "674dcddfb00b977d048c934f",
+                    "text": "\\text{When the time taken for the 16th student is added to the diagram, the median is 23 minutes. What is the possible time taken by this student to complete a task?}",
+                    "answers_found": [
+                        1
+                    ]
+                },
+                {
+                    "title": "674dce0cb00b977d048c938f",
+                    "text": "(b) Find an estimate of the (i) mean of the distance ran, Answer .................................km [1]",
+                    "answers_found": [
+                        1
+                    ]
+                },
+                {
+                    "title": "674dce8eb00b977d048c93ca",
+                    "text": "(b) Find the median age of the male patients.",
+                    "answers_found": [
+                        1
+                    ]
+                },
+                {
+                    "title": "674dce98b00b977d048c93dc",
+                    "text": "Calculate an estimate of the mean speed.",
+                    "answers_found": [
+                        1
+                    ]
+                },
+                {
+                    "title": "674dcdb4b00b977d048c931b",
+                    "text": "The admission tickets to the Singapore Zoo are $50 for an adult, $36 for a child, and $20 for a senior citizen. On a particular Tuesday, there were 212 adults, 251 children, and 15 senior citizens who visited the Singapore Zoo and on a particular Wednesday, there were 231 adults, 266 children, and 12 senior citizens who visited the Singapore Zoo. The number of visitors on the particular Tuesday and Wednesday can be represented by the matrix V = \\begin{pmatrix} 212 & 251 & 15 \\\\ 231 & 266 & 12 \\end{pmatrix}. \\text{ (i) Write a } 3 \\times 1 \\text{ matrix, P, to represent the price of the admission tickets. (ii) Find the matrix } T = VP. \\text{ (iii) Explain what each of the elements represents. (iv) Find the total amount collected from the sales of the tickets for the 2 days.}",
+                    "answers_found": [
+                        0
+                    ]
+                },
+                {
+                    "title": "674dce0fb00b977d048c9395",
+                    "text": "(c) Evaluate the matrix G = LC.",
+                    "answers_found": [
+                        0
+                    ]
+                },
+                {
+                    "title": "674dce10b00b977d048c9397",
+                    "text": "(e) The dance school wants to attract more students, so in the next 10-week block, the dance school reduces the price for cultural and international dance sessions by 10%. For this block of sessions, on weekdays, there are 5 cultural dance students and 12 international dance students. On weekends, there are 8 cultural dance students and 15 international dance students. By using matrix multiplication, calculate the total amount of money the dance school earns for this 10-week block of sessions.",
+                    "answers_found": [
+                        0
+                    ]
+                }
+            ],
+            "output": "A group of friends recorded the weekly water intake (in liters) for 28 people in their health club. The data was then summarized in a frequency distribution table as follows:\\[\\begin{array}{|c|c|c|c|c|c|}\\hline\\text{Water Intake (liters)} & 1.5-2.0 & 2.1-2.5 & 2.6-3.0 & 3.1-3.5 & 3.6-4.0 \\\\\\hline\\text{Frequency} & 4 & 9 & 8 & 5 & x \\\\\\hline\\end{array}\\]If the mean water intake per person is 2.7 liters, determine the missing frequency \\(x\\), and identify the median and mode water intakes."
+        },
+        {
+            "question": "I need exercises involving calculating mean, median, and mode; can you help?",
+            "answers": [],
+            "docs": [
+                {
+                    "title": "674dcd9cb00b977d048c92ff",
+                    "text": "Ethan measures the amount of rain, in millimetres (mm), each day for 31 days. The bar chart shows his results. \n\n(a) Write down the median amount of rain.",
+                    "answers_found": [
+                        1
+                    ]
+                },
+                {
+                    "title": "674dcd9db00b977d048c9300",
+                    "text": "(b) Find the mean amount of rain per day.",
+                    "answers_found": [
+                        1
+                    ]
+                },
+                {
+                    "title": "674dcddeb00b977d048c934d",
+                    "text": "\\text{The modal time is 25 minutes. Find the value of } p.",
+                    "answers_found": [
+                        1
+                    ]
+                },
+                {
+                    "title": "674dce8db00b977d048c93c7",
+                    "text": "Mr Gan weighed 8 male students. The median mass of the students was 63.5 kg. The interquartile range of the masses of the students was 4.5 kg. Mr Gan realised that the scale of the weighing machine was inaccurate. The correct mass of each student was 1.5 kg less than what he had recorded. Write down the correct values for the median mass and interquartile range.",
+                    "answers_found": [
+                        1
+                    ]
+                },
+                {
+                    "title": "674dcddfb00b977d048c934f",
+                    "text": "\\text{When the time taken for the 16th student is added to the diagram, the median is 23 minutes. What is the possible time taken by this student to complete a task?}",
+                    "answers_found": [
+                        1
+                    ]
+                },
+                {
+                    "title": "674dce0cb00b977d048c938f",
+                    "text": "(b) Find an estimate of the (i) mean of the distance ran, Answer .................................km [1]",
+                    "answers_found": [
+                        1
+                    ]
+                },
+                {
+                    "title": "674dce8eb00b977d048c93ca",
+                    "text": "(b) Find the median age of the male patients.",
+                    "answers_found": [
+                        1
+                    ]
+                },
+                {
+                    "title": "674dce98b00b977d048c93dc",
+                    "text": "Calculate an estimate of the mean speed.",
+                    "answers_found": [
+                        1
+                    ]
+                },
+                {
+                    "title": "674dcdb5b00b977d048c931d",
+                    "text": "Given that 2^{32} \\times 1 = 6 \\times 8^x, \\text{ find the value of } x.",
+                    "answers_found": [
+                        0
+                    ]
+                },
+                {
+                    "title": "674dcde1b00b977d048c9352",
+                    "text": "Two outlets of a coffee chain sell three different types of coffee: espresso, flat white and mocha. The table shows the number of cups of each type of coffee sold on a particular day. Outlet A: Espresso 30, Flat White 30, Mocha 35; Outlet B: Espresso x, Flat White x + 2, Mocha 40. This information can be represented by the matrix \\( P = \\begin{pmatrix} 30 & 30 & 35 \\\\ x & x+2 & 40 \\end{pmatrix} \\). The coffee chain sells a cup of espresso at $2.50, a cup of flat white at $4 and a cup of mocha at $5.50. This information can be represented by the matrix \\( Q = \\begin{pmatrix} 2.5 \\\\ 4 \\\\ 5.5 \\end{pmatrix} \\). (a) Find, in terms of x, the matrix \\( R = PQ \\).",
+                    "answers_found": [
+                        0
+                    ]
+                },
+                {
+                    "title": "674dcd9eb00b977d048c9304",
+                    "text": "A drawer contains 40 balls. 15 balls are black, 5 balls are grey and 20 balls are white. Samuel chooses one ball from the drawer at random. (a) Find the probability that the ball is not black.",
+                    "answers_found": [
+                        0
+                    ]
+                },
+                {
+                    "title": "674dce25b00b977d048c93b9",
+                    "text": "Calculate the reflex angle AOB in radians.",
+                    "answers_found": [
+                        0
+                    ]
+                },
+                {
+                    "title": "674dcde4b00b977d048c9358",
+                    "text": "(c) The distance travelled in the first k seconds is 520 m. Find the value of k.",
+                    "answers_found": [
+                        0
+                    ]
+                },
+                {
+                    "title": "674dcde3b00b977d048c9357",
+                    "text": "(b) Find the distance travelled in the first 10 seconds.",
+                    "answers_found": [
+                        0
+                    ]
+                },
+                {
+                    "title": "674dcdccb00b977d048c932a",
+                    "text": "ABC is an equilateral triangle with lengths \\((5x + y)\\) cm, \\((16y - x)\\) cm and \\((4x + 5 - 3y)\\) cm. (a) Write down two simultaneous equations, in terms of \\(x\\) and \\(y\\), to represent this information.",
+                    "answers_found": [
+                        0
+                    ]
+                }
+            ],
+            "output": "A school's math teacher records the test scores of her 20 students in a test. The test scores, sorted in ascending order, are: \n\\[45, 50, 52, 55, 56, 60, 61, 63, 65, 68, 70, 72, 75, 78, 80, 82, 85, 88, 90, 95.\\]\nFind the median and mode of the test scores."
+        },
+        {
+            "question": "Where can I find practice questions on mean, median, and mode?",
+            "answers": [],
+            "docs": [
+                {
+                    "title": "674dcd9cb00b977d048c92ff",
+                    "text": "Ethan measures the amount of rain, in millimetres (mm), each day for 31 days. The bar chart shows his results. \n\n(a) Write down the median amount of rain.",
+                    "answers_found": [
+                        1
+                    ]
+                },
+                {
+                    "title": "674dcd9db00b977d048c9300",
+                    "text": "(b) Find the mean amount of rain per day.",
+                    "answers_found": [
+                        1
+                    ]
+                },
+                {
+                    "title": "674dcddeb00b977d048c934d",
+                    "text": "\\text{The modal time is 25 minutes. Find the value of } p.",
+                    "answers_found": [
+                        1
+                    ]
+                },
+                {
+                    "title": "674dce8db00b977d048c93c7",
+                    "text": "Mr Gan weighed 8 male students. The median mass of the students was 63.5 kg. The interquartile range of the masses of the students was 4.5 kg. Mr Gan realised that the scale of the weighing machine was inaccurate. The correct mass of each student was 1.5 kg less than what he had recorded. Write down the correct values for the median mass and interquartile range.",
+                    "answers_found": [
+                        1
+                    ]
+                },
+                {
+                    "title": "674dcddfb00b977d048c934f",
+                    "text": "\\text{When the time taken for the 16th student is added to the diagram, the median is 23 minutes. What is the possible time taken by this student to complete a task?}",
+                    "answers_found": [
+                        1
+                    ]
+                },
+                {
+                    "title": "674dce0cb00b977d048c938f",
+                    "text": "(b) Find an estimate of the (i) mean of the distance ran, Answer .................................km [1]",
+                    "answers_found": [
+                        1
+                    ]
+                },
+                {
+                    "title": "674dce8eb00b977d048c93ca",
+                    "text": "(b) Find the median age of the male patients.",
+                    "answers_found": [
+                        1
+                    ]
+                },
+                {
+                    "title": "674dce98b00b977d048c93dc",
+                    "text": "Calculate an estimate of the mean speed.",
+                    "answers_found": [
+                        1
+                    ]
+                },
+                {
+                    "title": "674dce18b00b977d048c939f",
+                    "text": "Given \\( a = 2bv + xk \\), find \\( x \\) when \\( a = 2 \\), \\( b = 3 \\), \\( v = -4 \\), and \\( k = 5 \\).",
+                    "answers_found": [
+                        0
+                    ]
+                },
+                {
+                    "title": "674dce25b00b977d048c93b9",
+                    "text": "Calculate the reflex angle AOB in radians.",
+                    "answers_found": [
+                        0
+                    ]
+                }
+            ],
+            "output": "Olivia is analyzing the ages of people attending a local community event. The ages of 50 participants are displayed in a stem-and-leaf plot. \n\n\\[\n\\begin{array}{|c|l|}\n\\hline\n\\text{Tens} & \\text{Units} \\\\\n\\hline\n2 & 1, 3, 5, 6, 8 \\\\\n3 & 0, 2, 2, 4, 5, 6, 7, 9, 9 \\\\\n4 & 1, 2, 3, 3, 5, 6, 8 \\\\\n5 & 0, 2, 3, 4, 5, 6, 8 \\\\\n6 & 0, 1, 2, 5, 5, 8 \\\\\n7 & 0, 2, 4, 6 \\\\\n8 & 1, 2 \\\\\n\\hline\n\\end{array}\n\\]\n\n(a) Determine the median age of the participants.\n(b) Calculate the mean age of the participants."
+        },
+        {
+            "question": "Do you have any sample questions on finding mean, median, and mode?",
+            "answers": [],
+            "docs": [
+                {
+                    "title": "674dcd9cb00b977d048c92ff",
+                    "text": "Ethan measures the amount of rain, in millimetres (mm), each day for 31 days. The bar chart shows his results. \n\n(a) Write down the median amount of rain.",
+                    "answers_found": [
+                        1
+                    ]
+                },
+                {
+                    "title": "674dcd9db00b977d048c9300",
+                    "text": "(b) Find the mean amount of rain per day.",
+                    "answers_found": [
+                        1
+                    ]
+                },
+                {
+                    "title": "674dcddeb00b977d048c934d",
+                    "text": "\\text{The modal time is 25 minutes. Find the value of } p.",
+                    "answers_found": [
+                        1
+                    ]
+                },
+                {
+                    "title": "674dce8db00b977d048c93c7",
+                    "text": "Mr Gan weighed 8 male students. The median mass of the students was 63.5 kg. The interquartile range of the masses of the students was 4.5 kg. Mr Gan realised that the scale of the weighing machine was inaccurate. The correct mass of each student was 1.5 kg less than what he had recorded. Write down the correct values for the median mass and interquartile range.",
+                    "answers_found": [
+                        1
+                    ]
+                },
+                {
+                    "title": "674dcddfb00b977d048c934f",
+                    "text": "\\text{When the time taken for the 16th student is added to the diagram, the median is 23 minutes. What is the possible time taken by this student to complete a task?}",
+                    "answers_found": [
+                        1
+                    ]
+                },
+                {
+                    "title": "674dce0cb00b977d048c938f",
+                    "text": "(b) Find an estimate of the (i) mean of the distance ran, Answer .................................km [1]",
+                    "answers_found": [
+                        1
+                    ]
+                },
+                {
+                    "title": "674dce8eb00b977d048c93ca",
+                    "text": "(b) Find the median age of the male patients.",
+                    "answers_found": [
+                        1
+                    ]
+                },
+                {
+                    "title": "674dce98b00b977d048c93dc",
+                    "text": "Calculate an estimate of the mean speed.",
+                    "answers_found": [
+                        1
+                    ]
+                },
+                {
+                    "title": "674dcdb4b00b977d048c931a",
+                    "text": "A, D, B, and C lie on a circle, center O. AP is a tangent to the circle at A and BP is a tangent to the circle at B. \\angle AOB = 142^\\circ \\text{ and } \\angle DAP = 42^\\circ. \\text{ (a) Find the value of (i) } \\angle ACB, \\text{ (ii) } \\angle ADB. \\text{ (b) Is OB parallel to AD? Explain.}",
+                    "answers_found": [
+                        0
+                    ]
+                },
+                {
+                    "title": "674dcd9fb00b977d048c9306",
+                    "text": "Solve the simultaneous equations: \\( 7x + 2y = 8 \\) and \\( 3x - y = 3 \\).",
+                    "answers_found": [
+                        0
+                    ]
+                },
+                {
+                    "title": "674dce19b00b977d048c93a1",
+                    "text": "Solve the simultaneous equations: \\( 4x + 7y = 23 \\) and \\( 6x - 2y = 3 \\).",
+                    "answers_found": [
+                        0
+                    ]
+                }
+            ],
+            "output": "Jamie collected data over a 30-day period to track the number of pages he read each day in his novel. The data is represented in the following stem-and-leaf plot: \n\n\\[\n\\begin{array}{c|c}\n\\text{Stem} & \\text{Leaf} \\\\\n\\hline\n2 & 3 \\, 6 \\, 7 \\, 8 \\, 9 \\\\\n3 & 0 \\, 1 \\, 2 \\, 3 \\, 4 \\, 5 \\\\\n4 & 1 \\, 2 \\, 6 \\, 7 \\, 8 \\\\\n5 & 0 \\, 1 \\, 2 \\\\\n\\end{array}\n\\]\n\n(a) Determine the median number of pages Jamie read per day. \n(b) Calculate the mode of the number of pages read per day."
+        },
+        {
+            "question": "Could you give me some problems to practice calculating mean, median, and mode?",
+            "answers": [],
+            "docs": [
+                {
+                    "title": "674dcd9cb00b977d048c92ff",
+                    "text": "Ethan measures the amount of rain, in millimetres (mm), each day for 31 days. The bar chart shows his results. \n\n(a) Write down the median amount of rain.",
+                    "answers_found": [
+                        1
+                    ]
+                },
+                {
+                    "title": "674dcd9db00b977d048c9300",
+                    "text": "(b) Find the mean amount of rain per day.",
+                    "answers_found": [
+                        1
+                    ]
+                },
+                {
+                    "title": "674dcddeb00b977d048c934d",
+                    "text": "\\text{The modal time is 25 minutes. Find the value of } p.",
+                    "answers_found": [
+                        1
+                    ]
+                },
+                {
+                    "title": "674dce8db00b977d048c93c7",
+                    "text": "Mr Gan weighed 8 male students. The median mass of the students was 63.5 kg. The interquartile range of the masses of the students was 4.5 kg. Mr Gan realised that the scale of the weighing machine was inaccurate. The correct mass of each student was 1.5 kg less than what he had recorded. Write down the correct values for the median mass and interquartile range.",
+                    "answers_found": [
+                        1
+                    ]
+                },
+                {
+                    "title": "674dcddfb00b977d048c934f",
+                    "text": "\\text{When the time taken for the 16th student is added to the diagram, the median is 23 minutes. What is the possible time taken by this student to complete a task?}",
+                    "answers_found": [
+                        1
+                    ]
+                },
+                {
+                    "title": "674dce0cb00b977d048c938f",
+                    "text": "(b) Find an estimate of the (i) mean of the distance ran, Answer .................................km [1]",
+                    "answers_found": [
+                        1
+                    ]
+                },
+                {
+                    "title": "674dce8eb00b977d048c93ca",
+                    "text": "(b) Find the median age of the male patients.",
+                    "answers_found": [
+                        1
+                    ]
+                },
+                {
+                    "title": "674dce98b00b977d048c93dc",
+                    "text": "Calculate an estimate of the mean speed.",
+                    "answers_found": [
+                        1
+                    ]
+                },
+                {
+                    "title": "674dce23b00b977d048c93b5",
+                    "text": "The diagram shows a circle with centre O. TA and TB are tangents to the circle at A and B respectively. AT produced meets OB produced at X.",
+                    "answers_found": [
+                        0
+                    ]
+                },
+                {
+                    "title": "674dce18b00b977d048c939f",
+                    "text": "Given \\( a = 2bv + xk \\), find \\( x \\) when \\( a = 2 \\), \\( b = 3 \\), \\( v = -4 \\), and \\( k = 5 \\).",
+                    "answers_found": [
+                        0
+                    ]
+                },
+                {
+                    "title": "674dcddfb00b977d048c9350",
+                    "text": "There are 30 blue balls, 20 green balls and 14 yellow balls in a bag. A ball is chosen at random from the bag and then replaced. (i) Find the probability of not picking a green ball, express your answer to the lowest term.",
+                    "answers_found": [
+                        0
+                    ]
+                },
+                {
+                    "title": "674dcde4b00b977d048c9358",
+                    "text": "(c) The distance travelled in the first k seconds is 520 m. Find the value of k.",
+                    "answers_found": [
+                        0
+                    ]
+                }
+            ],
+            "output": "In a small town, the number of tourists visiting each of five distinct attractions over a month is recorded as follows: 25, 30, 30, 35, and 45. What's the mode of the number of tourists recorded at the attractions?"
+        },
+        {
+            "question": "Can you provide practice problems on applying angle properties of circles?",
+            "answers": [],
+            "docs": [
+                {
+                    "title": "674dcdb4b00b977d048c931a",
+                    "text": "A, D, B, and C lie on a circle, center O. AP is a tangent to the circle at A and BP is a tangent to the circle at B. \\angle AOB = 142^\\circ \\text{ and } \\angle DAP = 42^\\circ. \\text{ (a) Find the value of (i) } \\angle ACB, \\text{ (ii) } \\angle ADB. \\text{ (b) Is OB parallel to AD? Explain.}",
+                    "answers_found": [
+                        1
+                    ]
+                },
+                {
+                    "title": "674dcdd3b00b977d048c9337",
+                    "text": "A, B, C \\text{ and } D \\text{ lie on a circle with centre } O \\text{ and radius } 5 \\text{ cm. } \\angle AOB = 1.8 \\text{ radians. }",
+                    "answers_found": [
+                        1
+                    ]
+                },
+                {
+                    "title": "674dce23b00b977d048c93b5",
+                    "text": "The diagram shows a circle with centre O. TA and TB are tangents to the circle at A and B respectively. AT produced meets OB produced at X.",
+                    "answers_found": [
+                        1
+                    ]
+                },
+                {
+                    "title": "674dce25b00b977d048c93b9",
+                    "text": "Calculate the reflex angle AOB in radians.",
+                    "answers_found": [
+                        1
+                    ]
+                },
+                {
+                    "title": "674dcdd3b00b977d048c9338",
+                    "text": "\\text{Write down an expression, in terms of } \\pi, \\text{ for the reflex angle } AOB.",
+                    "answers_found": [
+                        1
+                    ]
+                },
+                {
+                    "title": "674dcde3b00b977d048c9357",
+                    "text": "(b) Find the distance travelled in the first 10 seconds.",
+                    "answers_found": [
+                        0
+                    ]
+                },
+                {
+                    "title": "674dcdccb00b977d048c932b",
+                    "text": "(b) Solve the simultaneous equations and hence find the area of triangle ABC.",
+                    "answers_found": [
+                        0
+                    ]
+                },
+                {
+                    "title": "674dce0cb00b977d048c938f",
+                    "text": "(b) Find an estimate of the (i) mean of the distance ran, Answer .................................km [1]",
+                    "answers_found": [
+                        0
+                    ]
+                },
+                {
+                    "title": "674dce93b00b977d048c93d3",
+                    "text": "Hence, using the value of x found in (d), find the product of the matrices P and T.",
+                    "answers_found": [
+                        0
+                    ]
+                }
+            ],
+            "output": "Given a circle with center O, points A, B, C, and D lie on the circle. A line AE is tangent to the circle at A, and BF is tangent to the circle at B. If \\( \\angle AOB = 110^\\circ \\) and \\( \\angle DAF = 38^\\circ \\), (a) find the values of (i) \\( \\angle ACB \\), and (ii) \\( \\angle ADB \\). (b) Verify if line BF is parallel to line DE. Provide a clear justification."
+        },
+        {
+            "question": "I need exercises involving angle properties in circle geometry; can you help?",
+            "answers": [],
+            "docs": [
+                {
+                    "title": "674dcdb4b00b977d048c931a",
+                    "text": "A, D, B, and C lie on a circle, center O. AP is a tangent to the circle at A and BP is a tangent to the circle at B. \\angle AOB = 142^\\circ \\text{ and } \\angle DAP = 42^\\circ. \\text{ (a) Find the value of (i) } \\angle ACB, \\text{ (ii) } \\angle ADB. \\text{ (b) Is OB parallel to AD? Explain.}",
+                    "answers_found": [
+                        1
+                    ]
+                },
+                {
+                    "title": "674dcdd3b00b977d048c9337",
+                    "text": "A, B, C \\text{ and } D \\text{ lie on a circle with centre } O \\text{ and radius } 5 \\text{ cm. } \\angle AOB = 1.8 \\text{ radians. }",
+                    "answers_found": [
+                        1
+                    ]
+                },
+                {
+                    "title": "674dce23b00b977d048c93b5",
+                    "text": "The diagram shows a circle with centre O. TA and TB are tangents to the circle at A and B respectively. AT produced meets OB produced at X.",
+                    "answers_found": [
+                        1
+                    ]
+                },
+                {
+                    "title": "674dce25b00b977d048c93b9",
+                    "text": "Calculate the reflex angle AOB in radians.",
+                    "answers_found": [
+                        1
+                    ]
+                },
+                {
+                    "title": "674dcdd3b00b977d048c9338",
+                    "text": "\\text{Write down an expression, in terms of } \\pi, \\text{ for the reflex angle } AOB.",
+                    "answers_found": [
+                        1
+                    ]
+                },
+                {
+                    "title": "674dcde4b00b977d048c9358",
+                    "text": "(c) The distance travelled in the first k seconds is 520 m. Find the value of k.",
+                    "answers_found": [
+                        0
+                    ]
+                },
+                {
+                    "title": "674dce93b00b977d048c93d2",
+                    "text": "On a particular week, supermarket A was offering a store-wide 20% discount promotion while supermarket B was offering a store-wide 10% discount promotion. Write down a matrix P, such that the product of P and T would give the discounted prices which Ron and Zoe each has to pay if they purchase the items from supermarkets A and B respectively.",
+                    "answers_found": [
+                        0
+                    ]
+                },
+                {
+                    "title": "674dcde3b00b977d048c9356",
+                    "text": "The diagram is the speed-time graph for the first k seconds of the motion of an object. (a) Find the acceleration when \\( t = 5 \\).",
+                    "answers_found": [
+                        0
+                    ]
+                }
+            ],
+            "output": "Let points P, Q, and R be on a circle with center O. Line PR is tangent to the circle at point P. Given that \\( \\angle POR = 130^\\circ \\) and \\( \\angle QPR = 40^\\circ \\), find the following: \n(a) The measure of \\( \\angle QOR \\).\n(b) Determine if line OQ is parallel to PR and provide an explanation."
+        },
+        {
+            "question": "Where can I find practice questions on angles in circles?",
+            "answers": [],
+            "docs": [
+                {
+                    "title": "674dcdb4b00b977d048c931a",
+                    "text": "A, D, B, and C lie on a circle, center O. AP is a tangent to the circle at A and BP is a tangent to the circle at B. \\angle AOB = 142^\\circ \\text{ and } \\angle DAP = 42^\\circ. \\text{ (a) Find the value of (i) } \\angle ACB, \\text{ (ii) } \\angle ADB. \\text{ (b) Is OB parallel to AD? Explain.}",
+                    "answers_found": [
+                        1
+                    ]
+                },
+                {
+                    "title": "674dcdd3b00b977d048c9337",
+                    "text": "A, B, C \\text{ and } D \\text{ lie on a circle with centre } O \\text{ and radius } 5 \\text{ cm. } \\angle AOB = 1.8 \\text{ radians. }",
+                    "answers_found": [
+                        1
+                    ]
+                },
+                {
+                    "title": "674dce23b00b977d048c93b5",
+                    "text": "The diagram shows a circle with centre O. TA and TB are tangents to the circle at A and B respectively. AT produced meets OB produced at X.",
+                    "answers_found": [
+                        1
+                    ]
+                },
+                {
+                    "title": "674dce25b00b977d048c93b9",
+                    "text": "Calculate the reflex angle AOB in radians.",
+                    "answers_found": [
+                        1
+                    ]
+                },
+                {
+                    "title": "674dcdd3b00b977d048c9338",
+                    "text": "\\text{Write down an expression, in terms of } \\pi, \\text{ for the reflex angle } AOB.",
+                    "answers_found": [
+                        1
+                    ]
+                },
+                {
+                    "title": "674dcde1b00b977d048c9352",
+                    "text": "Two outlets of a coffee chain sell three different types of coffee: espresso, flat white and mocha. The table shows the number of cups of each type of coffee sold on a particular day. Outlet A: Espresso 30, Flat White 30, Mocha 35; Outlet B: Espresso x, Flat White x + 2, Mocha 40. This information can be represented by the matrix \\( P = \\begin{pmatrix} 30 & 30 & 35 \\\\ x & x+2 & 40 \\end{pmatrix} \\). The coffee chain sells a cup of espresso at $2.50, a cup of flat white at $4 and a cup of mocha at $5.50. This information can be represented by the matrix \\( Q = \\begin{pmatrix} 2.5 \\\\ 4 \\\\ 5.5 \\end{pmatrix} \\). (a) Find, in terms of x, the matrix \\( R = PQ \\).",
+                    "answers_found": [
+                        0
+                    ]
+                }
+            ],
+            "output": "Let E, F, G, and H be points on a circle with center O. The line segment EG is a tangent to the circle at E while line segment FH is tangent to the circle at F. If \\( \\angle EOF = 135^\\circ \\) and \\( \\angle EGF = 50^\\circ \\), find the following: (a) The value of (i) \\( \\angle EHF \\), (ii) \\( \\angle EHG \\). (b) Determine if line OH is parallel to line EG and provide a justification for your conclusion."
+        },
+        {
+            "question": "Do you have any sample questions on angle properties of circles?",
+            "answers": [],
+            "docs": [
+                {
+                    "title": "674dcdb4b00b977d048c931a",
+                    "text": "A, D, B, and C lie on a circle, center O. AP is a tangent to the circle at A and BP is a tangent to the circle at B. \\angle AOB = 142^\\circ \\text{ and } \\angle DAP = 42^\\circ. \\text{ (a) Find the value of (i) } \\angle ACB, \\text{ (ii) } \\angle ADB. \\text{ (b) Is OB parallel to AD? Explain.}",
+                    "answers_found": [
+                        1
+                    ]
+                },
+                {
+                    "title": "674dcdd3b00b977d048c9337",
+                    "text": "A, B, C \\text{ and } D \\text{ lie on a circle with centre } O \\text{ and radius } 5 \\text{ cm. } \\angle AOB = 1.8 \\text{ radians. }",
+                    "answers_found": [
+                        1
+                    ]
+                },
+                {
+                    "title": "674dce23b00b977d048c93b5",
+                    "text": "The diagram shows a circle with centre O. TA and TB are tangents to the circle at A and B respectively. AT produced meets OB produced at X.",
+                    "answers_found": [
+                        1
+                    ]
+                },
+                {
+                    "title": "674dce25b00b977d048c93b9",
+                    "text": "Calculate the reflex angle AOB in radians.",
+                    "answers_found": [
+                        1
+                    ]
+                },
+                {
+                    "title": "674dcdd3b00b977d048c9338",
+                    "text": "\\text{Write down an expression, in terms of } \\pi, \\text{ for the reflex angle } AOB.",
+                    "answers_found": [
+                        1
+                    ]
+                },
+                {
+                    "title": "674dcddeb00b977d048c934d",
+                    "text": "\\text{The modal time is 25 minutes. Find the value of } p.",
+                    "answers_found": [
+                        0
+                    ]
+                }
+            ],
+            "output": "In a circle with center \\( O \\), the points \\( P, Q, R, \\) and \\( S \\) are located on the circumference. \\( PQ \\) is a tangent to the circle at \\( P \\) and \\( PS \\) is a tangent to the circle at \\( S \\). Given that \\( \\angle POR = 136^\\circ \\) and \\( \\angle PQS = 46^\\circ \\), calculate: (a) (i) \\( \\angle PRS \\), (ii) \\( \\angle PQR \\). (b) Are the lines \\( OR \\) and \\( QS \\) parallel? Justify your answer."
+        },
+        {
+            "question": "Could you give me some problems to practice applying angle properties in circles?",
+            "answers": [],
+            "docs": [
+                {
+                    "title": "674dcdb4b00b977d048c931a",
+                    "text": "A, D, B, and C lie on a circle, center O. AP is a tangent to the circle at A and BP is a tangent to the circle at B. \\angle AOB = 142^\\circ \\text{ and } \\angle DAP = 42^\\circ. \\text{ (a) Find the value of (i) } \\angle ACB, \\text{ (ii) } \\angle ADB. \\text{ (b) Is OB parallel to AD? Explain.}",
+                    "answers_found": [
+                        1
+                    ]
+                },
+                {
+                    "title": "674dcdd3b00b977d048c9337",
+                    "text": "A, B, C \\text{ and } D \\text{ lie on a circle with centre } O \\text{ and radius } 5 \\text{ cm. } \\angle AOB = 1.8 \\text{ radians. }",
+                    "answers_found": [
+                        1
+                    ]
+                },
+                {
+                    "title": "674dce23b00b977d048c93b5",
+                    "text": "The diagram shows a circle with centre O. TA and TB are tangents to the circle at A and B respectively. AT produced meets OB produced at X.",
+                    "answers_found": [
+                        1
+                    ]
+                },
+                {
+                    "title": "674dce25b00b977d048c93b9",
+                    "text": "Calculate the reflex angle AOB in radians.",
+                    "answers_found": [
+                        1
+                    ]
+                },
+                {
+                    "title": "674dcdd3b00b977d048c9338",
+                    "text": "\\text{Write down an expression, in terms of } \\pi, \\text{ for the reflex angle } AOB.",
+                    "answers_found": [
+                        1
+                    ]
+                },
+                {
+                    "title": "674dcddeb00b977d048c934d",
+                    "text": "\\text{The modal time is 25 minutes. Find the value of } p.",
+                    "answers_found": [
+                        0
+                    ]
+                },
+                {
+                    "title": "674dce18b00b977d048c939f",
+                    "text": "Given \\( a = 2bv + xk \\), find \\( x \\) when \\( a = 2 \\), \\( b = 3 \\), \\( v = -4 \\), and \\( k = 5 \\).",
+                    "answers_found": [
+                        0
+                    ]
+                },
+                {
+                    "title": "674dcdccb00b977d048c932a",
+                    "text": "ABC is an equilateral triangle with lengths \\((5x + y)\\) cm, \\((16y - x)\\) cm and \\((4x + 5 - 3y)\\) cm. (a) Write down two simultaneous equations, in terms of \\(x\\) and \\(y\\), to represent this information.",
+                    "answers_found": [
+                        0
+                    ]
+                }
+            ],
+            "output": "Points E, F, G, and H lie on a circle with center X. Line ER is a tangent to the circle at E, and line FS is a tangent to the circle at F. Given that \\( \\angle EXF = 156^\\circ \\) and \\( \\angle HER = 38^\\circ \\), determine: (a) the value of (i) \\( \\angle EHF \\), (ii) \\( \\angle EGF \\). (b) Analyze whether line FX is parallel to line EH and provide your reasoning."
+        },
+        {
+            "question": "Can you provide practice problems on applying rates in real-world contexts?",
+            "answers": [],
+            "docs": [
+                {
+                    "title": "674dce1ab00b977d048c93a4",
+                    "text": "Jane exchanged 500 Singapore dollars ($) into Thai baht (THB) when the exchange rate was $1 = 26.77 THB. She travelled to Thailand and spent 10,600 THB. On her return to Singapore, she exchanged the remaining Thai baht into dollars with the exchange rate $1 = 26.88 THB. Calculate the amount she received in dollars. Correct your answer to the nearest cent.",
+                    "answers_found": [
+                        1
+                    ]
+                },
+                {
+                    "title": "674dcde3b00b977d048c9356",
+                    "text": "The diagram is the speed-time graph for the first k seconds of the motion of an object. (a) Find the acceleration when \\( t = 5 \\).",
+                    "answers_found": [
+                        1
+                    ]
+                },
+                {
+                    "title": "674dcde3b00b977d048c9357",
+                    "text": "(b) Find the distance travelled in the first 10 seconds.",
+                    "answers_found": [
+                        1
+                    ]
+                },
+                {
+                    "title": "674dcde4b00b977d048c9358",
+                    "text": "(c) The distance travelled in the first k seconds is 520 m. Find the value of k.",
+                    "answers_found": [
+                        1
+                    ]
+                },
+                {
+                    "title": "674dcddfb00b977d048c934f",
+                    "text": "\\text{When the time taken for the 16th student is added to the diagram, the median is 23 minutes. What is the possible time taken by this student to complete a task?}",
+                    "answers_found": [
+                        0
+                    ]
+                },
+                {
+                    "title": "674dcd9eb00b977d048c9304",
+                    "text": "A drawer contains 40 balls. 15 balls are black, 5 balls are grey and 20 balls are white. Samuel chooses one ball from the drawer at random. (a) Find the probability that the ball is not black.",
+                    "answers_found": [
+                        0
+                    ]
+                },
+                {
+                    "title": "674dcdccb00b977d048c932b",
+                    "text": "(b) Solve the simultaneous equations and hence find the area of triangle ABC.",
+                    "answers_found": [
+                        0
+                    ]
+                }
+            ],
+            "output": "An object moves in a straight line and its speed-time graph has a constant negative gradient from 0 to k seconds. (a) Determine the acceleration at time \\( t = 3 \\) seconds. (b) Calculate the distance travelled within the first 15 seconds. (c) If the object covers 600 meters within the first k seconds, find the numerical value of k. (d) Draw the corresponding velocity-time graph for the first k seconds of motion."
+        },
+        {
+            "question": "I need exercises involving real-world rate applications; can you help?",
+            "answers": [],
+            "docs": [
+                {
+                    "title": "674dce1ab00b977d048c93a4",
+                    "text": "Jane exchanged 500 Singapore dollars ($) into Thai baht (THB) when the exchange rate was $1 = 26.77 THB. She travelled to Thailand and spent 10,600 THB. On her return to Singapore, she exchanged the remaining Thai baht into dollars with the exchange rate $1 = 26.88 THB. Calculate the amount she received in dollars. Correct your answer to the nearest cent.",
+                    "answers_found": [
+                        1
+                    ]
+                },
+                {
+                    "title": "674dcde3b00b977d048c9356",
+                    "text": "The diagram is the speed-time graph for the first k seconds of the motion of an object. (a) Find the acceleration when \\( t = 5 \\).",
+                    "answers_found": [
+                        1
+                    ]
+                },
+                {
+                    "title": "674dcde3b00b977d048c9357",
+                    "text": "(b) Find the distance travelled in the first 10 seconds.",
+                    "answers_found": [
+                        1
+                    ]
+                },
+                {
+                    "title": "674dcde4b00b977d048c9358",
+                    "text": "(c) The distance travelled in the first k seconds is 520 m. Find the value of k.",
+                    "answers_found": [
+                        1
+                    ]
+                },
+                {
+                    "title": "674dce93b00b977d048c93d2",
+                    "text": "On a particular week, supermarket A was offering a store-wide 20% discount promotion while supermarket B was offering a store-wide 10% discount promotion. Write down a matrix P, such that the product of P and T would give the discounted prices which Ron and Zoe each has to pay if they purchase the items from supermarkets A and B respectively.",
+                    "answers_found": [
+                        0
+                    ]
+                }
+            ],
+            "output": "An object moves with varying speed as shown by the speed-time graph below. (a) Determine the object's acceleration at \\( t = 7 \\) seconds. (b) Calculate the distance covered by the object in the initial 8 seconds. (c) If the object travels a distance of 400 meters within the first \\( m \\) seconds, determine the value of \\( m \\). (d) Draw a distance-time graph representing the object's motion during these initial \\( m \\) seconds."
+        },
+        {
+            "question": "Where can I find practice questions on rates in practical situations?",
+            "answers": [],
+            "docs": [
+                {
+                    "title": "674dce1ab00b977d048c93a4",
+                    "text": "Jane exchanged 500 Singapore dollars ($) into Thai baht (THB) when the exchange rate was $1 = 26.77 THB. She travelled to Thailand and spent 10,600 THB. On her return to Singapore, she exchanged the remaining Thai baht into dollars with the exchange rate $1 = 26.88 THB. Calculate the amount she received in dollars. Correct your answer to the nearest cent.",
+                    "answers_found": [
+                        1
+                    ]
+                },
+                {
+                    "title": "674dcde3b00b977d048c9356",
+                    "text": "The diagram is the speed-time graph for the first k seconds of the motion of an object. (a) Find the acceleration when \\( t = 5 \\).",
+                    "answers_found": [
+                        1
+                    ]
+                },
+                {
+                    "title": "674dcde3b00b977d048c9357",
+                    "text": "(b) Find the distance travelled in the first 10 seconds.",
+                    "answers_found": [
+                        1
+                    ]
+                },
+                {
+                    "title": "674dcde4b00b977d048c9358",
+                    "text": "(c) The distance travelled in the first k seconds is 520 m. Find the value of k.",
+                    "answers_found": [
+                        1
+                    ]
+                },
+                {
+                    "title": "674dcddfb00b977d048c9350",
+                    "text": "There are 30 blue balls, 20 green balls and 14 yellow balls in a bag. A ball is chosen at random from the bag and then replaced. (i) Find the probability of not picking a green ball, express your answer to the lowest term.",
+                    "answers_found": [
+                        0
+                    ]
+                },
+                {
+                    "title": "674dce0fb00b977d048c9395",
+                    "text": "(c) Evaluate the matrix G = LC.",
+                    "answers_found": [
+                        0
+                    ]
+                }
+            ],
+            "output": "An object's speed-time graph over a span of h seconds is provided. (a) Calculate the acceleration at \\( t = 7 \\) seconds."
+        },
+        {
+            "question": "Do you have any sample questions on applying rates to real-life problems?",
+            "answers": [],
+            "docs": [
+                {
+                    "title": "674dce1ab00b977d048c93a4",
+                    "text": "Jane exchanged 500 Singapore dollars ($) into Thai baht (THB) when the exchange rate was $1 = 26.77 THB. She travelled to Thailand and spent 10,600 THB. On her return to Singapore, she exchanged the remaining Thai baht into dollars with the exchange rate $1 = 26.88 THB. Calculate the amount she received in dollars. Correct your answer to the nearest cent.",
+                    "answers_found": [
+                        1
+                    ]
+                },
+                {
+                    "title": "674dcde3b00b977d048c9356",
+                    "text": "The diagram is the speed-time graph for the first k seconds of the motion of an object. (a) Find the acceleration when \\( t = 5 \\).",
+                    "answers_found": [
+                        1
+                    ]
+                },
+                {
+                    "title": "674dcde3b00b977d048c9357",
+                    "text": "(b) Find the distance travelled in the first 10 seconds.",
+                    "answers_found": [
+                        1
+                    ]
+                },
+                {
+                    "title": "674dcde4b00b977d048c9358",
+                    "text": "(c) The distance travelled in the first k seconds is 520 m. Find the value of k.",
+                    "answers_found": [
+                        1
+                    ]
+                },
+                {
+                    "title": "674dce0fb00b977d048c9395",
+                    "text": "(c) Evaluate the matrix G = LC.",
+                    "answers_found": [
+                        0
+                    ]
+                },
+                {
+                    "title": "674dcd9cb00b977d048c92ff",
+                    "text": "Ethan measures the amount of rain, in millimetres (mm), each day for 31 days. The bar chart shows his results. \n\n(a) Write down the median amount of rain.",
+                    "answers_found": [
+                        0
+                    ]
+                },
+                {
+                    "title": "674dcdb5b00b977d048c931d",
+                    "text": "Given that 2^{32} \\times 1 = 6 \\times 8^x, \\text{ find the value of } x.",
+                    "answers_found": [
+                        0
+                    ]
+                }
+            ],
+            "output": "An object is moving such that its velocity-time graph shows constant acceleration for the first k seconds, followed by constant deceleration for the next k seconds until it halts. (a) Calculate the object's acceleration if its speed changes from 0 to 20 m/s in 5 seconds during the initial phase. (b) Determine the total distance covered during these two phases if k = 5 seconds. (c) If the total distance covered in these 10 seconds is 100 meters, find the value of k. (d) Illustrate the motion on a velocity-time graph, marking key points for both acceleration and deceleration phases."
+        },
+        {
+            "question": "Could you give me some problems to practice rates in real-world contexts?",
+            "answers": [],
+            "docs": [
+                {
+                    "title": "674dce1ab00b977d048c93a4",
+                    "text": "Jane exchanged 500 Singapore dollars ($) into Thai baht (THB) when the exchange rate was $1 = 26.77 THB. She travelled to Thailand and spent 10,600 THB. On her return to Singapore, she exchanged the remaining Thai baht into dollars with the exchange rate $1 = 26.88 THB. Calculate the amount she received in dollars. Correct your answer to the nearest cent.",
+                    "answers_found": [
+                        1
+                    ]
+                },
+                {
+                    "title": "674dcde3b00b977d048c9356",
+                    "text": "The diagram is the speed-time graph for the first k seconds of the motion of an object. (a) Find the acceleration when \\( t = 5 \\).",
+                    "answers_found": [
+                        1
+                    ]
+                },
+                {
+                    "title": "674dcde3b00b977d048c9357",
+                    "text": "(b) Find the distance travelled in the first 10 seconds.",
+                    "answers_found": [
+                        1
+                    ]
+                },
+                {
+                    "title": "674dcde4b00b977d048c9358",
+                    "text": "(c) The distance travelled in the first k seconds is 520 m. Find the value of k.",
+                    "answers_found": [
+                        1
+                    ]
+                },
+                {
+                    "title": "674dcdccb00b977d048c932a",
+                    "text": "ABC is an equilateral triangle with lengths \\((5x + y)\\) cm, \\((16y - x)\\) cm and \\((4x + 5 - 3y)\\) cm. (a) Write down two simultaneous equations, in terms of \\(x\\) and \\(y\\), to represent this information.",
+                    "answers_found": [
+                        0
+                    ]
+                },
+                {
+                    "title": "674dce25b00b977d048c93b9",
+                    "text": "Calculate the reflex angle AOB in radians.",
+                    "answers_found": [
+                        0
+                    ]
+                }
+            ],
+            "output": "An object is moving with a varying speed given by the speed-time graph for the initial k seconds. (a) Determine the acceleration at time \\( t = 7 \\) seconds. (b) Calculate the total distance covered in the first 12 seconds. (c) The object covers a distance of 600 meters in the first k seconds. Find the value of k. (d) Sketch the speed-time graph on the provided axes for the initial k seconds."
+        },
+        {
+            "question": "Can you provide practice problems on finding the probability of single events?",
+            "answers": [],
+            "docs": [
+                {
+                    "title": "674dcd9eb00b977d048c9304",
+                    "text": "A drawer contains 40 balls. 15 balls are black, 5 balls are grey and 20 balls are white. Samuel chooses one ball from the drawer at random. (a) Find the probability that the ball is not black.",
+                    "answers_found": [
+                        1
+                    ]
+                },
+                {
+                    "title": "674dcddfb00b977d048c9350",
+                    "text": "There are 30 blue balls, 20 green balls and 14 yellow balls in a bag. A ball is chosen at random from the bag and then replaced. (i) Find the probability of not picking a green ball, express your answer to the lowest term.",
+                    "answers_found": [
+                        1
+                    ]
+                },
+                {
+                    "title": "674dcd9fb00b977d048c9305",
+                    "text": "Samuel adds a few more grey balls. The probability of choosing a grey ball is now \\( \\frac{2}{7} \\). (b) Find the number of grey balls he added.",
+                    "answers_found": [
+                        1
+                    ]
+                },
+                {
+                    "title": "674dcdccb00b977d048c932a",
+                    "text": "ABC is an equilateral triangle with lengths \\((5x + y)\\) cm, \\((16y - x)\\) cm and \\((4x + 5 - 3y)\\) cm. (a) Write down two simultaneous equations, in terms of \\(x\\) and \\(y\\), to represent this information.",
+                    "answers_found": [
+                        0
+                    ]
+                },
+                {
+                    "title": "674dce18b00b977d048c939f",
+                    "text": "Given \\( a = 2bv + xk \\), find \\( x \\) when \\( a = 2 \\), \\( b = 3 \\), \\( v = -4 \\), and \\( k = 5 \\).",
+                    "answers_found": [
+                        0
+                    ]
+                }
+            ],
+            "output": "A classroom storage box contains 25 markers: 8 are red, 12 are blue, and 5 are green. Linda selects one marker at random. What is the probability that the marker she selects is not blue?"
+        },
+        {
+            "question": "I need exercises involving probability of single events; can you help?",
+            "answers": [],
+            "docs": [
+                {
+                    "title": "674dcd9eb00b977d048c9304",
+                    "text": "A drawer contains 40 balls. 15 balls are black, 5 balls are grey and 20 balls are white. Samuel chooses one ball from the drawer at random. (a) Find the probability that the ball is not black.",
+                    "answers_found": [
+                        1
+                    ]
+                },
+                {
+                    "title": "674dcddfb00b977d048c9350",
+                    "text": "There are 30 blue balls, 20 green balls and 14 yellow balls in a bag. A ball is chosen at random from the bag and then replaced. (i) Find the probability of not picking a green ball, express your answer to the lowest term.",
+                    "answers_found": [
+                        1
+                    ]
+                },
+                {
+                    "title": "674dcd9fb00b977d048c9305",
+                    "text": "Samuel adds a few more grey balls. The probability of choosing a grey ball is now \\( \\frac{2}{7} \\). (b) Find the number of grey balls he added.",
+                    "answers_found": [
+                        1
+                    ]
+                },
+                {
+                    "title": "674dcde4b00b977d048c9358",
+                    "text": "(c) The distance travelled in the first k seconds is 520 m. Find the value of k.",
+                    "answers_found": [
+                        0
+                    ]
+                },
+                {
+                    "title": "674dce19b00b977d048c93a1",
+                    "text": "Solve the simultaneous equations: \\( 4x + 7y = 23 \\) and \\( 6x - 2y = 3 \\).",
+                    "answers_found": [
+                        0
+                    ]
+                }
+            ],
+            "output": "A basket contains 50 fruits consisting of 20 apples, 15 oranges, and 15 bananas. Robert picks one fruit at random from the basket. (i) What is the probability that the fruit he picks is neither an apple nor an orange? Express your answer in its simplest form."
+        },
+        {
+            "question": "Where can I find practice questions on basic probability?",
+            "answers": [],
+            "docs": [
+                {
+                    "title": "674dcd9eb00b977d048c9304",
+                    "text": "A drawer contains 40 balls. 15 balls are black, 5 balls are grey and 20 balls are white. Samuel chooses one ball from the drawer at random. (a) Find the probability that the ball is not black.",
+                    "answers_found": [
+                        1
+                    ]
+                },
+                {
+                    "title": "674dcddfb00b977d048c9350",
+                    "text": "There are 30 blue balls, 20 green balls and 14 yellow balls in a bag. A ball is chosen at random from the bag and then replaced. (i) Find the probability of not picking a green ball, express your answer to the lowest term.",
+                    "answers_found": [
+                        1
+                    ]
+                },
+                {
+                    "title": "674dcd9fb00b977d048c9305",
+                    "text": "Samuel adds a few more grey balls. The probability of choosing a grey ball is now \\( \\frac{2}{7} \\). (b) Find the number of grey balls he added.",
+                    "answers_found": [
+                        1
+                    ]
+                },
+                {
+                    "title": "674dcdb5b00b977d048c931d",
+                    "text": "Given that 2^{32} \\times 1 = 6 \\times 8^x, \\text{ find the value of } x.",
+                    "answers_found": [
+                        0
+                    ]
+                },
+                {
+                    "title": "674dcdd3b00b977d048c9337",
+                    "text": "A, B, C \\text{ and } D \\text{ lie on a circle with centre } O \\text{ and radius } 5 \\text{ cm. } \\angle AOB = 1.8 \\text{ radians. }",
+                    "answers_found": [
+                        0
+                    ]
+                }
+            ],
+            "output": "A jar contains a total of 50 candies consisting of 18 strawberry, 12 lemon, and 20 apple flavored candies. Linda takes one candy at random from the jar. What is the probability that the candy is not lemon flavored?"
+        },
+        {
+            "question": "Do you have any sample questions on calculating probabilities of single events?",
+            "answers": [],
+            "docs": [
+                {
+                    "title": "674dcd9eb00b977d048c9304",
+                    "text": "A drawer contains 40 balls. 15 balls are black, 5 balls are grey and 20 balls are white. Samuel chooses one ball from the drawer at random. (a) Find the probability that the ball is not black.",
+                    "answers_found": [
+                        1
+                    ]
+                },
+                {
+                    "title": "674dcddfb00b977d048c9350",
+                    "text": "There are 30 blue balls, 20 green balls and 14 yellow balls in a bag. A ball is chosen at random from the bag and then replaced. (i) Find the probability of not picking a green ball, express your answer to the lowest term.",
+                    "answers_found": [
+                        1
+                    ]
+                },
+                {
+                    "title": "674dcd9fb00b977d048c9305",
+                    "text": "Samuel adds a few more grey balls. The probability of choosing a grey ball is now \\( \\frac{2}{7} \\). (b) Find the number of grey balls he added.",
+                    "answers_found": [
+                        1
+                    ]
+                },
+                {
+                    "title": "674dce1ab00b977d048c93a4",
+                    "text": "Jane exchanged 500 Singapore dollars ($) into Thai baht (THB) when the exchange rate was $1 = 26.77 THB. She travelled to Thailand and spent 10,600 THB. On her return to Singapore, she exchanged the remaining Thai baht into dollars with the exchange rate $1 = 26.88 THB. Calculate the amount she received in dollars. Correct your answer to the nearest cent.",
+                    "answers_found": [
+                        0
+                    ]
+                },
+                {
+                    "title": "674dcdccb00b977d048c932a",
+                    "text": "ABC is an equilateral triangle with lengths \\((5x + y)\\) cm, \\((16y - x)\\) cm and \\((4x + 5 - 3y)\\) cm. (a) Write down two simultaneous equations, in terms of \\(x\\) and \\(y\\), to represent this information.",
+                    "answers_found": [
+                        0
+                    ]
+                }
+            ],
+            "output": "Imagine a basket containing 50 ripe fruits. Among them, there are 18 apples, 12 oranges, and 20 bananas. If a fruit is chosen at random, what is the probability that the chosen fruit is an apple or a banana?"
+        },
+        {
+            "question": "Could you give me some problems to practice finding probability of single events?",
+            "answers": [],
+            "docs": [
+                {
+                    "title": "674dcd9eb00b977d048c9304",
+                    "text": "A drawer contains 40 balls. 15 balls are black, 5 balls are grey and 20 balls are white. Samuel chooses one ball from the drawer at random. (a) Find the probability that the ball is not black.",
+                    "answers_found": [
+                        1
+                    ]
+                },
+                {
+                    "title": "674dcddfb00b977d048c9350",
+                    "text": "There are 30 blue balls, 20 green balls and 14 yellow balls in a bag. A ball is chosen at random from the bag and then replaced. (i) Find the probability of not picking a green ball, express your answer to the lowest term.",
+                    "answers_found": [
+                        1
+                    ]
+                },
+                {
+                    "title": "674dcd9fb00b977d048c9305",
+                    "text": "Samuel adds a few more grey balls. The probability of choosing a grey ball is now \\( \\frac{2}{7} \\). (b) Find the number of grey balls he added.",
+                    "answers_found": [
+                        1
+                    ]
+                },
+                {
+                    "title": "674dcd9cb00b977d048c92ff",
+                    "text": "Ethan measures the amount of rain, in millimetres (mm), each day for 31 days. The bar chart shows his results. \n\n(a) Write down the median amount of rain.",
+                    "answers_found": [
+                        0
+                    ]
+                }
+            ],
+            "output": "In a garden, there are three types of flowers: 18 are roses, 12 are tulips, and 10 are daffodils. A flower is picked at random from the garden. What is the probability that the picked flower is not a tulip? Express your answer in simplest form."
+        },
+        {
+            "question": "Can you provide practice problems on solving simultaneous equations using elimination?",
+            "answers": [],
+            "docs": [
+                {
+                    "title": "674dcd9fb00b977d048c9306",
+                    "text": "Solve the simultaneous equations: \\( 7x + 2y = 8 \\) and \\( 3x - y = 3 \\).",
+                    "answers_found": [
+                        1
+                    ]
+                },
+                {
+                    "title": "674dcdccb00b977d048c932a",
+                    "text": "ABC is an equilateral triangle with lengths \\((5x + y)\\) cm, \\((16y - x)\\) cm and \\((4x + 5 - 3y)\\) cm. (a) Write down two simultaneous equations, in terms of \\(x\\) and \\(y\\), to represent this information.",
+                    "answers_found": [
+                        1
+                    ]
+                },
+                {
+                    "title": "674dcdccb00b977d048c932b",
+                    "text": "(b) Solve the simultaneous equations and hence find the area of triangle ABC.",
+                    "answers_found": [
+                        1
+                    ]
+                },
+                {
+                    "title": "674dce19b00b977d048c93a1",
+                    "text": "Solve the simultaneous equations: \\( 4x + 7y = 23 \\) and \\( 6x - 2y = 3 \\).",
+                    "answers_found": [
+                        1
+                    ]
+                },
+                {
+                    "title": "674dcdb4b00b977d048c931b",
+                    "text": "The admission tickets to the Singapore Zoo are $50 for an adult, $36 for a child, and $20 for a senior citizen. On a particular Tuesday, there were 212 adults, 251 children, and 15 senior citizens who visited the Singapore Zoo and on a particular Wednesday, there were 231 adults, 266 children, and 12 senior citizens who visited the Singapore Zoo. The number of visitors on the particular Tuesday and Wednesday can be represented by the matrix V = \\begin{pmatrix} 212 & 251 & 15 \\\\ 231 & 266 & 12 \\end{pmatrix}. \\text{ (i) Write a } 3 \\times 1 \\text{ matrix, P, to represent the price of the admission tickets. (ii) Find the matrix } T = VP. \\text{ (iii) Explain what each of the elements represents. (iv) Find the total amount collected from the sales of the tickets for the 2 days.}",
+                    "answers_found": [
+                        0
+                    ]
+                },
+                {
+                    "title": "674dcde1b00b977d048c9352",
+                    "text": "Two outlets of a coffee chain sell three different types of coffee: espresso, flat white and mocha. The table shows the number of cups of each type of coffee sold on a particular day. Outlet A: Espresso 30, Flat White 30, Mocha 35; Outlet B: Espresso x, Flat White x + 2, Mocha 40. This information can be represented by the matrix \\( P = \\begin{pmatrix} 30 & 30 & 35 \\\\ x & x+2 & 40 \\end{pmatrix} \\). The coffee chain sells a cup of espresso at $2.50, a cup of flat white at $4 and a cup of mocha at $5.50. This information can be represented by the matrix \\( Q = \\begin{pmatrix} 2.5 \\\\ 4 \\\\ 5.5 \\end{pmatrix} \\). (a) Find, in terms of x, the matrix \\( R = PQ \\).",
+                    "answers_found": [
+                        0
+                    ]
+                },
+                {
+                    "title": "674dcd9fb00b977d048c9305",
+                    "text": "Samuel adds a few more grey balls. The probability of choosing a grey ball is now \\( \\frac{2}{7} \\). (b) Find the number of grey balls he added.",
+                    "answers_found": [
+                        0
+                    ]
+                }
+            ],
+            "output": "Consider two roads intersecting such that the path followed by a car at any time is described by the equations: \\( 5x - y = 7 \\) and \\( x + y = 9 \\). What are the coordinates of the intersection point?"
+        },
+        {
+            "question": "I need exercises involving elimination method for simultaneous equations; can you help?",
+            "answers": [],
+            "docs": [
+                {
+                    "title": "674dcd9fb00b977d048c9306",
+                    "text": "Solve the simultaneous equations: \\( 7x + 2y = 8 \\) and \\( 3x - y = 3 \\).",
+                    "answers_found": [
+                        1
+                    ]
+                },
+                {
+                    "title": "674dcdccb00b977d048c932a",
+                    "text": "ABC is an equilateral triangle with lengths \\((5x + y)\\) cm, \\((16y - x)\\) cm and \\((4x + 5 - 3y)\\) cm. (a) Write down two simultaneous equations, in terms of \\(x\\) and \\(y\\), to represent this information.",
+                    "answers_found": [
+                        1
+                    ]
+                },
+                {
+                    "title": "674dcdccb00b977d048c932b",
+                    "text": "(b) Solve the simultaneous equations and hence find the area of triangle ABC.",
+                    "answers_found": [
+                        1
+                    ]
+                },
+                {
+                    "title": "674dce19b00b977d048c93a1",
+                    "text": "Solve the simultaneous equations: \\( 4x + 7y = 23 \\) and \\( 6x - 2y = 3 \\).",
+                    "answers_found": [
+                        1
+                    ]
+                },
+                {
+                    "title": "674dce8db00b977d048c93c7",
+                    "text": "Mr Gan weighed 8 male students. The median mass of the students was 63.5 kg. The interquartile range of the masses of the students was 4.5 kg. Mr Gan realised that the scale of the weighing machine was inaccurate. The correct mass of each student was 1.5 kg less than what he had recorded. Write down the correct values for the median mass and interquartile range.",
+                    "answers_found": [
+                        0
+                    ]
+                },
+                {
+                    "title": "674dcde3b00b977d048c9356",
+                    "text": "The diagram is the speed-time graph for the first k seconds of the motion of an object. (a) Find the acceleration when \\( t = 5 \\).",
+                    "answers_found": [
+                        0
+                    ]
+                },
+                {
+                    "title": "674dce18b00b977d048c939f",
+                    "text": "Given \\( a = 2bv + xk \\), find \\( x \\) when \\( a = 2 \\), \\( b = 3 \\), \\( v = -4 \\), and \\( k = 5 \\).",
+                    "answers_found": [
+                        0
+                    ]
+                }
+            ],
+            "output": "Solve the simultaneous equations: \\( 5x + 3y = 14 \\) and \\( -2x + y = 5 \\)."
+        },
+        {
+            "question": "Where can I find practice questions on solving equations by elimination?",
+            "answers": [],
+            "docs": [
+                {
+                    "title": "674dcd9fb00b977d048c9306",
+                    "text": "Solve the simultaneous equations: \\( 7x + 2y = 8 \\) and \\( 3x - y = 3 \\).",
+                    "answers_found": [
+                        1
+                    ]
+                },
+                {
+                    "title": "674dcdccb00b977d048c932a",
+                    "text": "ABC is an equilateral triangle with lengths \\((5x + y)\\) cm, \\((16y - x)\\) cm and \\((4x + 5 - 3y)\\) cm. (a) Write down two simultaneous equations, in terms of \\(x\\) and \\(y\\), to represent this information.",
+                    "answers_found": [
+                        1
+                    ]
+                },
+                {
+                    "title": "674dcdccb00b977d048c932b",
+                    "text": "(b) Solve the simultaneous equations and hence find the area of triangle ABC.",
+                    "answers_found": [
+                        1
+                    ]
+                },
+                {
+                    "title": "674dce19b00b977d048c93a1",
+                    "text": "Solve the simultaneous equations: \\( 4x + 7y = 23 \\) and \\( 6x - 2y = 3 \\).",
+                    "answers_found": [
+                        1
+                    ]
+                },
+                {
+                    "title": "674dce98b00b977d048c93dc",
+                    "text": "Calculate an estimate of the mean speed.",
+                    "answers_found": [
+                        0
+                    ]
+                },
+                {
+                    "title": "674dce0fb00b977d048c9395",
+                    "text": "(c) Evaluate the matrix G = LC.",
+                    "answers_found": [
+                        0
+                    ]
+                }
+            ],
+            "output": "A rectangle has a perimeter of 38 cm. If the length of the rectangle is given by \\( 3x + 2y \\) cm and the width is described as \\( x + 3y \\) cm, write down and solve the simultaneous equations to find the length and width of the rectangle."
+        },
+        {
+            "question": "Do you have any sample questions on elimination method for simultaneous equations?",
+            "answers": [],
+            "docs": [
+                {
+                    "title": "674dcd9fb00b977d048c9306",
+                    "text": "Solve the simultaneous equations: \\( 7x + 2y = 8 \\) and \\( 3x - y = 3 \\).",
+                    "answers_found": [
+                        1
+                    ]
+                },
+                {
+                    "title": "674dcdccb00b977d048c932a",
+                    "text": "ABC is an equilateral triangle with lengths \\((5x + y)\\) cm, \\((16y - x)\\) cm and \\((4x + 5 - 3y)\\) cm. (a) Write down two simultaneous equations, in terms of \\(x\\) and \\(y\\), to represent this information.",
+                    "answers_found": [
+                        1
+                    ]
+                },
+                {
+                    "title": "674dcdccb00b977d048c932b",
+                    "text": "(b) Solve the simultaneous equations and hence find the area of triangle ABC.",
+                    "answers_found": [
+                        1
+                    ]
+                },
+                {
+                    "title": "674dce19b00b977d048c93a1",
+                    "text": "Solve the simultaneous equations: \\( 4x + 7y = 23 \\) and \\( 6x - 2y = 3 \\).",
+                    "answers_found": [
+                        1
+                    ]
+                },
+                {
+                    "title": "674dcdb5b00b977d048c931d",
+                    "text": "Given that 2^{32} \\times 1 = 6 \\times 8^x, \\text{ find the value of } x.",
+                    "answers_found": [
+                        0
+                    ]
+                }
+            ],
+            "output": "A farmer is planting two types of crops, A and B. Each unit of crop A requires 4 hours of labor and 3 units of fertilizer, while each unit of crop B requires 2 hours of labor and 5 units of fertilizer. The farmer has a total of 40 hours of labor and 50 units of fertilizer available. Determine how many units of each crop the farmer should plant by solving the following simultaneous equations:\n\\[ 4a + 2b = 40 \\]\n\\[ 3a + 5b = 50 \\] where \\(a\\) and \\(b\\) are the units of crops A and B, respectively."
+        },
+        {
+            "question": "Could you give me some problems to practice solving simultaneous equations by elimination?",
+            "answers": [],
+            "docs": [
+                {
+                    "title": "674dcd9fb00b977d048c9306",
+                    "text": "Solve the simultaneous equations: \\( 7x + 2y = 8 \\) and \\( 3x - y = 3 \\).",
+                    "answers_found": [
+                        1
+                    ]
+                },
+                {
+                    "title": "674dcdccb00b977d048c932a",
+                    "text": "ABC is an equilateral triangle with lengths \\((5x + y)\\) cm, \\((16y - x)\\) cm and \\((4x + 5 - 3y)\\) cm. (a) Write down two simultaneous equations, in terms of \\(x\\) and \\(y\\), to represent this information.",
+                    "answers_found": [
+                        1
+                    ]
+                },
+                {
+                    "title": "674dcdccb00b977d048c932b",
+                    "text": "(b) Solve the simultaneous equations and hence find the area of triangle ABC.",
+                    "answers_found": [
+                        1
+                    ]
+                },
+                {
+                    "title": "674dce19b00b977d048c93a1",
+                    "text": "Solve the simultaneous equations: \\( 4x + 7y = 23 \\) and \\( 6x - 2y = 3 \\).",
+                    "answers_found": [
+                        1
+                    ]
+                },
+                {
+                    "title": "674dcde3b00b977d048c9357",
+                    "text": "(b) Find the distance travelled in the first 10 seconds.",
+                    "answers_found": [
+                        0
+                    ]
+                },
+                {
+                    "title": "674dce98b00b977d048c93dc",
+                    "text": "Calculate an estimate of the mean speed.",
+                    "answers_found": [
+                        0
+                    ]
+                }
+            ],
+            "output": "Solve the simultaneous equations for the total cost:\n1. A bag of apples and two bags of oranges cost a total of $26.\n2. Four bags of apples and a bag of oranges cost a total of $40.\nFind the cost of one bag of apples (\\(x\\)) and one bag of oranges (\\(y\\))."
+        },
+        {
+            "question": "Can you provide practice problems on evaluating algebraic formulas?",
+            "answers": [],
+            "docs": [
+                {
+                    "title": "674dcdb5b00b977d048c931d",
+                    "text": "Given that 2^{32} \\times 1 = 6 \\times 8^x, \\text{ find the value of } x.",
+                    "answers_found": [
+                        1
+                    ]
+                },
+                {
+                    "title": "674dce18b00b977d048c939f",
+                    "text": "Given \\( a = 2bv + xk \\), find \\( x \\) when \\( a = 2 \\), \\( b = 3 \\), \\( v = -4 \\), and \\( k = 5 \\).",
+                    "answers_found": [
+                        1
+                    ]
+                },
+                {
+                    "title": "674dcd9db00b977d048c9300",
+                    "text": "(b) Find the mean amount of rain per day.",
+                    "answers_found": [
+                        0
+                    ]
+                }
+            ],
+            "output": "For the linear equation \\( y = mx + c \\), solve for \\( y \\) when \\( x = 4 \\), \\( m = -3 \\), and \\( c = 5 \\)."
+        },
+        {
+            "question": "I need exercises involving evaluating algebraic expressions; can you help?",
+            "answers": [],
+            "docs": [
+                {
+                    "title": "674dcdb5b00b977d048c931d",
+                    "text": "Given that 2^{32} \\times 1 = 6 \\times 8^x, \\text{ find the value of } x.",
+                    "answers_found": [
+                        1
+                    ]
+                },
+                {
+                    "title": "674dce18b00b977d048c939f",
+                    "text": "Given \\( a = 2bv + xk \\), find \\( x \\) when \\( a = 2 \\), \\( b = 3 \\), \\( v = -4 \\), and \\( k = 5 \\).",
+                    "answers_found": [
+                        1
+                    ]
+                },
+                {
+                    "title": "674dcddfb00b977d048c9350",
+                    "text": "There are 30 blue balls, 20 green balls and 14 yellow balls in a bag. A ball is chosen at random from the bag and then replaced. (i) Find the probability of not picking a green ball, express your answer to the lowest term.",
+                    "answers_found": [
+                        0
+                    ]
+                }
+            ],
+            "output": "An equation is given as \\( z = 3py - 4m \\). Determine the value of \\( p \\) when \\( z = -10 \\), \\( y = 3 \\), and \\( m = 2 \\)."
+        },
+        {
+            "question": "Where can I find practice questions on evaluating formulas?",
+            "answers": [],
+            "docs": [
+                {
+                    "title": "674dcdb5b00b977d048c931d",
+                    "text": "Given that 2^{32} \\times 1 = 6 \\times 8^x, \\text{ find the value of } x.",
+                    "answers_found": [
+                        1
+                    ]
+                },
+                {
+                    "title": "674dce18b00b977d048c939f",
+                    "text": "Given \\( a = 2bv + xk \\), find \\( x \\) when \\( a = 2 \\), \\( b = 3 \\), \\( v = -4 \\), and \\( k = 5 \\).",
+                    "answers_found": [
+                        1
+                    ]
+                },
+                {
+                    "title": "674dcd9fb00b977d048c9305",
+                    "text": "Samuel adds a few more grey balls. The probability of choosing a grey ball is now \\( \\frac{2}{7} \\). (b) Find the number of grey balls he added.",
+                    "answers_found": [
+                        0
+                    ]
+                }
+            ],
+            "output": "Given the formula \\( a = b(m - xc) \\), find \\( x \\) when \\( a = 17 \\), \\( b = 3 \\), \\( m = 11 \\), and \\( c = 4 \\)."
+        },
+        {
+            "question": "Do you have any sample questions on evaluating algebraic equations?",
+            "answers": [],
+            "docs": [
+                {
+                    "title": "674dcdb5b00b977d048c931d",
+                    "text": "Given that 2^{32} \\times 1 = 6 \\times 8^x, \\text{ find the value of } x.",
+                    "answers_found": [
+                        1
+                    ]
+                },
+                {
+                    "title": "674dce18b00b977d048c939f",
+                    "text": "Given \\( a = 2bv + xk \\), find \\( x \\) when \\( a = 2 \\), \\( b = 3 \\), \\( v = -4 \\), and \\( k = 5 \\).",
+                    "answers_found": [
+                        1
+                    ]
+                },
+                {
+                    "title": "674dce8db00b977d048c93c7",
+                    "text": "Mr Gan weighed 8 male students. The median mass of the students was 63.5 kg. The interquartile range of the masses of the students was 4.5 kg. Mr Gan realised that the scale of the weighing machine was inaccurate. The correct mass of each student was 1.5 kg less than what he had recorded. Write down the correct values for the median mass and interquartile range.",
+                    "answers_found": [
+                        0
+                    ]
+                }
+            ],
+            "output": "If the equation \\( z = mwn + p \\) holds true, find the value of \\( n \\) given \\( z = 16 \\), \\( m = 2 \\), \\( w = -3 \\), and \\( p = 4 \\)."
+        },
+        {
+            "question": "Could you give me some problems to practice evaluating algebraic formulas?",
+            "answers": [],
+            "docs": [
+                {
+                    "title": "674dcdb5b00b977d048c931d",
+                    "text": "Given that 2^{32} \\times 1 = 6 \\times 8^x, \\text{ find the value of } x.",
+                    "answers_found": [
+                        1
+                    ]
+                },
+                {
+                    "title": "674dce18b00b977d048c939f",
+                    "text": "Given \\( a = 2bv + xk \\), find \\( x \\) when \\( a = 2 \\), \\( b = 3 \\), \\( v = -4 \\), and \\( k = 5 \\).",
+                    "answers_found": [
+                        1
+                    ]
+                },
+                {
+                    "title": "674dcddfb00b977d048c9350",
+                    "text": "There are 30 blue balls, 20 green balls and 14 yellow balls in a bag. A ball is chosen at random from the bag and then replaced. (i) Find the probability of not picking a green ball, express your answer to the lowest term.",
+                    "answers_found": [
+                        0
+                    ]
+                }
+            ],
+            "output": "Consider the formula \\( c = 3dp - yz \\). Determine the value of \\( y \\) given that \\( c = 5 \\), \\( d = 2 \\), \\( p = 3 \\), and \\( z = 4 \\)."
+        },
+        {
+            "question": "What is the periodic table and who invented it?",
+            "answers": [],
+            "docs": [
+                {
+                    "title": "674dcd9fb00b977d048c9305",
+                    "text": "Samuel adds a few more grey balls. The probability of choosing a grey ball is now \\( \\frac{2}{7} \\). (b) Find the number of grey balls he added.",
+                    "answers_found": [
+                        0
+                    ]
+                },
+                {
+                    "title": "674dcdb4b00b977d048c931a",
+                    "text": "A, D, B, and C lie on a circle, center O. AP is a tangent to the circle at A and BP is a tangent to the circle at B. \\angle AOB = 142^\\circ \\text{ and } \\angle DAP = 42^\\circ. \\text{ (a) Find the value of (i) } \\angle ACB, \\text{ (ii) } \\angle ADB. \\text{ (b) Is OB parallel to AD? Explain.}",
+                    "answers_found": [
+                        0
+                    ]
+                },
+                {
+                    "title": "674dcdd3b00b977d048c9337",
+                    "text": "A, B, C \\text{ and } D \\text{ lie on a circle with centre } O \\text{ and radius } 5 \\text{ cm. } \\angle AOB = 1.8 \\text{ radians. }",
+                    "answers_found": [
+                        0
+                    ]
+                },
+                {
+                    "title": "674dcd9db00b977d048c9300",
+                    "text": "(b) Find the mean amount of rain per day.",
+                    "answers_found": [
+                        0
+                    ]
+                }
+            ],
+            "output": "Error generating output"
+        },
+        {
+            "question": "Explain the water cycle with examples.",
+            "answers": [],
+            "docs": [
+                {
+                    "title": "674dce8db00b977d048c93c7",
+                    "text": "Mr Gan weighed 8 male students. The median mass of the students was 63.5 kg. The interquartile range of the masses of the students was 4.5 kg. Mr Gan realised that the scale of the weighing machine was inaccurate. The correct mass of each student was 1.5 kg less than what he had recorded. Write down the correct values for the median mass and interquartile range.",
+                    "answers_found": [
+                        0
+                    ]
+                },
+                {
+                    "title": "674dcd9db00b977d048c9300",
+                    "text": "(b) Find the mean amount of rain per day.",
+                    "answers_found": [
+                        0
+                    ]
+                },
+                {
+                    "title": "674dce93b00b977d048c93d3",
+                    "text": "Hence, using the value of x found in (d), find the product of the matrices P and T.",
+                    "answers_found": [
+                        0
+                    ]
+                },
+                {
+                    "title": "674dce8eb00b977d048c93ca",
+                    "text": "(b) Find the median age of the male patients.",
+                    "answers_found": [
+                        0
+                    ]
+                },
+                {
+                    "title": "674dce93b00b977d048c93d2",
+                    "text": "On a particular week, supermarket A was offering a store-wide 20% discount promotion while supermarket B was offering a store-wide 10% discount promotion. Write down a matrix P, such that the product of P and T would give the discounted prices which Ron and Zoe each has to pay if they purchase the items from supermarkets A and B respectively.",
+                    "answers_found": [
+                        0
+                    ]
+                }
+            ],
+            "output": "Error generating output"
+        },
+        {
+            "question": "What are the different states of matter?",
+            "answers": [],
+            "docs": [
+                {
+                    "title": "674dce8db00b977d048c93c7",
+                    "text": "Mr Gan weighed 8 male students. The median mass of the students was 63.5 kg. The interquartile range of the masses of the students was 4.5 kg. Mr Gan realised that the scale of the weighing machine was inaccurate. The correct mass of each student was 1.5 kg less than what he had recorded. Write down the correct values for the median mass and interquartile range.",
+                    "answers_found": [
+                        0
+                    ]
+                },
+                {
+                    "title": "674dcddeb00b977d048c934d",
+                    "text": "\\text{The modal time is 25 minutes. Find the value of } p.",
+                    "answers_found": [
+                        0
+                    ]
+                },
+                {
+                    "title": "674dce10b00b977d048c9397",
+                    "text": "(e) The dance school wants to attract more students, so in the next 10-week block, the dance school reduces the price for cultural and international dance sessions by 10%. For this block of sessions, on weekdays, there are 5 cultural dance students and 12 international dance students. On weekends, there are 8 cultural dance students and 15 international dance students. By using matrix multiplication, calculate the total amount of money the dance school earns for this 10-week block of sessions.",
+                    "answers_found": [
+                        0
+                    ]
+                },
+                {
+                    "title": "674dce19b00b977d048c93a1",
+                    "text": "Solve the simultaneous equations: \\( 4x + 7y = 23 \\) and \\( 6x - 2y = 3 \\).",
+                    "answers_found": [
+                        0
+                    ]
+                },
+                {
+                    "title": "674dcde3b00b977d048c9357",
+                    "text": "(b) Find the distance travelled in the first 10 seconds.",
+                    "answers_found": [
+                        0
+                    ]
+                }
+            ],
+            "output": "Error generating output"
+        },
+        {
+            "question": "What is the difference between velocity and speed?",
+            "answers": [],
+            "docs": [
+                {
+                    "title": "674dcd9eb00b977d048c9304",
+                    "text": "A drawer contains 40 balls. 15 balls are black, 5 balls are grey and 20 balls are white. Samuel chooses one ball from the drawer at random. (a) Find the probability that the ball is not black.",
+                    "answers_found": [
+                        0
+                    ]
+                },
+                {
+                    "title": "674dcdd3b00b977d048c9338",
+                    "text": "\\text{Write down an expression, in terms of } \\pi, \\text{ for the reflex angle } AOB.",
+                    "answers_found": [
+                        0
+                    ]
+                },
+                {
+                    "title": "674dcdb4b00b977d048c931a",
+                    "text": "A, D, B, and C lie on a circle, center O. AP is a tangent to the circle at A and BP is a tangent to the circle at B. \\angle AOB = 142^\\circ \\text{ and } \\angle DAP = 42^\\circ. \\text{ (a) Find the value of (i) } \\angle ACB, \\text{ (ii) } \\angle ADB. \\text{ (b) Is OB parallel to AD? Explain.}",
+                    "answers_found": [
+                        0
+                    ]
+                }
+            ],
+            "output": "Error generating output"
+        },
+        {
+            "question": "How do cells divide during mitosis?",
+            "answers": [],
+            "docs": [
+                {
+                    "title": "674dce93b00b977d048c93d3",
+                    "text": "Hence, using the value of x found in (d), find the product of the matrices P and T.",
+                    "answers_found": [
+                        0
+                    ]
+                }
+            ],
+            "output": "Error generating output"
+        },
+        {
+            "question": "What was the significance of the Industrial Revolution?",
+            "answers": [],
+            "docs": [
+                {
+                    "title": "674dce0cb00b977d048c938f",
+                    "text": "(b) Find an estimate of the (i) mean of the distance ran, Answer .................................km [1]",
+                    "answers_found": [
+                        0
+                    ]
+                },
+                {
+                    "title": "674dce0fb00b977d048c9395",
+                    "text": "(c) Evaluate the matrix G = LC.",
+                    "answers_found": [
+                        0
+                    ]
+                },
+                {
+                    "title": "674dcd9cb00b977d048c92ff",
+                    "text": "Ethan measures the amount of rain, in millimetres (mm), each day for 31 days. The bar chart shows his results. \n\n(a) Write down the median amount of rain.",
+                    "answers_found": [
+                        0
+                    ]
+                }
+            ],
+            "output": "Error generating output"
+        },
+        {
+            "question": "Who were the main leaders during World War II?",
+            "answers": [],
+            "docs": [
+                {
+                    "title": "674dce8eb00b977d048c93ca",
+                    "text": "(b) Find the median age of the male patients.",
+                    "answers_found": [
+                        0
+                    ]
+                }
+            ],
+            "output": "Error generating output"
+        },
+        {
+            "question": "What is the Magna Carta and why is it important?",
+            "answers": [],
+            "docs": [
+                {
+                    "title": "674dce8eb00b977d048c93ca",
+                    "text": "(b) Find the median age of the male patients.",
+                    "answers_found": [
+                        0
+                    ]
+                }
+            ],
+            "output": "Error generating output"
+        },
+        {
+            "question": "Describe the fall of the Roman Empire.",
+            "answers": [],
+            "docs": [
+                {
+                    "title": "674dcdd3b00b977d048c9338",
+                    "text": "\\text{Write down an expression, in terms of } \\pi, \\text{ for the reflex angle } AOB.",
+                    "answers_found": [
+                        0
+                    ]
+                },
+                {
+                    "title": "674dcde4b00b977d048c9358",
+                    "text": "(c) The distance travelled in the first k seconds is 520 m. Find the value of k.",
+                    "answers_found": [
+                        0
+                    ]
+                },
+                {
+                    "title": "674dce0cb00b977d048c938f",
+                    "text": "(b) Find an estimate of the (i) mean of the distance ran, Answer .................................km [1]",
+                    "answers_found": [
+                        0
+                    ]
+                },
+                {
+                    "title": "674dce93b00b977d048c93d3",
+                    "text": "Hence, using the value of x found in (d), find the product of the matrices P and T.",
+                    "answers_found": [
+                        0
+                    ]
+                }
+            ],
+            "output": "Error generating output"
+        },
+        {
+            "question": "Who built the Great Wall of China?",
+            "answers": [],
+            "docs": [
+                {
+                    "title": "674dce18b00b977d048c939f",
+                    "text": "Given \\( a = 2bv + xk \\), find \\( x \\) when \\( a = 2 \\), \\( b = 3 \\), \\( v = -4 \\), and \\( k = 5 \\).",
+                    "answers_found": [
+                        0
+                    ]
+                }
+            ],
+            "output": "Error generating output"
+        },
+        {
+            "question": "What are the themes of George Orwell's '1984'?",
+            "answers": [],
+            "docs": [
+                {
+                    "title": "674dcdd3b00b977d048c9337",
+                    "text": "A, B, C \\text{ and } D \\text{ lie on a circle with centre } O \\text{ and radius } 5 \\text{ cm. } \\angle AOB = 1.8 \\text{ radians. }",
+                    "answers_found": [
+                        0
+                    ]
+                },
+                {
+                    "title": "674dce25b00b977d048c93b9",
+                    "text": "Calculate the reflex angle AOB in radians.",
+                    "answers_found": [
+                        0
+                    ]
+                },
+                {
+                    "title": "674dce8db00b977d048c93c7",
+                    "text": "Mr Gan weighed 8 male students. The median mass of the students was 63.5 kg. The interquartile range of the masses of the students was 4.5 kg. Mr Gan realised that the scale of the weighing machine was inaccurate. The correct mass of each student was 1.5 kg less than what he had recorded. Write down the correct values for the median mass and interquartile range.",
+                    "answers_found": [
+                        0
+                    ]
+                }
+            ],
+            "output": "Error generating output"
+        },
+        {
+            "question": "Who wrote 'Pride and Prejudice,' and what is its plot?",
+            "answers": [],
+            "docs": [
+                {
+                    "title": "674dcde3b00b977d048c9357",
+                    "text": "(b) Find the distance travelled in the first 10 seconds.",
+                    "answers_found": [
+                        0
+                    ]
+                }
+            ],
+            "output": "Error generating output"
+        },
+        {
+            "question": "What is the symbolism in Robert Frost's poem 'The Road Not Taken'?",
+            "answers": [],
+            "docs": [
+                {
+                    "title": "674dcd9fb00b977d048c9306",
+                    "text": "Solve the simultaneous equations: \\( 7x + 2y = 8 \\) and \\( 3x - y = 3 \\).",
+                    "answers_found": [
+                        0
+                    ]
+                }
+            ],
+            "output": "Error generating output"
+        },
+        {
+            "question": "Can you analyze the character of Macbeth in Shakespeare's play?",
+            "answers": [],
+            "docs": [
+                {
+                    "title": "674dcdb5b00b977d048c931d",
+                    "text": "Given that 2^{32} \\times 1 = 6 \\times 8^x, \\text{ find the value of } x.",
+                    "answers_found": [
+                        0
+                    ]
+                },
+                {
+                    "title": "674dcddfb00b977d048c934f",
+                    "text": "\\text{When the time taken for the 16th student is added to the diagram, the median is 23 minutes. What is the possible time taken by this student to complete a task?}",
+                    "answers_found": [
+                        0
+                    ]
+                },
+                {
+                    "title": "674dcd9cb00b977d048c92ff",
+                    "text": "Ethan measures the amount of rain, in millimetres (mm), each day for 31 days. The bar chart shows his results. \n\n(a) Write down the median amount of rain.",
+                    "answers_found": [
+                        0
+                    ]
+                },
+                {
+                    "title": "674dce0cb00b977d048c938f",
+                    "text": "(b) Find an estimate of the (i) mean of the distance ran, Answer .................................km [1]",
+                    "answers_found": [
+                        0
+                    ]
+                },
+                {
+                    "title": "674dcdd3b00b977d048c9337",
+                    "text": "A, B, C \\text{ and } D \\text{ lie on a circle with centre } O \\text{ and radius } 5 \\text{ cm. } \\angle AOB = 1.8 \\text{ radians. }",
+                    "answers_found": [
+                        0
+                    ]
+                }
+            ],
+            "output": "Error generating output"
+        },
+        {
+            "question": "What is the significance of the opening line in 'Moby-Dick'?",
+            "answers": [],
+            "docs": [
+                {
+                    "title": "674dcde3b00b977d048c9357",
+                    "text": "(b) Find the distance travelled in the first 10 seconds.",
+                    "answers_found": [
+                        0
+                    ]
+                },
+                {
+                    "title": "674dcde1b00b977d048c9352",
+                    "text": "Two outlets of a coffee chain sell three different types of coffee: espresso, flat white and mocha. The table shows the number of cups of each type of coffee sold on a particular day. Outlet A: Espresso 30, Flat White 30, Mocha 35; Outlet B: Espresso x, Flat White x + 2, Mocha 40. This information can be represented by the matrix \\( P = \\begin{pmatrix} 30 & 30 & 35 \\\\ x & x+2 & 40 \\end{pmatrix} \\). The coffee chain sells a cup of espresso at $2.50, a cup of flat white at $4 and a cup of mocha at $5.50. This information can be represented by the matrix \\( Q = \\begin{pmatrix} 2.5 \\\\ 4 \\\\ 5.5 \\end{pmatrix} \\). (a) Find, in terms of x, the matrix \\( R = PQ \\).",
+                    "answers_found": [
+                        0
+                    ]
+                }
+            ],
+            "output": "Error generating output"
+        },
+        {
+            "question": "What are the seven wonders of the ancient world?",
+            "answers": [],
+            "docs": [
+                {
+                    "title": "674dcd9cb00b977d048c92ff",
+                    "text": "Ethan measures the amount of rain, in millimetres (mm), each day for 31 days. The bar chart shows his results. \n\n(a) Write down the median amount of rain.",
+                    "answers_found": [
+                        0
+                    ]
+                },
+                {
+                    "title": "674dcdccb00b977d048c932a",
+                    "text": "ABC is an equilateral triangle with lengths \\((5x + y)\\) cm, \\((16y - x)\\) cm and \\((4x + 5 - 3y)\\) cm. (a) Write down two simultaneous equations, in terms of \\(x\\) and \\(y\\), to represent this information.",
+                    "answers_found": [
+                        0
+                    ]
+                },
+                {
+                    "title": "674dcd9fb00b977d048c9306",
+                    "text": "Solve the simultaneous equations: \\( 7x + 2y = 8 \\) and \\( 3x - y = 3 \\).",
+                    "answers_found": [
+                        0
+                    ]
+                }
+            ],
+            "output": "Error generating output"
+        },
+        {
+            "question": "How does a bill become law in the United States?",
+            "answers": [],
+            "docs": [
+                {
+                    "title": "674dcddfb00b977d048c9350",
+                    "text": "There are 30 blue balls, 20 green balls and 14 yellow balls in a bag. A ball is chosen at random from the bag and then replaced. (i) Find the probability of not picking a green ball, express your answer to the lowest term.",
+                    "answers_found": [
+                        0
+                    ]
+                }
+            ],
+            "output": "Error generating output"
+        },
+        {
+            "question": "What is the United Nations and what are its functions?",
+            "answers": [],
+            "docs": [
+                {
+                    "title": "674dcdb4b00b977d048c931b",
+                    "text": "The admission tickets to the Singapore Zoo are $50 for an adult, $36 for a child, and $20 for a senior citizen. On a particular Tuesday, there were 212 adults, 251 children, and 15 senior citizens who visited the Singapore Zoo and on a particular Wednesday, there were 231 adults, 266 children, and 12 senior citizens who visited the Singapore Zoo. The number of visitors on the particular Tuesday and Wednesday can be represented by the matrix V = \\begin{pmatrix} 212 & 251 & 15 \\\\ 231 & 266 & 12 \\end{pmatrix}. \\text{ (i) Write a } 3 \\times 1 \\text{ matrix, P, to represent the price of the admission tickets. (ii) Find the matrix } T = VP. \\text{ (iii) Explain what each of the elements represents. (iv) Find the total amount collected from the sales of the tickets for the 2 days.}",
+                    "answers_found": [
+                        0
+                    ]
+                }
+            ],
+            "output": "Error generating output"
+        },
+        {
+            "question": "Explain the concept of democracy.",
+            "answers": [],
+            "docs": [
+                {
+                    "title": "674dce8eb00b977d048c93ca",
+                    "text": "(b) Find the median age of the male patients.",
+                    "answers_found": [
+                        0
+                    ]
+                },
+                {
+                    "title": "674dce19b00b977d048c93a1",
+                    "text": "Solve the simultaneous equations: \\( 4x + 7y = 23 \\) and \\( 6x - 2y = 3 \\).",
+                    "answers_found": [
+                        0
+                    ]
+                },
+                {
+                    "title": "674dce10b00b977d048c9397",
+                    "text": "(e) The dance school wants to attract more students, so in the next 10-week block, the dance school reduces the price for cultural and international dance sessions by 10%. For this block of sessions, on weekdays, there are 5 cultural dance students and 12 international dance students. On weekends, there are 8 cultural dance students and 15 international dance students. By using matrix multiplication, calculate the total amount of money the dance school earns for this 10-week block of sessions.",
+                    "answers_found": [
+                        0
+                    ]
+                },
+                {
+                    "title": "674dcdd3b00b977d048c9337",
+                    "text": "A, B, C \\text{ and } D \\text{ lie on a circle with centre } O \\text{ and radius } 5 \\text{ cm. } \\angle AOB = 1.8 \\text{ radians. }",
+                    "answers_found": [
+                        0
+                    ]
+                }
+            ],
+            "output": "Error generating output"
+        },
+        {
+            "question": "What is the main purpose of the International Space Station?",
+            "answers": [],
+            "docs": [
+                {
+                    "title": "674dcddeb00b977d048c934d",
+                    "text": "\\text{The modal time is 25 minutes. Find the value of } p.",
+                    "answers_found": [
+                        0
+                    ]
+                },
+                {
+                    "title": "674dcd9eb00b977d048c9304",
+                    "text": "A drawer contains 40 balls. 15 balls are black, 5 balls are grey and 20 balls are white. Samuel chooses one ball from the drawer at random. (a) Find the probability that the ball is not black.",
+                    "answers_found": [
+                        0
+                    ]
+                },
+                {
+                    "title": "674dcddfb00b977d048c9350",
+                    "text": "There are 30 blue balls, 20 green balls and 14 yellow balls in a bag. A ball is chosen at random from the bag and then replaced. (i) Find the probability of not picking a green ball, express your answer to the lowest term.",
+                    "answers_found": [
+                        0
+                    ]
+                }
+            ],
+            "output": "Error generating output"
+        },
+        {
+            "question": "What is the difference between a simile and a metaphor?",
+            "answers": [],
+            "docs": [
+                {
+                    "title": "674dcddfb00b977d048c9350",
+                    "text": "There are 30 blue balls, 20 green balls and 14 yellow balls in a bag. A ball is chosen at random from the bag and then replaced. (i) Find the probability of not picking a green ball, express your answer to the lowest term.",
+                    "answers_found": [
+                        0
+                    ]
+                }
+            ],
+            "output": "Error generating output"
+        },
+        {
+            "question": "How do airplanes stay in the air?",
+            "answers": [],
+            "docs": [
+                {
+                    "title": "674dcdd3b00b977d048c9338",
+                    "text": "\\text{Write down an expression, in terms of } \\pi, \\text{ for the reflex angle } AOB.",
+                    "answers_found": [
+                        0
+                    ]
+                }
+            ],
+            "output": "Error generating output"
+        },
+        {
+            "question": "What are the main ingredients in baking a cake?",
+            "answers": [],
+            "docs": [
+                {
+                    "title": "674dcddeb00b977d048c934d",
+                    "text": "\\text{The modal time is 25 minutes. Find the value of } p.",
+                    "answers_found": [
+                        0
+                    ]
+                },
+                {
+                    "title": "674dce8db00b977d048c93c7",
+                    "text": "Mr Gan weighed 8 male students. The median mass of the students was 63.5 kg. The interquartile range of the masses of the students was 4.5 kg. Mr Gan realised that the scale of the weighing machine was inaccurate. The correct mass of each student was 1.5 kg less than what he had recorded. Write down the correct values for the median mass and interquartile range.",
+                    "answers_found": [
+                        0
+                    ]
+                },
+                {
+                    "title": "674dce93b00b977d048c93d2",
+                    "text": "On a particular week, supermarket A was offering a store-wide 20% discount promotion while supermarket B was offering a store-wide 10% discount promotion. Write down a matrix P, such that the product of P and T would give the discounted prices which Ron and Zoe each has to pay if they purchase the items from supermarkets A and B respectively.",
+                    "answers_found": [
+                        0
+                    ]
+                }
+            ],
+            "output": "Error generating output"
+        },
+        {
+            "question": "What is the Fibonacci sequence used for in real life?",
+            "answers": [],
+            "docs": [
+                {
+                    "title": "674dce98b00b977d048c93dc",
+                    "text": "Calculate an estimate of the mean speed.",
+                    "answers_found": [
+                        0
+                    ]
+                },
+                {
+                    "title": "674dcd9fb00b977d048c9305",
+                    "text": "Samuel adds a few more grey balls. The probability of choosing a grey ball is now \\( \\frac{2}{7} \\). (b) Find the number of grey balls he added.",
+                    "answers_found": [
+                        0
+                    ]
+                },
+                {
+                    "title": "674dce0fb00b977d048c9395",
+                    "text": "(c) Evaluate the matrix G = LC.",
+                    "answers_found": [
+                        0
+                    ]
+                },
+                {
+                    "title": "674dcd9eb00b977d048c9304",
+                    "text": "A drawer contains 40 balls. 15 balls are black, 5 balls are grey and 20 balls are white. Samuel chooses one ball from the drawer at random. (a) Find the probability that the ball is not black.",
+                    "answers_found": [
+                        0
+                    ]
+                },
+                {
+                    "title": "674dcddeb00b977d048c934d",
+                    "text": "\\text{The modal time is 25 minutes. Find the value of } p.",
+                    "answers_found": [
+                        0
+                    ]
+                }
+            ],
+            "output": "A farmer wants to distribute 315 apples, 420 oranges, and 525 pears into identical boxes. What is the largest number of boxes that can be used if each box must have an equal number of each type of fruit?"
+        },
+        {
+            "question": "What is the history of the internet?",
+            "answers": [],
+            "docs": [
+                {
+                    "title": "674dce98b00b977d048c93dc",
+                    "text": "Calculate an estimate of the mean speed.",
+                    "answers_found": [
+                        0
+                    ]
+                },
+                {
+                    "title": "674dcd9db00b977d048c9300",
+                    "text": "(b) Find the mean amount of rain per day.",
+                    "answers_found": [
+                        0
+                    ]
+                },
+                {
+                    "title": "674dce8db00b977d048c93c7",
+                    "text": "Mr Gan weighed 8 male students. The median mass of the students was 63.5 kg. The interquartile range of the masses of the students was 4.5 kg. Mr Gan realised that the scale of the weighing machine was inaccurate. The correct mass of each student was 1.5 kg less than what he had recorded. Write down the correct values for the median mass and interquartile range.",
+                    "answers_found": [
+                        0
+                    ]
+                },
+                {
+                    "title": "674dce8eb00b977d048c93ca",
+                    "text": "(b) Find the median age of the male patients.",
+                    "answers_found": [
+                        0
+                    ]
+                }
+            ],
+            "output": "Error generating output"
+        }
+    ]
+}
